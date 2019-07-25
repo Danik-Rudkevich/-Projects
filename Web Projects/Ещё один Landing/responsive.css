@@ -1,0 +1,173 @@
+@media (max-width: 999px){
+.content
+{
+	padding: 0 40px;
+}
+
+.Ico
+{
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin-top:165px; 
+}
+
+.f
+{
+margin-top:32px; 
+font-size: 32px;
+line-height: 36px;
+}
+
+.f1
+{
+margin-top: 52px;	
+}
+
+.btn1
+{
+	margin-bottom: 165px;
+}
+
+.ThirdBlock
+{
+	padding-bottom: 52px;
+	margin-top: 67px;
+}
+
+.f4
+{
+padding-top: 52px;
+}
+
+article img{ /*размер изображений слайдера*/
+	height: 280px;
+}
+
+.BlockSlider
+{
+	width: 100%;
+}
+.all
+{
+	width: 100%;
+}
+
+#active1 label
+{
+	float: none !important;
+}
+
+#active2 label
+{
+	float: none !important;
+}
+
+
+#active3 label
+{
+	float: none !important;
+}
+
+
+#active1 p
+{
+	width: 100%;
+	margin-top: 16px;
+}
+
+#active2 p
+{
+	width: 100%;
+	margin-top: 16px;
+}
+
+#active3 p
+{
+	width: 100%;
+	margin-top: 16px;
+}
+
+.f8
+{
+padding-top:52px;
+}
+
+.pos
+{
+	width: 100%;
+}
+.Area1 .fl
+{
+	width:calc(100% - 26px);
+	float: none !important;
+	margin-bottom: 16px;
+}
+
+.Area1 .fr
+{
+	width:calc(100% - 26px);
+	float: none !important;
+}
+
+.Area1
+{
+	width: 100%;
+}
+.Area2 textarea
+{
+	width:calc(100% - 16px);
+}
+.Area2
+{
+	width: 100%;
+}
+.Area3 button
+{
+	width: 100%;
+}
+
+.Area4 button
+{
+	width: 100%;
+	margin-bottom: 52px;
+}
+
+}/*END 999px*/
+@media (max-width: 599px) {
+.content
+{
+	padding: 0 20px;
+}
+
+.Ico
+{
+	width: 205px;
+	height: 205px;
+	border-radius: 102.5px;
+	margin-top:88px; 
+}
+
+.f
+{
+margin-top:32px; 
+font-size: 32px;
+line-height: 36px;
+}
+
+.f1
+{
+margin-top: 52px;	
+}
+
+.btn1
+{
+	margin-bottom: 87px;
+}
+
+article img{ 
+	height: 150px;
+}
+
+
+}/*END 599px*/
