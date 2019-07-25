@@ -1,0 +1,87 @@
+﻿
+.water {
+  fill: #20208d;
+}
+
+.land {
+  fill: #aeaa34;
+  stroke: #000;
+  stroke-width: 0.7px;
+}
+
+.land:hover {
+  fill:#33CC33;
+  stroke-width: 1px;
+}
+
+.focused {
+  fill: #33CC33;
+}
+
+#flag
+{
+  width: 200px;
+  height: 100px;
+}
+
+select {
+    display: none;
+  position: absolute;
+  top: 20px;
+  left: 580px;
+  border: solid #ccc 1px;
+  padding: 3px;
+  box-shadow: inset 1px 1px 2px #ddd8dc;
+  font-family:  Ubuntu Condensed;
+}
+
+.countryTooltip {
+
+  position: absolute;
+  display: none;
+  pointer-events: none;
+  background: #fff;
+  padding: 5px;
+  text-align: left;
+  border: solid #ccc 1px;
+  color: #666;
+  font-size: 14px;
+}
+
+svg{
+  transform: translateZ(0);
+}
+
+#info{
+  margin-top: 20px;
+  margin-left: 10px;
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  display: none;
+  
+  word-wrap: break-word;
+}
+
+table
+{
+  border-collapse: collapse;
+}
+
+table tr
+{
+   padding-top: .5em;
+   padding-bottom: .5em;
+}
+
+table td
+{
+  width: 300px;
+  float: left;
+}
+
+body{
+  background-image: url(bg.jpg);
+  background-size: cover;
+  font-family:  Ubuntu Condensed;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Earth globe</title>
+
+<!-- Подключаем стили,grid  и шрифты--> 
+<link rel="stylesheet" type="text/css" media="all" href="style.css" >  
+<link rel="stylesheet" type="text/css" media="all" href="my-grid.css" > 
+<link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+<!-- подключаем библиотеки --> 
+<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="http://d3js.org/topojson.v1.min.js"></script>
+<script src="http://d3js.org/queue.v1.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+
+
+<!-- Скрипт для нажатия по SVG --> 
+ <script>    
+
+   $(document).ready(function() { 
+     $('svg').click(function(){// Если  мы нажали в области svg
+       
+      if($("#info").css('display') == 'none') //Если наша info Скрыта , то открываем её
+      {
+        $("#info").show() ;//show() автоматически устанавливает для display свойство block
+      }
+
+      //Делаем запрос на https://restcountries.eu/rest/v2/all и берём от туда наш json массив с информацией
+       var requestURL = 'https://restcountries.eu/rest/v2/all';
+       var request = new XMLHttpRequest();
+       request.open('GET', requestURL);
+       request.responseType = 'json';
+       request.send();
+       // Подробнее вот тут https://developer.mozilla.org/ru/docs/Learn/JavaScript/%D0%9E%D0%B1%D1%8A%D0%B5%D0%BA%D1%82%D1%8B/JSON
+
+       request.onload = function() { //Как только мы получили наш json , работаем с ним
+       var Info = request.response; //Переводим json в js массив
+       var i;
+       for( i=0;i<250;i++)//Идем по массиву пока не встретим совпадение
+       {
+          if( Info[i].name == $(".countryTooltip").text())
+          {
+            break;
+          }
+       }
+       //Заполняем таблицу
+       $("#name").text(Info[i].name);
+       $("#capital").text(Info[i].capital);
+       $("#flag").attr("src",Info[i].flag);
+       $("#population").text(Info[i].population);
+       $("#area").text(Info[i].area);
+       $("#currencies").text(Info[i].currencies[0].name);
+       $("#languages").text(Info[i].languages[0].name);
+       $("#timezones").text(Info[i].timezones);
+       $("#borders").text(Info[i].borders);
+      }
+       
+     });
+   })
+ </script>
+
+</head>
+
+<body>
+
+  <!-- Планета --> 
+	
+		
+  <div>
+
+      <script src="Planet.js"></script>
+
+    <div id="info">
+      <table>
+        <caption id="name"></caption>
+        <tr>
+          <td>Столица:</td><td id="capital"></td>
+        </tr>
+        <tr>
+          <td>Флаг</td><td ><img id="flag" src="URL" alt="Флаг"></td>
+        </tr>
+        <tr>
+          <td>Площадь</td><td id="area"></td>
+        </tr>
+        <tr>
+          <td>Численность населения</td><td id="population"></td>
+        </tr>
+        <tr>
+          <td>Валюта</td><td id="currencies"></td>
+        </tr>
+        <tr>
+          <td>Язык</td><td id="languages"></td>
+        </tr>
+        <tr>
+          <td>Часовой пояс</td><td id="timezones"></td>
+        </tr>
+        <tr>
+          <td>Соседи</td><td id= "borders"></td>
+        </tr>        
+      </table>
+    </div>
+  </div>
+</body>
+</html>
