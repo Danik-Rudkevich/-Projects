@@ -1,0 +1,5 @@
+﻿  Source.c
+e:\проги\полигон\печка\project2\project2\source.c(82): warning C4013: rand: нет определения; предполагается "extern" с возвратом типа "int"
+e:\проги\полигон\печка\project2\project2\source.c(313): warning C4013: srand: нет определения; предполагается "extern" с возвратом типа "int"
+e:\проги\полигон\печка\project2\project2\source.c(365): warning C4013: exit: нет определения; предполагается "extern" с возвратом типа "int"
+  Project2.vcxproj -> E:\Проги\Полигон\Печка\Project2\Debug\Project2.exe

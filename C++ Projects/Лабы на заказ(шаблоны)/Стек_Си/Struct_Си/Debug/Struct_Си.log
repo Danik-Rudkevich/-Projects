@@ -1,0 +1,7 @@
+﻿  Source.c
+e:\проги\лабы на заказ(шаблоны)\стек_си\struct_си\source.c(84): warning C4013: 'srand' undefined; assuming extern returning int
+e:\проги\лабы на заказ(шаблоны)\стек_си\struct_си\source.c(113): warning C4013: 'rand' undefined; assuming extern returning int
+e:\проги\лабы на заказ(шаблоны)\стек_си\struct_си\source.c(136): warning C4013: 'exit' undefined; assuming extern returning int
+e:\проги\лабы на заказ(шаблоны)\стек_си\struct_си\source.c(88): warning C4101: 'stak': unreferenced local variable
+  LINK : E:\Проги\Лабы на заказ(шаблоны)\Стек_Си\Debug\Struct_Си.exe not found or not built by the last incremental link; performing full link
+  Struct_Си.vcxproj -> E:\Проги\Лабы на заказ(шаблоны)\Стек_Си\Debug\Struct_Си.exe

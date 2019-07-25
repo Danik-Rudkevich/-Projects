@@ -1,0 +1,4 @@
+﻿  pch.cpp
+  ConsoleApplication7.cpp
+e:\проги\лабы на заказ(шаблоны)\двунаправленный список c++\consoleapplication7\consoleapplication7.cpp(153): warning C4101: 'list': unreferenced local variable
+  ConsoleApplication7.vcxproj -> E:\Проги\Лабы на заказ(шаблоны)\Двунаправленный список C++\Debug\ConsoleApplication7.exe

@@ -1,0 +1,7 @@
+﻿  MyForm.cpp
+e:\проги\программы c#\опп\kursach\kursach\myform.h(44): warning C4677: 'Head': signature of non-private member contains assembly private type 'RudikStack'
+  e:\проги\программы c#\опп\kursach\kursach\rudikstack.h(7): note: see declaration of 'RudikStack'
+  frmLicenseAgreement.cpp
+  Generating Code...
+  Block.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  kursach.vcxproj -> E:\Проги\Программы c#\ОПП\kursach\Debug\kursach.exe
