@@ -1,0 +1,1456 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+	<title>Сцена</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+	<script type="text/javascript" src="js/dat.gui.min.js"></script>
+	<script src="js/three.min.js"></script>	
+	<script src="js/Projector.js"></script>
+	<script src="js/CanvasRenderer.js"></script>
+	<script src="js/stats.min.js"></script>	
+	<script src="js/pals.js"></script>
+	<script src="js/TrackballControls.js"></script>
+	
+	
+</head>
+<body>
+
+	<script type="text/javascript">
+		var scene = new THREE.Scene();
+		//////////////////////////////////////////////////////Орбиты 
+
+					///////////////////////////////////////////////////pluton
+					var pluton_geom_orbit = new THREE.Geometry();
+					var pluton_mat_orbit  = new THREE.ParticleBasicMaterial({color:0xAA0000,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*60000;
+						vertex.z = Math.cos(Math.PI/180*i)*60000;
+						pluton_geom_orbit.vertices.push(vertex);
+					}
+
+    				var pluton_orbit = new THREE.ParticleSystem(pluton_geom_orbit,pluton_mat_orbit);
+
+					pluton_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					///////////////////////////////////////////////////mercuri
+					var mercuri_geom_orbit = new THREE.Geometry();
+					var mercuri_mat_orbit  = new THREE.ParticleBasicMaterial({color:0xAA0000,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*4000;
+						vertex.z = Math.cos(Math.PI/180*i)*4000;
+						mercuri_geom_orbit.vertices.push(vertex);
+					}
+
+    				var mercuri_orbit = new THREE.ParticleSystem(mercuri_geom_orbit,mercuri_mat_orbit);
+
+					mercuri_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					///////////////////////////////////////////////////venera
+					var venera_geom_orbit = new THREE.Geometry();
+					var venera_mat_orbit  = new THREE.ParticleBasicMaterial({color:0xF08080,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*6000;
+						vertex.z = Math.cos(Math.PI/180*i)*6000;
+						venera_geom_orbit.vertices.push(vertex);
+					}
+
+    				var venera_orbit = new THREE.ParticleSystem(venera_geom_orbit,venera_mat_orbit);
+
+					venera_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					//////////////////Earth
+					var earth_geom_orbit = new THREE.Geometry();
+					var earth_mat_orbit  = new THREE.ParticleBasicMaterial({color:0x0000AA,opacity:0.8,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*10000;
+						vertex.z = Math.cos(Math.PI/180*i)*10000;
+						earth_geom_orbit.vertices.push(vertex);
+					}
+
+    				var earth_orbit = new THREE.ParticleSystem(earth_geom_orbit,earth_mat_orbit);
+
+    				earth_orbit.castShadow = true;
+    				////////////////////////////////////////////////////
+
+    				///////////////////////////////////////////////////mars
+					var mars_geom_orbit = new THREE.Geometry();
+					var mars_mat_orbit  = new THREE.ParticleBasicMaterial({color:0x8B0000,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*15000;
+						vertex.z = Math.cos(Math.PI/180*i)*15000;
+						mars_geom_orbit.vertices.push(vertex);
+					}
+
+    				var mars_orbit = new THREE.ParticleSystem(mars_geom_orbit,mars_mat_orbit);
+
+					mars_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					///////////////////////////////////////////////////jupiter
+					var jupiter_geom_orbit = new THREE.Geometry();
+					var jupiter_mat_orbit  = new THREE.ParticleBasicMaterial({color:0xFFD700,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*25000;
+						vertex.z = Math.cos(Math.PI/180*i)*25000;
+						jupiter_geom_orbit.vertices.push(vertex);
+					}
+
+    				var jupiter_orbit = new THREE.ParticleSystem(jupiter_geom_orbit,jupiter_mat_orbit);
+
+					jupiter_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					///////////////////////////////////////////////////saturn
+					var saturn_geom_orbit = new THREE.Geometry();
+					var saturn_mat_orbit  = new THREE.ParticleBasicMaterial({color:0xFFEFD5,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*35000;
+						vertex.z = Math.cos(Math.PI/180*i)*35000;
+						saturn_geom_orbit.vertices.push(vertex);
+					}
+
+    				var saturn_orbit = new THREE.ParticleSystem(saturn_geom_orbit,saturn_mat_orbit);
+
+					saturn_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					///////////////////////////////////////////////////yran
+					var yran_geom_orbit = new THREE.Geometry();
+					var yran_mat_orbit  = new THREE.ParticleBasicMaterial({color:0xFAF0E6,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*45000;
+						vertex.z = Math.cos(Math.PI/180*i)*45000;
+						yran_geom_orbit.vertices.push(vertex);
+					}
+
+    				var yran_orbit = new THREE.ParticleSystem(yran_geom_orbit,yran_mat_orbit);
+
+					yran_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+
+					///////////////////////////////////////////////////neptun
+					var neptun_geom_orbit = new THREE.Geometry();
+					var neptun_mat_orbit  = new THREE.ParticleBasicMaterial({color:0x6A5ACD,opacity:0.9,size:1,
+					sizeAttenuation:false});
+
+					for(var i = 0;i<20000;i++)
+					{
+						var vertex = new THREE.Vector3();
+						vertex.x = Math.sin(Math.PI/180*i)*55000;
+						vertex.z = Math.cos(Math.PI/180*i)*55000;
+						neptun_geom_orbit.vertices.push(vertex);
+					}
+
+    				var neptun_orbit = new THREE.ParticleSystem(neptun_geom_orbit,neptun_mat_orbit);
+
+					neptun_orbit.castShadow = true;
+					///////////////////////////////////////////////////
+	
+
+
+	///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+	window.onload = function(){
+
+    $( "#slider" ).slider({
+      min: 2100,
+      max: 11000,
+      value: 2300,
+      animate: true,
+      slide: function( event, ui ) {
+     	console.log(ui.value);
+	    scene.remove(sun);
+	    scene.remove(ring1);
+	    scene.remove(ring2);
+        sunCreat(ui.value);
+        scene.add(sun);
+      }     
+    });   
+   
+	var width = window.innerWidth;
+	var height = window.innerHeight;
+	var canvas = document.getElementById('canvas');
+
+
+
+	canvas.setAttribute('width',width);
+	canvas.setAttribute('height',height);
+
+	var renderer = new THREE.WebGLRenderer({canvas: canvas});
+
+	renderer.setClearColor(0x000000);
+
+	//var scene = new THREE.Scene();
+
+	var camera = new THREE.PerspectiveCamera(45, width/height, 0.1,500000);
+
+	//camera.position.set(0,0,1000);
+
+	//var ligth = new THREE.AmbientLight(0x222222);
+
+	var ligth = new THREE.PointLight(0xffffff,1.4,100000);//Цвет,интенсивность,дальность
+	ligth.position.set(0,0,0);
+	ligth.castShadow = true;
+	ligth.shadow.mapSize.height = 2048;
+	ligth.shadow.mapSize.width = 2048;
+
+	scene.add(ligth);
+
+
+		camera.position.z = 33000;
+		camera.position.x = 33000;
+		camera.position.y = 10000;
+
+	//Stars
+
+	var starsGeometry = new THREE.Geometry();
+
+	var starsMaterial = new THREE.ParticleBasicMaterial({color:0xbbbbbb,opacity:0.1,size:1,
+		sizeAttenuation:false
+	});
+
+	var stars;
+
+	for (var i = 0 ; i <50000; i++)
+	{
+		var vertex = new THREE.Vector3();
+		vertex.x = Math.random()*2-1;
+		vertex.y = Math.random()*2-1;
+		vertex.z = Math.random()*2-1;
+		vertex.multiplyScalar(40000);
+		starsGeometry.vertices.push(vertex);
+	}
+
+	stars = new THREE.ParticleSystem(starsGeometry,starsMaterial);
+	stars.scale.set(50,50,50);
+	scene.add(stars);
+
+	/////////////////////////////////////////////////////////// Stars
+
+	var SunSize = 2100;
+	var sun;
+	var ring1;
+	var ring2;
+
+	//SUN
+	function sunCreat(SunSize) {
+
+	var sun_geometry = new THREE.SphereGeometry(SunSize,40,40);
+
+	var texture = THREE.ImageUtils.loadTexture('sunmap.jpg');
+
+	texture.anisotropy = 8;
+
+	var sun_material = new THREE.MeshBasicMaterial({map: texture,emissive: 0xffffff});
+
+	//var sun_material = new THREE.MeshNormalMaterial({map: texture});
+
+	sun = new THREE.Mesh(sun_geometry,sun_material);
+
+	var ring_saturn_geom1 = new THREE.Geometry();
+	var ring_saturn_mat1 = new THREE.ParticleBasicMaterial({color:0x00AA00,opacity:1,size:1,
+		sizeAttenuation:false});
+
+	for(var i = 0;i<2000;i++)
+	{
+		var vertex = new THREE.Vector3();
+		vertex.x = Math.sin(Math.PI/180*i)*(SunSize*(SunSize/2100)+7400);
+		vertex.y = Math.random()*20;
+		vertex.z = Math.cos(Math.PI/180*i)*(SunSize*(SunSize/2100)+7400)
+		ring_saturn_geom1.vertices.push(vertex);
+	}
+
+    ring1= new THREE.ParticleSystem(ring_saturn_geom1,ring_saturn_mat1);
+
+	ring1.castShadow = true;
+
+	scene.add(ring1);
+
+	var ring_saturn_geom2 = new THREE.Geometry();
+	var ring_saturn_mat2 = new THREE.ParticleBasicMaterial({color:0x00AA00,opacity:1,size:1,
+		sizeAttenuation:false});
+
+	for(var i = 0;i<2000;i++)
+	{
+		var vertex = new THREE.Vector3();
+		vertex.x = Math.sin(Math.PI/180*i)*(SunSize*(SunSize/2100)+11600);
+		vertex.y = Math.random()*20;
+		vertex.z = Math.cos(Math.PI/180*i)*(SunSize*(SunSize/2100)+11600)
+		ring_saturn_geom2.vertices.push(vertex);
+	}
+
+    ring2 = new THREE.ParticleSystem(ring_saturn_geom2,ring_saturn_mat2);
+
+	ring2.castShadow = true;
+
+	scene.add(ring2);
+
+	}
+	
+	
+
+	
+	
+	sunCreat(SunSize);
+
+	sun.castShadow = true;
+
+	scene.add(sun);
+
+
+
+	///////////////////////////////////////////////////// Sun
+
+	//Merkuri
+
+	var merkuri;
+
+	var merkuri_geometry = new THREE.SphereGeometry(50,10,10);
+
+	var merkuri_texture = THREE.ImageUtils.loadTexture('mercurymap.jpg');
+
+	merkuri_texture.anisotropy = 8;
+
+	var merkuri_material = new THREE.MeshPhongMaterial({map: merkuri_texture});
+
+	merkuri = new THREE.Mesh(merkuri_geometry,merkuri_material);
+
+	scene.add(merkuri);
+
+	//////////////////////////////////////////////////// Merkuri
+
+	//venera
+
+	var venera;
+
+	var venera_geometry = new THREE.SphereGeometry(90,20,20);
+
+	var venera_texture = THREE.ImageUtils.loadTexture('venusmap.jpg');
+
+	venera_texture.anisotropy = 8;
+
+	var venera_material = new THREE.MeshPhongMaterial({map: venera_texture});
+
+	venera = new THREE.Mesh(venera_geometry,venera_material);
+
+	scene.add(venera);
+
+	//////////////////////////////////////////////////// venera
+
+	//Earth
+	var earth;
+
+	var earth_geometry = new THREE.SphereGeometry(100,20,20);
+
+	var texture_earth = THREE.ImageUtils.loadTexture('earthmap1k.jpg');
+
+	texture_earth.anisotropy = 8;
+
+	var earth_material = new THREE.MeshPhongMaterial({map: texture_earth});
+
+	earth = new THREE.Mesh(earth_geometry,earth_material);
+
+	scene.add(earth);
+
+	//////////////////////////////////////////////////// Earth
+
+	// luna
+	var luna;
+
+	var luna_geometry = new THREE.SphereGeometry(10,10,10);
+
+	var texture_luna = THREE.ImageUtils.loadTexture('moonmap1k.jpg');
+
+	texture_luna.anisotropy = 8;
+
+	var luna_material = new THREE.MeshPhongMaterial({map: texture_luna});
+
+
+	luna = new THREE.Mesh(luna_geometry,luna_material);
+
+	luna.castShadow = true;
+
+	scene.add(luna);
+	//////////////////////////////////////////////////// luna
+
+	//mars
+
+	var mars;
+
+	var mars_geometry = new THREE.SphereGeometry(70,20,20);
+
+	var mars_texture = THREE.ImageUtils.loadTexture('mars_1k_color.jpg');
+
+	mars_texture.anisotropy = 8;
+
+	var mars_material = new THREE.MeshPhongMaterial({map: mars_texture});
+
+	mars = new THREE.Mesh(mars_geometry,mars_material);
+
+	scene.add(mars);
+
+	//////////////////////////////////////////////////// mars
+
+	//upiter
+
+	var upiter;
+
+	var upiter_geometry = new THREE.SphereGeometry(1200,40,40);
+
+	var upiter_texture = THREE.ImageUtils.loadTexture('jupitermap.jpg');
+
+	upiter_texture.anisotropy = 8;
+
+	var upiter_material = new THREE.MeshPhongMaterial({map: upiter_texture});
+
+	upiter = new THREE.Mesh(upiter_geometry,upiter_material);
+
+	upiter.castShadow = true;
+
+	scene.add(upiter);
+
+	//////////////////////////////////////////////////// upiter
+
+	//saturn
+
+	var saturn;
+
+	var saturn_geometry = new THREE.SphereGeometry(1100,40,40);
+
+	var saturn_texture = THREE.ImageUtils.loadTexture('saturnmap.jpg');
+
+	saturn_texture.anisotropy = 8;
+
+	var saturn_material = new THREE.MeshPhongMaterial({map: saturn_texture});
+
+	saturn = new THREE.Mesh(saturn_geometry,saturn_material);
+
+	saturn.castShadow = true;
+
+	scene.add(saturn);
+
+	var ring_saturn_geom = new THREE.Geometry();
+	var ring_saturn_mat = new THREE.ParticleBasicMaterial({color:0xA2A2A2,opacity:0.5,size:1,
+		sizeAttenuation:false});
+
+	for(var i = 0;i<20000;i++)
+	{
+		var vertex = new THREE.Vector3();
+		vertex.x = Math.sin(Math.PI/180*i)*(2200-i/80);
+		vertex.y = Math.random()*60;
+		vertex.z = Math.cos(Math.PI/180*i)*(2200-i/80)
+		ring_saturn_geom.vertices.push(vertex);
+	}
+
+	var ring = new THREE.ParticleSystem(ring_saturn_geom,ring_saturn_mat);
+
+	ring.castShadow = true;
+
+	scene.add(ring);
+
+	//////////////////////////////////////////////////// saturn
+
+	//yran
+
+	var yran;
+
+	var yran_geometry = new THREE.SphereGeometry(800,30,30);
+
+	var yran_texture = THREE.ImageUtils.loadTexture('uranusmap.jpg');
+
+	yran_texture.anisotropy = 8;
+
+	var yran_material = new THREE.MeshPhongMaterial({map: yran_texture});
+
+	yran = new THREE.Mesh(yran_geometry,yran_material);
+
+	yran.castShadow = true;
+
+	scene.add(yran);
+
+	//////////////////////////////////////////////////// yran
+
+	//neptun
+
+	var neptun;
+
+	var neptun_geometry = new THREE.SphereGeometry(800,30,30);
+
+	var neptun_texture = THREE.ImageUtils.loadTexture('neptunemap.jpg');
+
+	neptun_texture.anisotropy = 8;
+
+	var neptun_material = new THREE.MeshPhongMaterial({map: neptun_texture});
+
+	neptun = new THREE.Mesh(neptun_geometry,neptun_material);
+
+	neptun.castShadow = true;
+
+	scene.add(neptun);
+
+	//////////////////////////////////////////////////// neptun
+
+	//pluton
+
+	var pluton;
+
+	var pluton_geometry = new THREE.SphereGeometry(50,10,10);
+
+	var pluton_texture = THREE.ImageUtils.loadTexture('plutomap1k.jpg');
+
+	pluton_texture.anisotropy = 8;
+
+	var pluton_material = new THREE.MeshPhongMaterial({map: pluton_texture});
+
+	pluton = new THREE.Mesh(pluton_geometry,pluton_material);
+
+	pluton.castShadow = true;
+
+	scene.add(pluton);
+
+	
+
+	//////////////////////////////////////////////////// pluton
+
+	//GreenZone
+	
+	//////////////////////////////////////////////////// GreenZone
+
+	//camera
+	/*	var y = 0;
+		var x = 0;
+		var z = 32000;
+
+		document.addEventListener('mousemove',function(event){
+			y = parseInt(event.offsetY);
+			//x = parseInt(event.offsetX);
+		});
+		
+	
+  */
+	//////////////////////////////////////////////////// camera
+
+	var t=0;
+
+	
+	
+	controls = new THREE.TrackballControls( camera );
+
+	//controls.rotateSpeed = 1.0;
+	controls.zoomSpeed = 0.2;
+	controls.panSpeed = 0.8;
+
+
+
+ 	function loop(){
+
+
+		sun.rotation.y += Math.PI / 4500;
+		
+		if(!info){
+
+			camera.position.z = 33000;
+			camera.position.x = 33000;
+			camera.position.y = 10000;
+			camera.lookAt(sun.position);
+		
+		merkuri.position.x = Math.sin(t*2)*4000;
+		merkuri.position.z = Math.cos(t*2)*4000;
+
+
+		
+		venera.position.x = Math.sin(t*0.15)*6000;
+		venera.position.z = Math.cos(t*0.15)*6000;
+
+		
+		earth.position.x = Math.sin(t*0.1)*10000;
+		earth.position.z = Math.cos(t*0.1)*10000;
+
+		
+		mars.position.x = Math.sin(t*0.09)*15000;
+		mars.position.z = Math.cos(t*0.09)*15000;
+
+		
+		upiter.position.x = Math.sin(t*0.07)*25000;
+		upiter.position.z = Math.cos(t*0.07)*25000;
+
+		
+		saturn.position.x = Math.sin(t*0.05)*35000;
+		saturn.position.z = Math.cos(t*0.05)*35000;
+
+		ring.position.x = saturn.position.x;
+		ring.position.z = saturn.position.z;
+		ring.rotation.y -= 0.0001;
+
+		
+		yran.position.x = Math.sin(t*0.03)*45000;
+		yran.position.z = Math.cos(t*0.03)*45000;
+		
+		neptun.position.x = Math.sin(t*0.01)*55000;
+		neptun.position.z = Math.cos(t*0.01)*55000;
+
+		
+		pluton.position.x = Math.sin(t*0.009)*60000;
+		pluton.position.z = Math.cos(t*0.009)*60000;
+
+		//camera.position.y= -12000+y*170;
+		//camera.position.x= 50000;
+		//camera.lookAt(earth.position);
+		}
+		else
+		{
+
+			if(infoEarth)
+			{
+
+				if(EarthCamPos == 0)
+					{
+					camera.position.y = earth.position.y;
+				
+				if (camera.position.z>earth.position.z+340)
+				{
+					camera.position.z-=150;
+					camera.lookAt(earth.position);	
+				}
+
+				if (camera.position.x>earth.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(earth.position);	
+				}
+
+				if (camera.position.x<earth.position.x && camera.position.z<earth.position.z+340)
+				{
+					EarthCamPos = 1;
+					$("#EarthInfo").show();
+				}
+
+					}
+				
+
+
+					if (EarthCamPos == 1) 
+  					{ 
+  					camera.lookAt(earth.position);	
+    				camera.position.x = earth.position.x + Math.sin(t/6.5)*600;
+    				camera.position.z = earth.position.z + Math.cos(t/6.5)*600;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(EarthCamPos == 2)
+  						{
+  							EarthCamPos = 1;
+
+  						}
+  						else
+  						{
+  							EarthCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoVenera)
+			{
+
+				if(VeneraCamPos == 0)
+					{
+					camera.position.y = venera.position.y;
+				
+				if (camera.position.z>venera.position.z+340)
+				{
+					camera.position.z-=150;
+					camera.lookAt(venera.position);	
+				}
+
+				if (camera.position.x>venera.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(venera.position);	
+				}
+
+				if (camera.position.x<venera.position.x && camera.position.z<venera.position.z+340)
+				{
+					VeneraCamPos = 1;
+					$("#VeneraInfo").show();
+				}
+
+					}
+				
+
+
+					if (VeneraCamPos == 1) 
+  					{ 
+  					camera.lookAt(venera.position);	
+    				camera.position.x = venera.position.x + Math.sin(t/7.5)*500;
+    				camera.position.z = venera.position.z + Math.cos(t/7.5)*500;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(VeneraCamPos == 2)
+  						{
+  							VeneraCamPos= 1;
+  						}
+  						else
+  						{
+  							VeneraCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoMerkuri)
+			{
+
+				if(MerkuriCamPos == 0)
+					{
+					camera.position.y = merkuri.position.y;
+				
+				if (camera.position.z>merkuri.position.z+340)
+				{
+					camera.position.z-=150;
+					camera.lookAt(merkuri.position);	
+				}
+
+				if (camera.position.x>merkuri.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(merkuri.position);	
+				}
+
+				if (camera.position.x<merkuri.position.x && camera.position.z<merkuri.position.z+340)
+				{
+					MerkuriCamPos = 1;
+					$("#MerkuriInfo").show();
+				}
+
+					}
+				
+
+
+					if (MerkuriCamPos == 1) 
+  					{ 
+  					camera.lookAt(merkuri.position);	
+    				camera.position.x = merkuri.position.x + Math.sin(t/7.5)*500;
+    				camera.position.z = merkuri.position.z + Math.cos(t/7.5)*500;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(MerkuriCamPos == 2)
+  						{
+  							MerkuriCamPos= 1;
+  						}
+  						else
+  						{
+  							MerkuriCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoMars)
+			{
+
+				if(MarsCamPos == 0)
+					{
+					camera.position.y = mars.position.y;
+				
+				if (camera.position.z>mars.position.z+340)
+				{
+					camera.position.z-=150;
+					camera.lookAt(mars.position);	
+				}
+
+				if (camera.position.x>mars.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(mars.position);	
+				}
+
+				if (camera.position.x<mars.position.x && camera.position.z<mars.position.z+340)
+				{
+					MarsCamPos = 1;
+					$("#MarsInfo").show();
+
+				}
+
+					}
+				
+
+
+					if (MarsCamPos == 1) 
+  					{ 
+  					camera.lookAt(mars.position);	
+    				camera.position.x = mars.position.x + Math.sin(t/7.5)*500;
+    				camera.position.z = mars.position.z + Math.cos(t/7.5)*500;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(MarsCamPos == 2)
+  						{
+  							MarsCamPos= 1;
+  						}
+  						else
+  						{
+  							MarsCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoJupiter)
+			{
+
+				if(JupiterCamPos == 0)
+					{
+					camera.position.y = upiter.position.y;
+				
+				if (camera.position.z>upiter.position.z+1500)
+				{
+					camera.position.z-=150;
+					camera.lookAt(upiter.position);	
+				}
+
+				if (camera.position.x>upiter.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(upiter.position);	
+				}
+
+				if (camera.position.x<upiter.position.x && camera.position.z<upiter.position.z+1500)
+				{
+					JupiterCamPos = 1;
+					$("#JupiterInfo").show();
+
+				}
+
+					}
+				
+
+
+					if (JupiterCamPos == 1) 
+  					{ 
+  					camera.lookAt(upiter.position);	
+    				camera.position.x = upiter.position.x + Math.sin(t/7.5)*3000;
+    				camera.position.z = upiter.position.z + Math.cos(t/7.5)*3000;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(JupiterCamPos == 2)
+  						{
+  							JupiterCamPos= 1;
+  						}
+  						else
+  						{
+  							JupiterCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoSaturn)
+			{
+
+				if(SaturnCamPos == 0)
+					{
+					camera.position.y = saturn.position.y;
+				
+				if (camera.position.z>saturn.position.z+1500)
+				{
+					camera.position.z-=150;
+					camera.lookAt(saturn.position);	
+				}
+
+				if (camera.position.x>saturn.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(saturn.position);	
+				}
+
+				if (camera.position.x<saturn.position.x && camera.position.z<saturn.position.z+1500)
+				{
+					SaturnCamPos = 1;
+					$("#SaturnInfo").show();
+
+				}
+
+					}
+				
+
+
+					if (SaturnCamPos == 1) 
+  					{ 
+  					camera.lookAt(saturn.position);	
+    				camera.position.x = saturn.position.x + Math.sin(t/7.5)*3000;
+    				camera.position.z = saturn.position.z + Math.cos(t/7.5)*3000;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(SaturnCamPos == 2)
+  						{
+  							SaturnCamPos= 1;
+  						}
+  						else
+  						{
+  							SaturnCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoYran)
+			{
+
+				if(YranCamPos == 0)
+					{
+					camera.position.y = yran.position.y;
+				
+				if (camera.position.z>yran.position.z+100)
+				{
+					camera.position.z-=150;
+					camera.lookAt(yran.position);	
+				}
+
+				if (camera.position.x>yran.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(yran.position);	
+				}
+
+				if (camera.position.x<yran.position.x && camera.position.z<yran.position.z+100)
+				{
+					YranCamPos = 1;
+					$("#YranInfo").show();
+
+				}
+
+					}
+				
+
+
+					if (YranCamPos == 1) 
+  					{ 
+  					camera.lookAt(yran.position);	
+    				camera.position.x = yran.position.x + Math.sin(t/7.5)*3000;
+    				camera.position.z = yran.position.z + Math.cos(t/7.5)*3000;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(YranCamPos == 2)
+  						{
+  							YranCamPos= 1;
+  						}
+  						else
+  						{
+  							YranCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+
+			if(infoNeptun)
+			{
+
+				if(NeptunCamPos == 0)
+					{
+					camera.position.y = neptun.position.y;
+				
+				if (camera.position.z>neptun.position.z+100)
+				{
+					camera.position.z-=150;
+					camera.lookAt(neptun.position);	
+				}
+
+				if (camera.position.x>neptun.position.x)
+				{
+					camera.position.x-=150;
+					camera.lookAt(neptun.position);	
+				}
+
+				if (camera.position.x<neptun.position.x && camera.position.z<neptun.position.z+100)
+				{
+					NeptunCamPos = 1;
+					$("#NeptunInfo").show();
+
+				}
+
+					}
+				
+
+
+					if (NeptunCamPos == 1) 
+  					{ 
+  					camera.lookAt(neptun.position);	
+    				camera.position.x = neptun.position.x + Math.sin(t/7.5)*3000;
+    				camera.position.z = neptun.position.z + Math.cos(t/7.5)*3000;
+  					}
+  					
+
+					/////////////////////////////////////////////////////////////
+					$('body').keydown(function(e){ //отлавливаем нажатие клавиш
+
+  					
+
+  					if (e.keyCode == 32) 
+  					{ //если нажали влево, то true
+  						if(NeptunCamPos == 2)
+  						{
+  							NeptunCamPos= 1;
+  						}
+  						else
+  						{
+  							NeptunCamPos = 2;
+  						}
+    				exit();
+  					}
+						
+
+						});
+					//////////////////////////////////////////////////////////////
+			}
+		}
+
+
+		////////////////////////////////////////////Орбиты
+
+		///////////////////////////////////////////////////////////////
+
+		luna.position.x = earth.position.x + Math.sin(t*2)*120;
+		luna.position.z = earth.position.z + Math.cos(t*2)*120;
+		merkuri.rotation.y += Math.PI / 500;
+		venera.rotation.y += Math.PI / 1200;
+		earth.rotation.y += Math.PI / 1000;
+		luna.rotation.y += Math.PI / 500;
+		mars.rotation.y += Math.PI / 1100;
+		upiter.rotation.y += Math.PI / 3000;
+		saturn.rotation.y += Math.PI / 2500;
+		yran.rotation.y += Math.PI / 1000;
+		neptun.rotation.y += Math.PI / 2500;
+		pluton.rotation.y += Math.PI / 2500;
+
+
+
+		t+=Math.PI/180*2;
+		//controls.update();
+		renderer.render(scene,camera);
+		requestAnimationFrame(function(){loop()});//Когда браузер готов , вызываеться функция 
+	}
+
+	loop();
+	
+	
+
+}
+		function showOrb(num) {
+		switch(num)
+		{
+			case 1:
+			if($(".MercuriOrb").prop("checked"))
+			{
+					scene.add(mercuri_orbit);
+			}
+			else
+			{
+				scene.remove(mercuri_orbit);
+			}
+			break;
+			case 2:
+			if($(".VeneraOrb").prop("checked"))
+			{
+					scene.add(venera_orbit);
+			}
+			else
+			{
+				scene.remove(venera_orbit);
+			}
+			break;
+			case 3:
+			if($(".EarthOrb").prop("checked"))
+			{
+					scene.add(earth_orbit);
+			}
+			else
+			{
+				scene.remove(earth_orbit);
+			}
+			break;
+			case 4:
+			if($(".MarsOrb").prop("checked"))
+			{
+					scene.add(mars_orbit);
+			}
+			else
+			{
+				scene.remove(mars_orbit);
+			}
+			break;
+			case 5:
+			if($(".JupiterOrb").prop("checked"))
+			{
+					scene.add(jupiter_orbit);
+			}
+			else
+			{
+					scene.remove(jupiter_orbit);
+			}
+			break;
+			case 6:
+			if($(".SaturnOrb").prop("checked"))
+			{
+					scene.add(saturn_orbit);
+			}
+			else
+			{
+				scene.remove(saturn_orbit);
+			}
+			break;
+			case 7:
+			if($(".YranOrb").prop("checked"))
+			{
+					scene.add(yran_orbit);
+			}
+			else
+			{
+				scene.remove(yran_orbit);
+			}
+			break;
+			case 8:
+			if($(".NeptunOrb").prop("checked"))
+			{
+					scene.add(neptun_orbit);
+			}
+			else
+			{
+				scene.remove(neptun_orbit);
+			}
+			break;
+			case 9:
+			if($(".PlutonOrb").prop("checked"))
+			{
+					scene.add(pluton_orbit);
+			}
+			else
+			{
+				scene.remove(pluton_orbit);
+			}
+			break;
+			defult
+			break;
+		}
+	}
+
+
+		var info = false;
+		var infoEarth= false,infoVenera = false,infoMerkuri=false,infoMars = false,infoJupiter = false,infoSaturn = false, infoYran = false,infoNeptun = false;
+		var EarthCamPos,VeneraCamPos,MerkuriCamPos,MarsCamPos,JupiterCamPos,SaturnCamPos,YranCamPos,NeptunCamPos;
+
+		function showInfo(num) {
+		switch(num)
+		{
+			case 1:
+			if(infoMerkuri == true)
+			{
+			infoMerkuri = false;
+			info = false;
+			MerkuriCamPos = 0;
+			$("#MerkuriInfo").hide();
+			}
+			else
+			{
+			infoMerkuri = true;
+			info = true;
+			MerkuriCamPos = 0;
+			}
+			break;
+			case 2:
+			if(infoVenera == true)
+			{
+			infoVenera = false;
+			info = false;
+			VeneraCamPos = 0;
+			$("#VeneraInfo").hide();
+			}
+			else
+			{
+			infoVenera = true;
+			info = true;
+			VeneraCamPos = 0;
+			}
+			break;
+			case 3:
+			if(infoEarth == true)
+			{
+			infoEarth = false;
+			info = false;
+			$("#EarthInfo").hide();
+			EarthCamPos = 0;
+			}
+			else
+			{
+			infoEarth = true;
+			info = true;
+			EarthCamPos = 0;
+			}
+			break;
+			case 4:
+			if(infoMars == true)
+			{
+			infoMars = false;
+			info = false;
+			$("#MarsInfo").hide();
+			MarsCamPos = 0;
+			}
+			else
+			{
+			infoMars = true;
+			info = true;
+			MarsCamPos = 0;
+			}
+			break;
+			case 5:
+			if(infoJupiter == true)
+			{
+			infoJupiter = false;
+			info = false;
+			$("#JupiterInfo").hide();
+			JupiterCamPos = 0;
+			}
+			else
+			{
+			infoJupiter = true;
+			info = true;
+			JupiterCamPos = 0;
+			}
+			break;
+			case 6:
+			if(infoSaturn == true)
+			{
+			infoSaturn = false;
+			info = false;
+			$("#SaturnInfo").hide();
+			SaturnCamPos = 0;
+			}
+			else
+			{
+			infoSaturn = true;
+			info = true;
+			SaturnCamPos = 0;
+			}
+			break;
+			case 7:
+			if(infoYran == true)
+			{
+			infoYran = false;
+			info = false;
+			$("#YranInfo").hide();
+			YranCamPos = 0;
+			}
+			else
+			{
+			infoYran = true;
+			info = true;
+			YranCamPos = 0;
+			}
+			break;
+			case 8:
+			if(infoNeptun == true)
+			{
+			infoNeptun = false;
+			info = false;
+			$("#NeptunInfo").hide();
+			NeptunCamPos = 0;
+			}
+			else
+			{
+			infoNeptun = true;
+			info = true;
+			NeptunCamPos = 0;
+			}
+			break;
+			defult
+			break;
+		}
+	}
+
+	
+	
+	</script>
+	
+	<div class="BtnDiv">
+	<input type="button" value="Меркурий" class="btn" onClick="showInfo(1)"/>
+	<input type="button" value="Венера" class="btn" onClick="showInfo(2)"/>
+	<input type="button" value="Земля" class="btn" onClick="showInfo(3)"/>
+	<input type="button" value="Марс" class="btn" onClick="showInfo(4)"/>
+	<input type="button" value="Юпитер" class="btn" onClick="showInfo(5)"/>
+	<input type="button" value="Сатурн" class="btn" onClick="showInfo(6)"/>
+	<input type="button" value="Уран" class="btn" onClick="showInfo(7)"/>
+	<input type="button" value="Нептун" class="btn" onClick="showInfo(8)"/>
+	</div>
+	
+
+    <div class="subscribeNews">
+    <input type="checkbox" name="subscribe" class="MercuriOrb" onClick="showOrb(1)">
+    <label for="subscribeNews">Орбита Меркурия</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="VeneraOrb" onClick="showOrb(2)">
+    <label for="subscribeNews">Орбита Венеры</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="EarthOrb" onClick="showOrb(3)">
+    <label for="subscribeNews">Орбита Земли</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="MarsOrb" onClick="showOrb(4)">
+    <label for="subscribeNews">Орбита Марса</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="JupiterOrb" onClick="showOrb(5)">
+    <label for="subscribeNews">Орбита Юпитера</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="SaturnOrb" onClick="showOrb(6)">
+    <label for="subscribeNews">Орбита Сатурна</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="YranOrb" onClick="showOrb(7)">
+    <label for="subscribeNews">Орбита Урана</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="NeptunOrb" onClick="showOrb(8)">
+    <label for="subscribeNews">Орбита Нептуна</label>
+    <br>
+    <input type="checkbox"  name="subscribe" class="PlutonOrb" onClick="showOrb(9)">
+    <label for="subscribeNews">Орбита Плутона</label>
+  	</div>
+
+  	<div id="EarthInfo" class="textbox" style="display: none;">Тут будет текст Земля</div>
+
+  	<div id="VeneraInfo" class="textbox" style="display: none;">Тут будет текст Венера</div>
+
+  	<div id="MerkuriInfo" class="textbox" style="display: none;">Тут будет текст Меркурия</div>
+
+  	<div id="MarsInfo" class="textbox" style="display: none;">Тут будет текст Марса</div>
+
+  	<div id="JupiterInfo" class="textbox" style="display: none;">Тут будет текст Юпитера</div>
+
+  	<div id="SaturnInfo" class="textbox" style="display: none;">Тут будет текст Сатурна</div>
+
+  	<div id="YranInfo" class="textbox" style="display: none;">Тут будет текст Урана</div>
+
+  	<div id="NeptunInfo" class="textbox" style="display: none;">Тут будет текст Нептуна</div>
+
+		<canvas id="canvas"></canvas>
+
+	<div id="slider"></div>
+</body>
+</html>
+

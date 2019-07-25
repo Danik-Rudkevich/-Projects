@@ -1,0 +1,177 @@
+﻿header, section, footer 
+{
+max-width:800px;	
+margin: 0px auto;
+}
+.logo-text
+{
+position:absolute;	
+margin-left: 60px;
+margin-top: -35px;
+}
+.background
+{
+background-color:#0064e0;	
+margin: 15px 0 -80px;
+padding: 0 0 100px;
+}
+input
+{
+    background-color:#cee6fe;
+    margin: 3% 0;
+    padding: 6%;
+    width: 80%;
+	border-radius: 10px;
+	border: 2px solid #fcfffd;
+	font-size: 20px;
+}
+.knopka
+{
+	background-color:#fd992a;
+	color:#fff;
+}
+
+.fon
+{
+background:url("img/flag.png");		
+margin: 35px 0 30px;
+padding-bottom: 10px;
+}
+.text
+{
+src: url(fonts/segoesc.ttf);
+font-family: Segoe Script;
+font-size: 40px;
+    line-height: 78px;
+}
+.text_2
+{
+src: url(fonts/segoesc.ttf);
+font-family: Segoe Script;	
+font-size: 30px;
+line-height: 78px;
+}
+.text_3
+{
+src:  url(fonts/neucha_regular.ttf);
+font-family: Neucha;	
+font-size: 30px;
+line-height: 35px;
+color:#000;
+}
+.red_number
+{
+src:  url(fonts/neucha_regular.ttf);
+font-family: Neucha;	
+font-size: 65px;
+line-height: 50px;
+color:#ff0000;
+}
+.background_1
+{
+background-color:#1e1e1e;	
+}
+.text_1
+{
+	font-size: 40px;
+    line-height: 78px;
+	color:#fff;
+	font-family:Calibri;
+}
+.margin_1
+{
+margin: 10px 25px 15px 20px;
+border-top: 3px solid #ededed;
+}
+.message
+{
+	background-color:#cee6fe;
+    margin: 3% 0;
+    padding: 6%;
+    width: 80%;
+	border-radius: 10px;
+	border: 2px solid #fcfffd;
+	font-size: 20px;
+    font-weight: bold;
+}
+.leftimg
+{
+float:left;	
+margin: 7px 7px 7px 0;
+}
+.margin_2
+{
+margin: 10px 25px 15px 20px;
+}
+.margin_3
+{
+margin: 40px 25px 15px 20px;
+}
+.margin_4
+{
+margin: 80px 25px 15px 20px;
+}
+.margin_5
+{
+margin: 10px 0 -10px;
+}
+.orange_text
+{
+ font-size: 25px;
+ line-height: 25px;
+ color:#fba222;
+ margin: 10px 0 0;
+ font-family: Calibri;
+}
+.fff
+{
+    color:#fff;
+	font-family:Calibri;
+}
+.fff_1
+{
+ font-size: 30px;
+ line-height: 30px;
+ color:#fff;
+ font-family:Calibri;
+ margin: 5px 0 0;
+}
+.fff_2
+{
+ font-size: 20px;
+ line-height: 20px;
+ color:#fff;
+ font-family:Calibri;
+ margin: 5px 0 0;
+ letter-spacing: 1px;
+ word-spacing: 5px;
+}
+.fff_3
+{
+    color: #fff;
+    font-family: Calibri;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 30px;
+    margin: 5px -25px 0;
+}
+.fff_4
+{
+	color: #fff;
+    font-family: Calibri;
+    font-size: 19px;
+    line-height: 30px;
+    margin: 5px -25px 0;
+}
+.fff_5
+{
+	color: #fff;
+    font-family: Calibri;
+    font-size: 30px;
+    line-height: 36px;
+    margin: 5px -40px 0;
+}
+.picture
+{
+ margin: 20px 0 0;	
+}

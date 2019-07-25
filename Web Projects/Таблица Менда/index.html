@@ -1,0 +1,2758 @@
+﻿<!DOCTYPE HTML>
+<html> <!-- Начало 15:12 -->    
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+  <link rel="stylesheet" type="text/css" media="all" href="style.css" >  
+  <link rel="stylesheet" type="text/css" media="all" href="my-grid.css" > 
+  <link href="https://fonts.googleapis.com/css?family=Bad+Script|Jura" rel="stylesheet">
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+ <script>
+   $(document).ready(function() {
+     $('#tbn td').click(function(){
+     	$('.textbox div').hide();
+		var dataClass = $(this).attr('data-class');
+		$('.textbox div').each(function() {
+		  if($(this).hasClass(dataClass)){
+		    $(this).show();
+		  }
+		});
+     });
+   })
+ </script>
+
+</head>
+<body class="background">
+<header class="row content">
+	
+</header>
+<section class="row body">
+	
+<table id='tbn'>
+	<tr>
+		<td class="red" data-class='text1'>
+			<ul>
+				<li class="e1">1</li>
+				<li class="e2">H</li>
+				<li class='e3'>Водород</li>
+				<li class="e4">1.00794</li>
+			</ul>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="red"  data-class='text2'>
+			<ul>
+				<li class="e1">2</li>
+				<li class="e2">He</li>
+				<li class='e3'>Гелий</li>
+				<li class="e4">4.0026</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text3'>
+			<ul>
+				<li class="e1">3</li>
+				<li class="e2">Li</li>
+				<li class='e3'>Литий</li>
+				<li class="e4">6.941</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text4'>
+			<ul>
+				<li class="e1">4</li>
+				<li class="e2">Be</li>
+				<li class='e3'>Бериллий</li>
+				<li class="e4">9.0121</li>
+			</ul>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="yellow" data-class='text5'>
+			<ul>
+				<li class="e1">5</li>
+				<li class="e2">B</li>
+				<li class='e3'>Бор</li>
+				<li class="e4">10.811</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text6'>
+			<ul>
+				<li class="e1">6</li>
+				<li class="e2">C</li>
+				<li class='e3'>Углерод</li>
+				<li class="e4">12.0107</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text7'>
+			<ul>
+				<li class="e1">7</li>
+				<li class="e2">N</li>
+				<li class='e3'>Азот</li>
+				<li class="e4">14.0067</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text8'>
+			<ul>
+				<li class="e1">8</li>
+				<li class="e2">O</li>
+				<li class='e3'>Кислород</li>
+				<li class="e4">15.9994</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text9'>
+			<ul>
+				<li class="e1">9</li>
+				<li class="e2">F</li>
+				<li class='e3'>Фтор</li>
+				<li class="e4">18.9984</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text10'>
+			<ul>
+				<li class="e1">10</li>
+				<li class="e2">Ne</li>
+				<li class='e3'>Неон</li>
+				<li class="e4">20.1797</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text11'>
+			<ul>
+				<li class="e1">11</li>
+				<li class="e2">Na</li>
+				<li class='e3'>Натрий</li>
+				<li class="e4">22.9897</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text12'>
+			<ul>
+				<li class="e1">12</li>
+				<li class="e2">Mg</li>
+				<li class='e3'>Магний</li>
+				<li class="e4">24.3050</li>
+			</ul>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="yellow" data-class='text13'>
+			<ul>
+				<li class="e1">13</li>
+				<li class="e2">Al</li>
+				<li class='e3'>Алюминий</li>
+				<li class="e4">26.9815</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text14'>
+			<ul>
+				<li class="e1">14</li>
+				<li class="e2">Si</li>
+				<li class='e3'>Кремний</li>
+				<li class="e4">28.0855</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text15'>
+			<ul>
+				<li class="e1">15</li>
+				<li class="e2">P</li>
+				<li class='e3'>Фосфор</li>
+				<li class="e4">30.9737</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text16'>
+			<ul>
+				<li class="e1">16</li>
+				<li class="e2">S</li>
+				<li class='e3'>Сера</li>
+				<li class="e4">32.065</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text17'>
+			<ul>
+				<li class="e1">17</li>
+				<li class="e2">Cl</li>
+				<li class='e3'>Хлор</li>
+				<li class="e4">35.453</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text18'>
+			<ul>
+				<li class="e1">18</li>
+				<li class="e2">Ar</li>
+				<li class='e3'>Аргон</li>
+				<li class="e4">39.948</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text19'>
+			<ul>
+				<li class="e1">19</li>
+				<li class="e2">K</li>
+				<li class='e3'>Калий</li>
+				<li class="e4">39.0983</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text20'>
+			<ul>
+				<li class="e1">20</li>
+				<li class="e2">Ca</li>
+				<li class='e3'>Кальций</li>
+				<li class="e4">40.078</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text21'>
+			<ul>
+				<li class="e1">21</li>
+				<li class="e2">Sc</li>
+				<li class='e3'>Скандий</li>
+				<li class="e4">44.9559</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text22'>
+			<ul>
+				<li class="e1">22</li>
+				<li class="e2">Ti</li>
+				<li class='e3'>Титан</li>
+				<li class="e4">47.867</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text23'>
+			<ul>
+				<li class="e1">23</li>
+				<li class="e2">V</li>
+				<li class='e3'>Ванадий</li>
+				<li class="e4">50.9415</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text24'>
+			<ul>
+				<li class="e1">24</li>
+				<li class="e2">Cr</li>
+				<li class='e3'>Хром</li>
+				<li class="e4">51.9961</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text25'>
+			<ul>
+				<li class="e1">25</li>
+				<li class="e2">Mn</li>
+				<li class='e3'>Марганец</li>
+				<li class="e4">54.938</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text26'>
+			<ul>
+				<li class="e1">26</li>
+				<li class="e2">Fe</li>
+				<li class='e3'>Железо</li>
+				<li class="e4">55.845</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text27'>
+			<ul>
+				<li class="e1">27</li>
+				<li class="e2">Co</li>
+				<li class='e3'>Кобальт</li>
+				<li class="e4">58.933</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text28'>
+			<ul>
+				<li class="e1">28</li>
+				<li class="e2">Ni</li>
+				<li class='e3'>Никель</li>
+				<li class="e4">58.6934</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text29'>
+			<ul>
+				<li class="e1">29</li>
+				<li class="e2">Cu</li>
+				<li class='e3'>Медь</li>
+				<li class="e4">63.546</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text30'>
+			<ul>
+				<li class="e1">30</li>
+				<li class="e2">Zn</li>
+				<li class='e3'>Цинк</li>
+				<li class="e4">65.38</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text31'>
+			<ul>
+				<li class="e1">31</li>
+				<li class="e2">Ga</li>
+				<li class='e3'>Галлий</li>
+				<li class="e4">69.723</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text32'>
+			<ul>
+				<li class="e1">32</li>
+				<li class="e2">Ge</li>
+				<li class='e3'>Германий</li>
+				<li class="e4">72.63</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text33'>
+			<ul>
+				<li class="e1">33</li>
+				<li class="e2">As</li>
+				<li class='e3'>Мышьяк</li>
+				<li class="e4">74.9216</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text34'>
+			<ul>
+				<li class="e1">34</li>
+				<li class="e2">Se</li>
+				<li class='e3'>Селен</li>
+				<li class="e4">78.96</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text35'>
+			<ul>
+				<li class="e1">35</li>
+				<li class="e2">Br</li>
+				<li class='e3'>Бром</li>
+				<li class="e4">79.904</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text36'>
+			<ul>
+				<li class="e1">36</li>
+				<li class="e2">Kr</li>
+				<li class='e3'>Криптон</li>
+				<li class="e4">83.798</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text37'>
+			<ul>
+				<li class="e1">37</li>
+				<li class="e2">Rb</li>
+				<li class='e3'>Рубидий</li>
+				<li class="e4">85.468</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text38'>
+			<ul>
+				<li class="e1">38</li>
+				<li class="e2">Sr</li>
+				<li class='e3'>Стронций</li>
+				<li class="e4">87.62</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text39'>
+			<ul>
+				<li class="e1">39</li>
+				<li class="e2">Y</li>
+				<li class='e3'>Иттрий</li>
+				<li class="e4">88.906</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text40'>
+			<ul>
+				<li class="e1">40</li>
+				<li class="e2">Zr</li>
+				<li class='e3'>Цирконий</li>
+				<li class="e4">91.224</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text41'>
+			<ul>
+				<li class="e1">41</li>
+				<li class="e2">Nb</li>
+				<li class='e3'>Ниобий</li>
+				<li class="e4">92.906</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text42'>
+			<ul>
+				<li class="e1">42</li>
+				<li class="e2">Mo</li>
+				<li class='e3'>Молибден</li>
+				<li class="e4">95.96</li>
+			</ul>
+		</td >
+		<td class="blue" data-class='text43'>
+			<ul>
+				<li class="e1">43</li>
+				<li class="e2">Tc</li>
+				<li class='e3'>Технеций</li>
+				<li class="e4">97.907</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text44'>
+			<ul>
+				<li class="e1">44</li>
+				<li class="e2">Ru</li>
+				<li class='e3'>Рутений</li>
+				<li class="e4">101.07</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text45'>
+			<ul>
+				<li class="e1">45</li>
+				<li class="e2">Rh</li>
+				<li class='e3'>Родий</li>
+				<li class="e4">102.91</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text46'>
+			<ul>
+				<li class="e1">46</li>
+				<li class="e2">Pd</li>
+				<li class='e3'>Палладий</li>
+				<li class="e4">106.42</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text47'>
+			<ul>
+				<li class="e1">47</li>
+				<li class="e2">Ag</li>
+				<li class='e3'>Серебро</li>
+				<li class="e4">107.87</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text48'>
+			<ul>
+				<li class="e1">48</li>
+				<li class="e2">Cd</li>
+				<li class='e3'>Камдий</li>
+				<li class="e4">112.41</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text49'>
+			<ul>
+				<li class="e1">49</li>
+				<li class="e2">In</li>
+				<li class='e3'>Индий</li>
+				<li class="e4">114.82</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text50'>
+			<ul>
+				<li class="e1">50</li>
+				<li class="e2">Sn</li>
+				<li class='e3'>Олово</li>
+				<li class="e4">118.71</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text51'>
+			<ul>
+				<li class="e1">51</li>
+				<li class="e2">Sd</li>
+				<li class='e3'>Сурьма</li>
+				<li class="e4">121.76</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text52'>
+			<ul>
+				<li class="e1">52</li>
+				<li class="e2">Te</li>
+				<li class='e3'>Теллур</li>
+				<li class="e4">127.60</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text53'>
+			<ul>
+				<li class="e1">53</li>
+				<li class="e2">I</li>
+				<li class='e3'>Иод</li>
+				<li class="e4">126.90</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text54'>
+			<ul>
+				<li class="e1">54</li>
+				<li class="e2">Xe</li>
+				<li class='e3'>Ксенон</li>
+				<li class="e4">131.29</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text55'>
+			<ul>
+				<li class="e1">55</li>
+				<li class="e2">Cs</li>
+				<li class='e3'>Цезий</li>
+				<li class="e4">132.91</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text56'>
+			<ul>
+				<li class="e1">56</li>
+				<li class="e2">Ba</li>
+				<li class='e3'>Барий</li>
+				<li class="e4">137.33</li>
+			</ul>
+		</td>
+		<td></td>
+		<td class="blue" data-class='text72'>
+			<ul>
+				<li class="e1">72</li>
+				<li class="e2">Hf</li>
+				<li class='e3'>Гафний</li>
+				<li class="e4">178.49</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text73'>
+			<ul>
+				<li class="e1">73</li>
+				<li class="e2">Ta</li>
+				<li class='e3'>Тантал</li>
+				<li class="e4">180.94</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text74'>
+			<ul>
+				<li class="e1">74</li>
+				<li class="e2">W</li>
+				<li class='e3'>Вольфрам</li>
+				<li class="e4">183.85</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text75'>
+			<ul>
+				<li class="e1">75</li>
+				<li class="e2">Re</li>
+				<li class='e3'>Рений</li>
+				<li class="e4">186.2</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text76'>
+			<ul>
+				<li class="e1">76</li>
+				<li class="e2">Os</li>
+				<li class='e3'>Осмий</li>
+				<li class="e4">190.2</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text77'>
+			<ul>
+				<li class="e1">77</li>
+				<li class="e2">Ir</li>
+				<li class='e3'>Иридий</li>
+				<li class="e4">192.2</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text78'>
+			<ul>
+				<li class="e1">78</li>
+				<li class="e2">Pt</li>
+				<li class='e3'>Платина</li>
+				<li class="e4">195.09</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text79'>
+			<ul>
+				<li class="e1">79</li>
+				<li class="e2">Au</li>
+				<li class='e3'>Золото</li>
+				<li class="e4">196.96</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text80'>
+			<ul>
+				<li class="e1">80</li>
+				<li class="e2">Hg</li>
+				<li class='e3'>Ртуть</li>
+				<li class="e4">200.59</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text81'>
+			<ul>
+				<li class="e1">81</li>
+				<li class="e2">TI</li>
+				<li class='e3'>Таллий</li>
+				<li class="e4">204.37</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text82'>
+			<ul>
+				<li class="e1">82</li>
+				<li class="e2">Pb</li>
+				<li class='e3'>Свинец</li>
+				<li class="e4">207.19</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text83'>
+			<ul>
+				<li class="e1">83</li>
+				<li class="e2">Bi</li>
+				<li class='e3'>Висмут</li>
+				<li class="e4">208.98</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text84'>
+			<ul>
+				<li class="e1">84</li>
+				<li class="e2">Po</li>
+				<li class='e3'>Полоний</li>
+				<li class="e4">208.98</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text85'>
+			<ul>
+				<li class="e1">85</li>
+				<li class="e2">At</li>
+				<li class='e3'>Астат</li>
+				<li class="e4">209.98</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text86'>
+			<ul>
+				<li class="e1">86</li>
+				<li class="e2">Rn</li>
+				<li class='e3'>Радон</li>
+				<li class="e4">222.01</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text87'>
+			<ul>
+				<li class="e1">87</li>
+				<li class="e2">Fr</li>
+				<li class='e3'>Франций</li>
+				<li class="e4">223.02</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text'>
+			<ul>
+				<li class="e1">88</li>
+				<li class="e2">Ra</li>
+				<li class='e3'>Радий</li>
+				<li class="e4">226.02</li>
+			</ul>
+		</td>
+		<td></td>
+		<td class="blue" data-class='text104'>
+			<ul>
+				<li class="e1">104</li>
+				<li class="e2">Rf</li>
+				<li class='e3'>Резерфордий</li>
+				<li class="e4">261</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text105'>
+			<ul>
+				<li class="e1">105</li>
+				<li class="e2">Dd</li>
+				<li class='e3'>Дубний</li>
+				<li class="e4">268</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text106'>
+			<ul>
+				<li class="e1">106</li>
+				<li class="e2">Sg</li>
+				<li class='e3'>Сиборгий</li>
+				<li class="e4">271</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text107'>
+			<ul>
+				<li class="e1">107</li>
+				<li class="e2">Bh</li>
+				<li class='e3'>Борий</li>
+				<li class="e4">267</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text108'>
+			<ul>
+				<li class="e1">108</li>
+				<li class="e2">Hs</li>
+				<li class='e3'>Хассий</li>
+				<li class="e4">269</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text109'>
+			<ul>
+				<li class="e1">109</li>
+				<li class="e2">Mt</li>
+				<li class='e3'>Мейнтерий</li>
+				<li class="e4">276</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text110'>
+			<ul>
+				<li class="e1">110</li>
+				<li class="e2">Ds</li>
+				<li class='e3'>Дармштадтий</li>
+				<li class="e4">281</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text111'>
+			<ul>
+				<li class="e1">111</li>
+				<li class="e2">Rg</li>
+				<li class='e3'>Рентгений</li>
+				<li class="e4">280</li>
+			</ul>
+		</td>
+		<td class="blue" data-class='text112'>
+			<ul>
+				<li class="e1">112</li>
+				<li class="e2">Cn</li>
+				<li class='e3'>Коперниций</li>
+				<li class="e4">285</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text113'>
+			<ul>
+				<li class="e1">113</li>
+				<li class="e2">Uut</li>
+				<li class='e3'>Унутрий</li>
+				<li class="e4">284</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text114'>
+			<ul>
+				<li class="e1">114</li>
+				<li class="e2">Uuq</li>
+				<li class='e3'>Унунквадий</li>
+				<li class="e4">289</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text115'>
+			<ul>
+				<li class="e1">115</li>
+				<li class="e2">Uup</li>
+				<li class='e3'>Унунпентий</li>
+				<li class="e4">288</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text116'>
+			<ul>
+				<li class="e1">116</li>
+				<li class="e2">Uuh</li>
+				<li class='e3'>Унунгексий</li>
+				<li class="e4">293</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text117'>
+			<ul>
+				<li class="e1">117</li>
+				<li class="e2">Uus</li>
+				<li class='e3'>Унунсептий</li>
+				<li class="e4">294</li>
+			</ul>
+		</td>
+		<td class="yellow" data-class='text118'>
+			<ul>
+				<li class="e1">118</li>
+				<li class="e2">Uuo</li>
+				<li class='e3'>Унуноктий</li>
+				<li class="e4">294</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td class="red" data-class='text119'>
+			<ul>
+				<li class="e1">119</li>
+				<li class="e2">Uue</li>
+				<li class='e3'>Унуненний</li>
+				<li class="e4">316</li>
+			</ul>
+		</td>
+		<td class="red" data-class='text120'>
+			<ul>
+				<li class="e1">120</li>
+				<li class="e2">Ubn</li>
+				<li class='e3'>Унбинилий</li>
+				<li class="e4">320</li>
+			</ul>
+		</td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="green" data-class='text57'>
+			<ul>
+				<li class="e1">57</li>
+				<li class="e2">La</li>
+				<li class='e3'>Лантан</li>
+				<li class="e4">138.91</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text58'>
+			<ul>
+				<li class="e1">58</li>
+				<li class="e2">Ce</li>
+				<li class='e3'>Церий</li>
+				<li class="e4">140.12</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text59'>
+			<ul>
+				<li class="e1">59</li>
+				<li class="e2">Pr</li>
+				<li class='e3'>Празеодим</li>
+				<li class="e4">140.90</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text60'>
+			<ul>
+				<li class="e1">60</li>
+				<li class="e2">Nd</li>
+				<li class='e3'>Неодим</li>
+				<li class="e4">144.24</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text61'>
+			<ul>
+				<li class="e1">61</li>
+				<li class="e2">Pm</li>
+				<li class='e3'>Прометий</li>
+				<li class="e4">145</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text62'>
+			<ul>
+				<li class="e1">62</li>
+				<li class="e2">Sm</li>
+				<li class='e3'>Самарий</li>
+				<li class="e4">150.35</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text63'>
+			<ul>
+				<li class="e1">63</li>
+				<li class="e2">Eu</li>
+				<li class='e3'>Европий</li>
+				<li class="e4">151.96</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text64'>
+			<ul>
+				<li class="e1">64</li>
+				<li class="e2">Gd</li>
+				<li class='e3'>Гадолиний</li>
+				<li class="e4">157.25</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text65'>
+			<ul>
+				<li class="e1">65</li>
+				<li class="e2">Tb</li>
+				<li class='e3'>Тербий</li>
+				<li class="e4">158.92</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text66'>
+			<ul>
+				<li class="e1">66</li>
+				<li class="e2">Dy</li>
+				<li class='e3'>Диспрозий</li>
+				<li class="e4">162.50</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text67'>
+			<ul>
+				<li class="e1">67</li>
+				<li class="e2">Ho</li>
+				<li class='e3'>Гольмий</li>
+				<li class="e4">164.93</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text68'>
+			<ul>
+				<li class="e1">68</li>
+				<li class="e2">Er</li>
+				<li class='e3'>Эрбий</li>
+				<li class="e4">167.26</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text69'>
+			<ul>
+				<li class="e1">69</li>
+				<li class="e2">Tm</li>
+				<li class='e3'>Тулий</li>
+				<li class="e4">168.93</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text70'>
+			<ul>
+				<li class="e1">70</li>
+				<li class="e2">Yd</li>
+				<li class='e3'>Иттербий</li>
+				<li class="e4">173.04</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text71'>
+			<ul>
+				<li class="e1">71</li>
+				<li class="e2">Lu</li>
+				<li class='e3'>Лютеций</li>
+				<li class="e4">174.97</li>
+			</ul>
+		</td>
+	</tr>
+
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td class="green" data-class='text89'>
+			<ul>
+				<li class="e1">89</li>
+				<li class="e2">Ac</li>
+				<li class='e3'>Актиний</li>
+				<li class="e4">227.02</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text90'>
+			<ul>
+				<li class="e1">90</li>
+				<li class="e2">Th</li>
+				<li class='e3'>Торий</li>
+				<li class="e4">232.03</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text91'>
+			<ul>
+				<li class="e1">91</li>
+				<li class="e2">Pa</li>
+				<li class='e3'>Протактиний</li>
+				<li class="e4">231.03</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text92'>
+			<ul>
+				<li class="e1">92</li>
+				<li class="e2">U</li>
+				<li class='e3'>Уран</li>
+				<li class="e4">238.02</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text93'>
+			<ul>
+				<li class="e1">93</li>
+				<li class="e2">Np</li>
+				<li class='e3'>Нептуний</li>
+				<li class="e4">237.04</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text94'>
+			<ul>
+				<li class="e1">94</li>
+				<li class="e2">Pu</li>
+				<li class='e3'>Плутоний</li>
+				<li class="e4">244.06</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text95'>
+			<ul>
+				<li class="e1">95</li>
+				<li class="e2">Am</li>
+				<li class='e3'>Америций</li>
+				<li class="e4">243.06</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text96'>
+			<ul>
+				<li class="e1">96</li>
+				<li class="e2">Cm</li>
+				<li class='e3'>Кюрий</li>
+				<li class="e4">247.07</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text97'>
+			<ul>
+				<li class="e1">97</li>
+				<li class="e2">Bk</li>
+				<li class='e3'>Берклий</li>
+				<li class="e4">247.07</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text98'>
+			<ul>
+				<li class="e1">98</li>
+				<li class="e2">Cf</li>
+				<li class='e3'>Калифорний</li>
+				<li class="e4">251.07</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text99'>
+			<ul>
+				<li class="e1">99</li>
+				<li class="e2">Es</li>
+				<li class='e3'>Эйнштейний</li>
+				<li class="e4">252.08</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text100'>
+			<ul>
+				<li class="e1">100</li>
+				<li class="e2">Fm</li>
+				<li class='e3'>Фермий</li>
+				<li class="e4">257.08</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text101'>
+			<ul>
+				<li class="e1">101</li>
+				<li class="e2">Md</li>
+				<li class='e3'>Менделевий</li>
+				<li class="e4">258.09</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text102'>
+			<ul>
+				<li class="e1">102</li>
+				<li class="e2">No</li>
+				<li class='e3'>Нобелий</li>
+				<li class="e4">259.10</li>
+			</ul>
+		</td>
+		<td class="green" data-class='text103'>
+			<ul>
+				<li class="e1">103</li>
+				<li class="e2">Lr</li>
+				<li class='e3'>Лоуренсий</li>
+				<li class="e4">260.10</li>
+			</ul>
+		</td>
+	</tr>
+
+</table>
+
+<div class="textbox2 lg-offset-3 md-offset-3 sm-offset-3 xs-offset-3 mc-offset-3 lg-grid-6 md-grid-6 sm-grid-6 xs-grid-6 mc-grid-6'">
+
+<div  class='textbox ' ><!--Блок предпоказа-->
+
+	<div class='text1'>
+	<p>Водород - бесцв. газ без вкуса и запаха.</p>
+	<br>
+	<p>Взаимодействие со щелочными и щёлочноземельными металлами </p>
+	<p>2Na + H<sub>2</sub> → 2NaH</p>
+	<p>Ca + H<sub>2</sub> → CaH<sub>2</sub></p>
+	<p>Mg + H<sub>2</sub> → MgH<sub>2</sub> </p>
+	<br>
+	<p>Взаимодействие с оксидами металлов</p>
+	<p>CuO + H<sub>2</sub> → Cu + H<sub>2</sub>O</p>
+	<p>Fe<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub> → 2Fe + 3H<sub>2</sub>)</p>
+	<p>WO<sub>3</sub> + 3H<sub>2</sub> → W + 3H<sub>2</sub>O</p>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+
+	</div>
+
+	<div class='text2'>
+		<p>Гелий-одноатомный газ без цвета и запаха.</p>
+		<br>
+		<p>В промышленности гелий получают из гелийсодержащих природных газов (в настоящее время эксплуатируются главным образом месторождения, содержащие более 0,1 % гелия). От других газов гелий отделяют методом глубокого охлаждения, используя то, что он сжижается труднее всех остальных газов.</p>
+		<br>
+		<p>Охлаждение производят дросселированием в несколько стадий, очищая его от CO<sub>2</sub> и углеводородов. В результате получается смесь гелия, неона и водорода.</p>
+		<br>
+		<p>Эту смесь, так называемый сырой гелий (70—90 % гелия по объёму) очищают от водорода (4—5 %) с помощью CuO при 650—800 К.</p>
+		<br>
+		<p>Окончательная очистка достигается охлаждением оставшейся смеси кипящим под вакуумом N<sub>2</sub> и адсорбцией примесей на активированном угле в адсорберах, также охлаждаемых жидким N<sub>2</sub>. Производят гелий технической чистоты (99,80 % гелия по объёму) и высокой чистоты (99,985 %).</p>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text3'>
+		<p>Простое вещество литий — мягкий щелочной металл серебристо-белого цвета.</p>
+		<br>
+		<p>В настоящее время для получения металлического лития его природные минералы или разлагают серной кислотой (кислотный способ), или спекают с CaO или CaCO<sub>3</sub> (щелочной способ), или обрабатывают K<sub>2</sub>SO<sub>4</sub> (солевой способ), а затем выщелачивают водой. В любом случае из полученного раствора выделяют плохо растворимый карбонат лития Li<sub>2</sub>CO<sub>3</sub>, который затем переводят в хлорид LiCl. Электролиз расплава хлорида лития проводят в смеси с KCl или BaCl<sub>2</sub> (эти соли служат для понижения температуры плавления смеси):</p>
+		<br>
+		<p>2LiCl → 2Li + Cl ↑</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text4'>
+		<p>Простое вещество бериллий  — относительно твёрдый металл светло-серого цвета, имеет весьма высокую стоимость.</p>
+		<br>
+		<p>Бериллий легко растворяется в разбавленных водных растворах кислот (соляной, серной, азотной), однако холодная концентрированная азотная кислота пассивирует металл. Реакция бериллия с водными растворами щелочей сопровождается выделением водорода и образованием гидроксобериллатов:</p>
+		<br>
+		<p>Be + 2NaOH + 2H<sub>2</sub>O  →  Na<sub>2</sub>[Be(OH)<sub>4</sub> ] + H<sub>2</sub> ↑</p> 
+		<br>
+		<p>При проведении реакции с расплавом щелочи при 400—500 °C образуются бериллаты:</p>
+		<br>
+		<p>Be + 2NaOH → Na<sub>2</sub>BeO<sub>2</sub> + H<sub>2</sub> ↑</p>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text5'>
+		<p>В свободном состоянии бор — бесцветное, серое или красное кристаллическое либо тёмное аморфное вещество. Известно более 10 аллотропных модификаций бора, образование и взаимные переходы которых определяются температурой, при которой бор был получен.</p>
+		<br>
+		<p>Химически бор довольно инертен и при комнатной температуре взаимодействует только со фтором:</p>
+		<br>
+		<p>2B + 3F<sub>2</sub> → 2BF<sub>3</sub> ↑ </p>
+		<br>
+		<p>При нагревании бор реагирует с другими галогенами с образованием тригалогенидов, с азотом образует нитрид бора BN, с фосфором — фосфид BP, с углеродом — карбиды различного состава (B4C, B12C3, B13C2). При нагревании в атмосфере кислорода или на воздухе бор сгорает с большим выделением теплоты, образуется оксид B2O3:</p>
+		<br>
+		<p>4B + 3O<sub>2</sub> → 2B<sub>2</sub>O<sub>3</sub></p>
+		<br>
+		<p>С водородом бор напрямую не взаимодействует, хотя известно довольно большое число бороводородов (боранов) различного состава, получаемых при обработке боридов щелочных или щелочноземельных металлов кислотой:</p>
+		<br>
+		<p>Mg<sub>3</sub>B<sub>2</sub> + 6HCl → B<sub>2</sub>H<sub>6</sub> ↑ + 3MgCl<sub>2</sub></p>
+		<br>
+		<p>Оксид бора B2O3 — типичный кислотный оксид. Он реагирует с водой с образованием борной кислоты:</p>
+		<br>
+		<p>B<sub>2</sub>O<sub>3</sub> + 3H<sub>2</sub>O → 2H<sub>3</sub>BO<sub>3</sub></p>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text6'>
+		<p> Углерод - Матово-чёрный (графит), либо прозрачный (алмаз)</p>
+		<br>
+		<p>Графит с галогенами, щелочными металлами и др. веществами образует соединения включения. При пропускании электрического разряда между угольными электродами в атмосфере азота образуется циан. При высоких температурах взаимодействием углерода со смесью Н2 и N2 получают синильную кислоту:</p>
+		<br>
+		<p>NH<sub>3</sub> + CH<sub>4</sub> → NCN + 3H<sub>2</sub> ↑ </p>
+		<br>
+		<p>При реакции углерода с серой получается сероуглерод CS2, известны также CS и C3S2. Получен селенид углерода CSe2. С большинством металлов углерод образует карбиды, например:</p>
+		<br>
+		<p>4Al + 3C  → Al<sub>4</sub>C<sub>3</sub></p>
+		<br>
+		<p>Ca + 2C → CaC<sub>2</sub></p>
+		<br>
+		<p>Важна в промышленности реакция углерода с водяным паром:</p>
+		<br>
+		<p>C + H<sub>2</sub>O  →  CO ↑ + H<sub>2</sub>↑</p>
+		<br>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text7'>
+		<p> Простое вещество азот — двухатомный газ без цвета, вкуса и запаха.</p>
+		<br>
+		<p>В лабораториях его можно получать по реакции разложения нитрита аммония:</p>
+		<br>
+		<p>NH4NO2 → N2 ↑ +2H2O </p>
+		<br>
+		<p>Наиболее чистый азот можно получить разложением азидов металлов:</p>
+		<br>
+		<p>2NaN3 → 2Na + 3N2 ↑</p>
+		<br>
+		<p>Один из лабораторных способов — пропускание аммиака над оксидом меди (II) при температуре ~700 °C:</p>
+		<br>
+		<p>3CuO + 3NH3 → N2 ↑ + 3Cu + 3H2O</p>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text8'>
+		<p> Простое вещество кислород при нормальных условиях — газ без цвета, вкуса и запаха, молекула которого состоит из двух атомов кислорода (формула O2), в связи с чем его также называют дикислород. Жидкий кислород имеет светло-голубой цвет, а твёрдый представляет собой кристаллы светло-синего цвета.</p>
+		<br>
+		<p>Сильный окислитель, взаимодействует со всеми элементами, кроме гелия, неона, аргона и фтора, образуя оксиды. Степень окисления −2. Как правило, реакция окисления протекает с выделением тепла и ускоряется при повышении температуры . Пример реакций, протекающих при комнатной температуре:</p>
+		<br>
+		<p>4Li + O2 → 2Li<sub>2</sub>O</p>
+		<br>
+		<p>2Sr + O2 → 2SrO</p>
+		<br>
+		<p>Окисляет соединения, которые содержат элементы с не максимальной степенью окисления:</p>
+		<br>
+		<p>2NO + O2 → 2NO2 ↑</p>
+		<br>
+		<p>Кислород образует пероксиды со степенью окисления атома кислорода, формально равной −1.</p>
+		<br>
+		<p>Например, пероксиды получаются при сгорании щелочных металлов в кислороде:</p>
+		<br>
+		<p>2Na + O2 → 2BaO<sub>2</sub></p>
+		<br>
+		<p>Некоторые оксиды поглощают кислород:</p>
+		<br>
+		<p>2BaO + O<sub>2</sub> → 2BaO<sub>2</sub></p>
+	<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text9'>
+		<p>Фтор — чрезвычайно химически активный неметалл и сильнейший окислитель, является самым лёгким элементом из группы галогенов. Простое вещество фтор при нормальных условиях — двухатомный газ  бледно-жёлтого цвета с резким запахом, напоминающим озон или хлор.</p>
+		<br>
+		<p>К реакциям, в которых фтор формально является восстановителем, относятся реакции разложения высших фторидов, например:</p>
+		<br>
+		<p>2CoF3 → 2CoF2 + F2 ↑</p>
+		<br>
+		<p>2MnF4 → 2MnF3 + F2↑</p>
+		<br>
+		<p>В 1986 году, во время подготовки к конференции по поводу празднования 100-летия открытия фтора, Карл Кристе открыл способ чисто химического получения фтора с использованием реакции во фтороводородном растворе K2MnF6 и SbF5 при 150 °C:</p>
+		<br>
+		<p>2K<sub>2</sub>MnF<sub>6</sub> + 4SbF<sub>5</sub> → 4KSbF<sub>6</sub> + 2MnF<sub>3</sub> + F<sub>2</sub> ↑</p>
+<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text10'>
+		<p> Простое вещество неон — инертный одноатомный газ без цвета и запаха. Обнаружен (наряду с ксеноном и аргоном) в 1898 году путём вывода из жидкого воздуха водорода, кислорода, аргона и углекислого газа.</p>
+		<br>
+		<p>Благородный газ — бесцветный одноатомный газыбез вкуса и запаха.</p>
+		<br>
+		<p>Все благородные газы имеют завершенную электронную оболочку, поэтому они химически инертны. Химическая инертность неона исключительна, в этом с ним может конкурировать только гелий. Пока не получено ни одного его валентного соединения. Даже так называемые клатратные соединения неона с водой (Ne·6Н2О), гидрохиноном и другими веществами (подобные соединения тяжелых благородных газов — радона, ксенона, криптона и даже аргона — широко известны) получить и сохранить очень трудно.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text11'>
+		<p> Простое вещество натрий  — мягкий щелочной металл серебристо-белого цвета.</p>
+		<br>
+		<p>Первым промышленным способом получения натрия была реакция восстановления карбоната натрия углем при нагревании тесной смеси этих веществ в железной ёмкости до 1000 °C (способ Девилля):</p>
+		<br>
+		<p>Na2Co3 + 2C → 2Na + 3Co</p>
+		<br>
+		<p>Щелочной металл на воздухе легко окисляется до оксида натрия. Для защиты от кислорода воздуха металлический натрий хранят под слоем керосина.</p>
+		<br>
+		<p>4Na + O2 → 2Na<sub>2</sub>O</p>
+		<br>
+		<p>При горении на воздухе или в кислороде образуется пероксид натрия:</p>
+		<br>
+		<p>2Na + O2 → Na<sub>2</sub>O<sub>2</sub></p>
+		<br>
+		<p>С водой натрий реагирует очень бурно, помещённый в воду кусочек натрия всплывает, из-за выделяющегося тепла плавится, превращаясь в белый шарик, который быстро движется в разных направлениях по поверхности воды[17], реакция идёт с выделением водорода, который может воспламениться. Уравнение реакции:</p>
+		<br>
+		<p>2Na + 2H<sub>2</sub>O → 2NaOH + H<sub>2</sub>↑</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text12'>
+		<p>Простое вещество магний  — лёгкий, ковкий металл серебристо-белого цвета.</p>
+		<br>
+		<p>Обычный промышленный метод получения металлического магния — это электролиз расплава смеси безводных хлоридов магния MgCl2 (бишофит), натрия NaCl и калия KCl. В расплаве электрохимическому восстановлению подвергается хлорид магния:</p>
+		<br>
+		<p>MgCl<sub>2</sub> → Mg + Cl<sub>2</sub></p>
+		<br>
+		<p>При нагревании на воздухе магний сгорает с образованием оксида и небольшого количества нитрида. При этом выделяется большое количество теплоты и световой энергии:</p>
+		<br>
+		<p>2Mg + O2 → 2MgO</p>
+		<br>
+		<p>3Mg + N2 → Mg3N2</p>
+		<br>
+		<p>Щелочи на магний не действуют, в кислотах он растворяется с бурным выделением водорода:</p>
+		<br>
+		<p>Mg + 2HCl → MgCl2 + H2↑</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text13'>
+		<p>Простое вещество алюминий  — лёгкий парамагнитный металл серебристо-белого цвета, легко поддающийся формовке, литью, механической обработке. Алюминий обладает высокой тепло- и электропроводностью, стойкостью к коррозии за счёт быстрого образования прочных оксидных плёнок, защищающих поверхность от дальнейшего взаимодействия.</p>
+		<br>
+		<p>В природе алюминий, в связи с высокой химической активностью, встречается почти исключительно в виде соединений. Некоторые из природных минералов алюминия:</p>
+		<br>
+		<p>Бокситы — Al2O3 · H2O (с примесями SiO2, Fe2O3, CaCO3)</p>
+		<br>
+		<p>Нефелины — KNa3[AlSiO4]4</p>
+		<br>
+		<p>Алуниты — (Na,K)2SO4·Al2(SO4)3·4Al(OH)3</p>
+		<br>
+		<p>Глинозёмы (смеси каолинов с песком SiO2, известняком CaCO3, магнезитом MgCO3)</p>
+		<br>
+		<p>Корунд (сапфир, рубин, наждак) — Al2O3</p>
+		<br>
+		<p>Полевые шпаты — (K,Na)2O·Al2O3·6SiO2, Ca[Al2Si2O8]</p>
+		<br>
+		<p>Каолинит — Al2O3·2SiO2 · 2H2O</p>
+		<br>
+		<p>Берилл (изумруд, аквамарин) — 3ВеО · Al2О3 · 6SiO2</p>
+		<br>
+		<p>Хризоберилл (александрит) — BeAl2O4.</p>
+		<br>
+		<p>С кислородом, образуя оксид алюминия:</p>
+		<br>
+		<p>4Al + 3O2 → 2Al2O3</p>
+		<br>
+		<p>с галогенами (кроме фтора), образуя хлорид, бромид или иодид алюминия:</p>
+		<br>
+		<p>2Al + 3Hal2 → 2AlHal3(Hal = Cl,Br,I)</p>
+		<br>
+		<p>Сульфид и карбид алюминия полностью гидролизуются:</p>
+		<br>
+		<p>Al2S3 + 6H<sub>2</sub>O → 2Al(OH)3 + 3H<sub>2</sub>S</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text14'>
+		<p>Кремний — в аморфной форме — коричневый порошок,
+в кристаллической — тёмно-серый, слегка блестящий</p>
+		<br>
+		<p>Свободный кремний получается при прокаливании мелкого белого песка (диоксида кремния) с магнием:</p>
+		<br>
+		<p>SiO2 + 2Mg → 2MgO + Si</p>
+		<br>
+		<p>С водородом кремний непосредственно не реагирует, соединения кремния с водородом — силаны с общей формулой SinH2n+2 — получают косвенным путём. Моносилан SiH4 (его часто называют просто силаном) выделяется при взаимодействии силицидов металлов с растворами кислот, например:</p>
+		<br>
+		<p>Ca2Si + 4HCl → 2CaCl2 + SiH4</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text15'>
+
+		<p>Фосфор — один из распространённых элементов земной коры: его содержание составляет 0,08—0,09 % её массы. Концентрация в морской воде 0,07 мг/л[5]. В свободном состоянии не встречается из-за высокой химической активности. Образует около 190 минералов, важнейшими из которых являются апатит Ca5(PO4)3(F,Cl,OH), фосфорит и другие. Фосфор входит в состав важнейших биологических соединений — фосфолипидов. Содержится в животных тканях, входит в состав белков и других важнейших органических соединений (АТФ, ДНК), является элементом жизни.</p>
+		<br>
+		<p>Фосфор легко окисляется кислородом:</p>
+		<br>
+		<p>4P + 5O2 → 2P2O5</p>
+		<br>
+		<p>4P + 3O2 → 2P2O3</p>
+		<br>
+		<p>Взаимодействует со многими простыми веществами — галогенами, серой, некоторыми металлами, проявляя окислительные и восстановительные свойства:</p>
+		<br>
+		<p>с металлами — окислитель, образует фосфиды:</p>
+		<br>
+		<p>2P + 3Ca → Ca3P2</p>
+		<br>
+		<p>с неметаллами — восстановитель:</p>
+		<br>
+		<p>2P + 3S → P2S3</p>
+		<br>
+		<p>2P + 5Cl2 → 2PCl5</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text16'>
+		<p>Сера — Светло-жёлтое порошкообразное вещество</p>
+		<br>
+		<p>На воздухе сера горит, образуя сернистый газ — бесцветный газ с резким запахом:</p>
+		<br>
+		<p>S + O2 → SO2</p>
+		<br>
+		<p>Восстановительные свойства серы проявляются в реакциях серы и с другими неметаллами, однако при комнатной температуре сера реагирует только со фтором:</p>
+		<br>
+		<p>S + 3F2 → SF6</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text17'>
+
+		<p>Простое вещество хлор  при нормальных условиях — ядовитый газ желтовато-зелёного цвета, тяжелее воздуха, с резким запахом и сладковатым, «металлическим» вкусом. Молекула хлора двухатомная .</p>
+		<br>
+		<p>Хлор непосредственно реагирует почти со всеми металлами (с некоторыми только в присутствии влаги или при нагревании):</p>
+		<br>
+		<p>2Na + Cl2  → 2NaCl</p>
+		<br>
+		<p>2Sb + 3Cl2  → 2SbCl3</p>
+		<br>
+		<p>2Fe + 3Cl2  → 2FeCl3</p>
+		<br>
+		<p>C неметаллами (кроме углерода, азота, фтора, кислорода и инертных газов) образует соответствующие хлориды.</p>
+		<br>
+		<p>5Cl2 + 2P → 2PCl5</p>
+		<br>
+		<p>2S + Cl2 → S2Cl2</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text18'>
+
+		<p> Простое вещество аргон — инертный одноатомный газ без цвета, вкуса и запаха.</p>
+		<br>
+		<p>В промышленности аргон получают как побочный продукт при крупномасштабном разделении воздуха на кислород и азот. При температуре −185,9 °C (87,3 кельвина) аргон конденсируется, при −189,35 °C (83,8 кельвина) — кристаллизуется.</p>
+		<br>
+		<p>Ввиду близости температур кипения аргона и кислорода (90 К) разделение этих фракций ректификационным способом затруднительно. Аргон считается посторонней примесью, допускаемой только в техническом кислороде чистотой 96 %.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text19'>
+	
+		<p> Простое вещество калий — мягкий щелочной металл серебристо-белого цвета.</p>
+		<br>
+		<p>В природе калий встречается только в соединениях с другими элементами, например, в морской воде, а также во многих минералах. Очень быстро окисляется на воздухе и очень легко вступает в химические реакции, особенно с водой, образуя щёлочь.</p>
+		<br>
+		<p>Во многих свойствах калий очень близок натрию, но с точки зрения биологической функции и использования клетками живых организмов они антагонистичны.</p>
+		<br>
+		<p>При электролизе щелочей на катоде также выделяется расплавленный калий, а на аноде — кислород:</p>
+		<br>
+		<p>4OH → 2H2O + O<sub>2</sub></p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text20'>
+		<p> Простое вещество кальций  — мягкий, химически активный щёлочноземельный металл серебристо-белого цвета. Впервые получен в чистом виде Г. Дэви в 1808 году.</p>
+		<br>
+		<p>Свободный металлический кальций получают электролизом расплава, состоящего из CaCl2 (75-80 %) и KCl или из CaCl2 и CaF2, а также алюминотермическим восстановлением CaO при 1170—1200 °C:</p>
+		<br>
+		<p>4CaO + 2Al → CaAl2O4 + 3Ca</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text21'>
+		<p>Скандий — лёгкий металл серебристого цвета с характерным жёлтым отливом. Существует в двух кристаллических модификациях: α-Sc с гексагональной решёткой типа магния, β-Sc с кубической объёмноцентрированной решёткой, температура перехода α↔β 1336 °C.</p>
+		<br>
+		<p>Скандий — лёгкий металл серебристого цвета с характерным жёлтым отливом. Существует в двух кристаллических модификациях: α-Sc с гексагональной решёткой типа магния (a=3,3085 Å; с=5,2680 Å; z=2; пространственная группа P63/mmc), β-Sc с кубической объёмноцентрированной решёткой, температура перехода α↔β 1336 °C, ΔH перехода 4,01 кДж/моль. Температура плавления 1541 °C, температура кипения 2837 °C. Скандий — мягкий металл, с чистотой 99,5 % и выше (в отсутствие O2) легко поддается механической обработке.</p>
+		<br>
+		<p>Химические свойства скандия похожи на таковые у алюминия. В большинстве соединений скандий проявляет степень окисления +3. Компактный металл на воздухе покрывается с поверхности оксидной пленкой. При нагревании до красного каления реагирует с фтором, кислородом, азотом, углеродом, фосфором. При комнатной температуре реагирует с хлором, бромом и иодом. Реагирует с разбавленными сильными кислотами; концентрированными кислотами-окислителями и HF пассивируется. Реагирует с концентрированными растворами щелочей.</p>
+		<br>
+		<p>Ион Sc<sup>3+</sup> бесцветный диамагнитный, координационное число в водных растворах — 6. Как и в случае алюминия, гидроксид скандия амфотерен и растворяется как в избытке кислот, так и в избытке щелочей; с разбавленным раствором аммиака не реагирует. Хлорид, бромид, иодид и сульфат скандия хорошо растворимы в воде, раствор имеет кислую реакцию вследствие частичного гидролиза, при этом гидратация безводных солей сопровождается бурным выделением тепла. Фторид и фосфат скандия в воде не растворимы, но фторид растворятся в присутствии избытка фторид-ионов с образованием ScF6<sup>3-</sup>. Карбид, нитрид, фосфид, сульфид и карбонат скандия водой нацело гидролизуются. Органические соединения скандия термически относительно устойчивы, но бурно реагируют с водой и воздухом. Они построены в основном при помощи σ-связей Sc-C и представлены алкильными производными и полимерными циклопентадиенидами.</p>
+		<br>
+		<p>Известны также соединения с низшими степенями окисления скандия (+2, +1, 0). Одно из простейших — тёмно-синее твёрдое вещество CsScCl3. В этом веществе представлены связи между атомами скандия. Моногидрид скандия ScH известен в газовой фазе. Также низшие степени окисления скандия обнаружены в металлоорганических соединениях.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text22'>
+		<p>Титан — лёгкий прочный металл серебристо-белого цвета. Существует в двух кристаллических модификациях: α-Ti с гексагональной плотноупакованной решёткой, β-Ti с кубической объёмно-центрированной упаковкой, температура полиморфного превращения α↔β 883 °C. Температура плавления 1660±20 °C. Титан имеет твёрдость по Бринеллю 175 МПа.</p>
+		<br>
+		<p>Концентрат титановых руд подвергают сернокислотной или пирометаллургической переработке. Продукт сернокислотной обработки — порошок диоксида титана TiO2. Пирометаллургическим методом руду спекают с коксом и обрабатывают хлором, получая пары тетрахлорида титана TiCl4:</p>
+		<br>
+		<p>TiO2 + 2C + 2Cl2 → TiCl4 + 2CO</p>
+		<br>
+		<p>Образующиеся пары TiCl4 при 850 °C восстанавливают магнием:</p>
+		<br>
+		<p>TiCl4 + 2Mg → 2MgCl2 + Ti</p>
+		<br>
+		<p>Полученный кислород окисляет анод (в случае использования графита), а кальций мигрирует в расплаве к катоду, где и восстанавливает из оксида титан:</p>
+		<br>
+		<p>O2 + C → CO2</p>
+		<br>
+		<p>TiO2 + 2Ca → Ti + 2CaO</p>
+<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text23'>
+		<p>Простое вещество ванадий — пластичный металл серебристо-серого цвета.</p>
+		<br>
+		<p>Химически ванадий довольно инертен. Он стоек к действию морской воды, разбавленных растворов соляной, азотной и серной кислот, щелочей.</p>
+		<br>
+		<p>С кислородом ванадий образует несколько оксидов: VO, V2O3, VO2,V2O5. Оранжевый V2O5 — кислотный оксид, темно-синий VO2 — амфотерный, остальные оксиды ванадия — основные.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text24'>
+		<p> Простое вещество хром — твёрдый металл голубовато-белого цвета. Хром иногда относят к чёрным металлам.</p>
+		<br>
+		<p>Хром встречается в природе в основном в виде хромистого железняка Fe(CrO2)2 (хромит железа). Из него получают феррохром восстановлением в электропечах коксом (углеродом):</p>
+		<br>
+		<p>Fe(CrO2)2 + 4C → Fe + 2Cr + 4CO</p>
+		<br>
+		<p>Гидроксид хрома (III) получают, действуя аммиаком на растворы солей хрома (III):</p>
+		<br>
+		<p>Cr<sup>3+</sup> + 3H3 + 3H2O → Cr(OH)3 ↓ + 3NH<sub>4</sub><sup>+</sup></p>
+		<br>
+		<p>Сплавляя Cr2O3 со щелочами, получают хромиты:</p>
+		<br>
+		<p>Cr2O3 + 2NaOH → 2NaCrO2 + H2O</p>
+		<br>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text25'>
+		<p> Простое вещество марганец — металл серебристо-белого цвета. Наряду с железом и его сплавами относится к чёрным металлам. Известны пять аллотропных модификаций марганца — четыре с кубической и одна с тетрагональной кристаллической решёткой.</p>
+		<br>
+		<p>Алюминотермическим методом, восстанавливая оксид Mn2O3, образующийся при прокаливании пиролюзита:</p>
+		<br>
+		<p>4MnO2 → 2Mn2O3 + O2</p>
+		<br>
+		<p>Mn2O3 + 2Al →  2Mn + Al2O3</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text26'>
+		<p>Простое вещество железо — ковкий металл серебристо-белого цвета с высокой химической реакционной способностью: железо быстро корродирует при высоких температурах или при высокой влажности на воздухе. В чистом кислороде железо горит, а в мелкодисперсном состоянии самовозгорается и на воздухе.</p>
+		<br>
+		<p>В печи углерод в виде кокса окисляется до монооксида углерода. Данный оксид образуется при горении в недостатке кислорода:</p>
+		<br>
+		<p>2C + O2 → 2CO ↑</p>
+		<br>
+		<p>В свою очередь, монооксид углерода восстанавливает железо из руды. Чтобы данная реакция шла быстрее, нагретый угарный газ пропускают через оксид железа(III):</p>
+		<br>
+		<p>3Co + Fe2O3 → 2Fe + 3Co2 ↑</p>
+
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text27'>
+		<p> Простое вещество кобальт — серебристо-белый, слегка желтоватый металл с розоватым или синеватым отливом. Существует в двух кристаллических модификациях: α-Co с гексагональной плотноупакованной решёткой, β-Co с кубической гранецентрированной решёткой, температура перехода α↔β 427 °C.</p>
+		<br>
+		<p>Все оксиды кобальта восстанавливаются водородом:</p>
+		<br>
+		<p>Co3O4 + 4H2 → 3Co + 4H<sub>2</sub>O</p>
+		<br>
+		<p>Оксид кобальта (III) можно получить, прокаливая соединения кобальта (II), например:</p>
+		<br>
+		<p>4Co(OH)2 + O2 → 2Co2O3 + 4H2O</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text28'>
+		<p> Простое вещество никель  — это пластичный, ковкий, переходный металл серебристо-белого цвета, при обычных температурах на воздухе покрывается тонкой плёнкой оксида. Химически малоактивен.</p>
+		<br>
+		<p>Никель характеризуется высокой коррозионной стойкостью — устойчив на воздухе, в воде, в щелочах, в ряде кислот. Химическая стойкость обусловлена его склонностью к пассивированию — образованию на его поверхности плотной оксидной плёнки, обладающей защитным действием. Никель активно растворяется в разбавленной азотной кислоте:</p>
+		<br>
+		<p>3Ni + 8HNO3(30%) → 3Ni(NO3)2 + 2NO + 4H2O</p>
+		<br>
+		<p>и в горячей концентрированной серной:</p>
+		<br>
+		<p>Ni + 2H2So4 → NiSo4 + So2 + 2H2O</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text29'>
+		<p>Простое вещество медь — это пластичный переходный металл золотисто-розового цвета (розового цвета при отсутствии оксидной плёнки). C давних пор широко используется человеком.</p>
+		<br>
+		<p>Первоначально медь добывали из малахитовой руды, а не из сульфидной, так как она не требует предварительного обжига. Для этого смесь руды и угля помещали в глиняный сосуд, сосуд ставили в небольшую яму, а смесь поджигали. Выделяющийся угарный газ восстанавливал малахит до свободной меди:</p>
+		<br>
+		<p>2Co + (CuOH)2Co3 → 2Cu + 3Co2 + H2O/p>
+		<br>
+		<p>Реагирует с концентрированной холодной серной кислотой:</p>
+		<br>
+		<p>Cu + H2so4 → CuO + So2↑+ H2o</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text30'>
+		<p> Простое вещество цинк при нормальных условиях — хрупкий переходный металл голубовато-белого цвета (тускнеет на воздухе, покрываясь тонким слоем оксида цинка).</p>
+		<br>
+		<p>На воздухе цинк покрывается тонкой пленкой оксида ZnO. При сильном нагревании сгорает с образованием амфотерного белого оксида ZnO:</p>
+		<br>
+		<p>2Zn + O2 → 2ZnO </p>
+		<br>
+		<p>Оксид цинка реагирует как с растворами кислот:</p>
+		<br>
+		<p>ZnO + 2HCl → ZnCl2 + H2O</p>
+		<br>
+		<p>так и щелочами:</p>
+		<br>
+		<p>ZnO + 2NaOH + H2O → Na2[Zn(OH)4]</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text31'>
+		<p>Простое вещество галлий — мягкий хрупкий металл серебристо-белого (по другим данным светло-серого) цвета с синеватым оттенком.</p>
+		<br>
+		<p>Галлий медленно реагирует с горячей водой:</p>
+		<br>
+		<p>2Ga + 6H2O → 2Ga(OH)3 + 3H2↑</p>
+		<br>
+		<p>Галлий взаимодействует с минеральными кислотами с выделением водорода и образованием солей:</p>
+		<br>
+		<p>2Ga + 6HCl → 2GaCl3 + 3H↑</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text32'>
+		<p>Простое вещество германий — типичный полупроводник серо-белого цвета, с металлическим блеском.</p>
+		<br>
+		<p>Германий встречается в виде примеси к полиметаллическим, никелевым, вольфрамовым рудам, а также в силикатах. В результате сложных и трудоёмких операций по обогащению руды и её концентрированию германий выделяют в виде оксида GeO2, который восстанавливают водородом при 600 °C до простого вещества:</p>
+		<br>
+		<p>GeO2 + 2H → Ge + 2H2O </p>
+		<br>
+		<p>Получение чистого германия происходит методом зонной плавки, что делает его одним из самых химически чистых материалов.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text33'>
+		<p>Мышьяк - простое вещество представляет собой хрупкий полуметалл стального цвета с зеленоватым оттенком (в серой аллотропной модификации).</p>
+		<br>
+		<p>Основной способ получения — обжиг сульфидных руд с последующим восстановлением оксида углем:</p>
+		<br>
+		<p>2As2S3 + 9O2 → 6So2↑ + 2As2O3</p>
+		<br>
+		<p>As2O3 + 3C → 2As + 3Co↑</p>
+		<br>
+		<p></p>
+		<br>
+		<p></p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text34'>
+		<p>Селен - хрупкий блестящий на изломе неметалл чёрного цвета (устойчивая аллотропная форма, неустойчивая форма — киноварно-красная). Относится к халькогенам.</p>
+		<br>
+		<p>Селен — аналог серы и проявляет степени окисления −2 (H2Se), +4 (SeO2) и +6 (H2SeO4). Однако, в отличие от серы, соединения селена в степени окисления +6 — сильнейшие окислители, а соединения селена (−2) — гораздо более сильные восстановители, чем соответствующие соединения серы.</p>
+		<br>
+		<p>В отличие от SO2, SeO2 — не газ, а кристаллическое вещество, хорошо растворимое в воде. Получить селенистую кислоту (SeO2 + H2O → H2SeO3) ничуть не сложнее, чем сернистую. А действуя на неё сильным окислителем (например, HClO3), получают селеновую кислоту H2SeO4, почти такую же сильную, как серная.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text35'>
+		<p> Простое вещество бром (CAS-номер: 7726-95-6) при нормальных условиях является тяжёлой едкой жидкостью красно-бурого цвета с сильным неприятным запахом. Ядовит. Молекула брома двухатомна (формула Br2).</p>
+		<br>
+		<p>Бром немного, но лучше других галогенов растворим в воде (3,58 г на 100 г воды при 20 °C), раствор называют бромной водой. В бромной воде протекает реакция с образованием бромоводородной и неустойчивой бромноватистой кислот:</p>
+		<br>
+		<p>Br2 + 2Kl → I2 + 2KBr</p>
+		<br>
+		<p>Напротив, при действии хлора на бромиды, находящиеся в водных растворах, выделяется свободный бром:</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text36'>
+		<p>. Простое вещество криптон — инертный одноатомный газ без цвета, вкуса и запаха.</p>
+		<br>
+		<p>Криптон химически инертен. В жёстких условиях реагирует со фтором, образуя дифторид криптона. Относительно недавно было получено первое соединение со связями Kr-O (Kr(OTeF5)2).</p>
+		<br>
+		<p>В 1965 году было заявлено о получении соединений состава KrF4, KrO3·H2O и BaKrO4. Позже их существование было опровергнуто.</p>
+		<br>
+		<p>В 2003 году в Финляндии было получено первое соединение со связью C-Kr (HKrC≡CH — гидрокриптоацетилен) путём фотолиза криптона и ацетилена на криптонной матрице.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text37'>
+		<p> Простое вещество рубидий  — мягкий легкоплавкий щелочной металл серебристо-белого цвета.</p>
+		<br>
+		<p>Щелочной металл, крайне неустойчив на воздухе (реагирует с воздухом в присутствии следов воды с воспламенением). Образует все виды солей — большей частью легкорастворимые.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text38'>
+		<p>Простое вещество стронций  — мягкий, ковкий и пластичный щёлочноземельный металл серебристо-белого цвета. Обладает высокой химической активностью, на воздухе быстро реагирует с влагой и кислородом, покрываясь жёлтой оксидной плёнкой.</p>
+		<br>
+		<p>При высоких температурах реагирует с CO2, образуя карбид:</p>
+		<br>
+		<p>5Sr + 2Co → SrC2 + 4SrO </p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text39'>
+		<p>Простое вещество иттрий — металл светло-серого цвета. Существует в двух кристаллических модификациях: α-Y с гексагональной решёткой типа магния, β-Y с кубической объёмноцентрированной решёткой типа α-Fe, температура перехода α↔β 1482 °C.</p>
+		<br>
+		<p>На воздухе иттрий покрывается плотной защитной оксидной плёнкой. При 370—425 °C образуется плотная чёрная пленка оксида. Интенсивное окисление начинается при 750 °C. Компактный металл окисляется кислородом воздуха в кипящей воде, реагирует с минеральными кислотами, уксусной кислотой, не реагирует с фтороводородом. Иттрий при нагревании взаимодействует с галогенами, водородом, азотом, серой и фосфором. Оксид Y2О3 обладает основными свойствами, ему отвечает основание Y(ОН)3.</p>
+		<br>
+		<p>Перспективными областями применения сплавов иттрия являются авиакосмическая промышленность, атомная техника, автомобилестроение. Очень важно то обстоятельство, что иттрий и его некоторые сплавы не взаимодействуют с расплавленным ураном и плутонием, что позволяет применить их в ядерном газофазном ракетном двигателе.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text40'>
+		<p>Простое вещество цирконий (CAS-номер: 7440-67-7) — блестящий металл серебристо-серого цвета. Обладает высокой пластичностью, устойчив к коррозии. Существует в двух кристаллических модификациях: α-Zr с гексагональной решёткой типа магния, β-Zr с кубической объёмноцентрированной решёткой типа α-Fe, температура перехода α↔β 863 °C.</p>
+		<br>
+		<p>Основные методы получения металлического циркония из концентратов — хлоридный, фторидный и щелочной процессы.</p>
+		<br>
+		<p>Хлоридный процесс основан на перевод циркония в летучий тетрахлорид ZrCl4 (Tсублимации 331 °C) с дальнейшей его очисткой и последующим металлотермическим восстановлением магнием в циркониевую губку. Используются два варианта хлорирования концентратов: прямое хлорирование смеси циркониевых концентратов с коксом хлорируют при 900—1000 °С и хлорирование предварительно полученных спеканием концентратов с коксом смеси карбидов и карбонитридов циркония при 400—900 °С:</p>
+		<br>
+		<p>ZrO2 + 2C + 2Cl2 → ZrCl4 + 2Co</p>
+		<br>
+		<p>ZrCl4 + 2Mg → Zr + 2MgCl2</p>
+		<br>
+		<p>При фторидном методе на первой стадии циркониевый концентрат спекают с гексафторсиликатом калия при 600—700 °С:</p>
+		<br>
+		<p>ZrO2 + K2[SiF6] → K2[ZrF6] ++ SiO2</p>
+		<br>
+		<p>Образовавшийся гексафторцирконат калия выщелачивают горячей водой и очищают фракционной перекристаллизацией от примеси гексафторгафната K2HfF6, после чего металлический цирконий получают электролизом расплава смеси гексафторцирконата калия и хлоридов калия и натрия.</p>
+		<br>
+		<p>Щелочной процесс является методом получения технически чистого диоксида циркония ZrO2, из которого металлический цирконий получают хлоридным или фторидным методом. В этом процессе цирконий переводится в растворимую форму спеканием концентрата с гидроксидом натрия при 600—650 °С, карбонатом натрия при 900—1100 °С либо со смесью карбоната и хлорида кальция при 1000—1300 °С, после чего образовавшиеся цирконаты натрия Na2ZrO3 или кальция CaZrO3 выщелачиваются соляной либо серной кислотами:</p>
+		<br>
+		<p>Na2ZrO3 + 4HCl → ZrOCl2 + 2NaCl + 2H2O</p>
+		<br>
+		<p>CaZrO3 + 3H2So4 → ZrO(HSO4)2 + CaSo4 + 2H2O</p>
+		<br>
+		<p>Водные растворы хлорида или сульфата цирконила далее очищаются и гидролизуются, осадок ZrO(OH)2 прокаливают и получают технический диоксид циркония ZrO2.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text41'>
+		<p>Простое вещество ниобий — блестящий металл серебристо-серого цвета с кубической объёмноцентрированной кристаллической решеткой типа α-Fe, а = 0,3294. Для ниобия известны изотопы с массовыми числами от 81 до 113.</p>
+		<br>
+		<p>Химически ниобий довольно устойчив, но уступает в этом отношении танталу. На него практически не действуют соляная, ортофосфорная, разбавленная серная, азотная кислоты. Металл растворяется в плавиковой кислоте HF, смеси HF и HNO3, концентрированных растворах едких щелочей, а также в концентрированной серной кислоте при нагревании свыше 150 °C. При прокаливании на воздухе окисляется до Nb2О5. Для этого оксида описано около 10 кристаллических модификаций. При обычном давлении стабильна β-форма Nb2О5.</p>
+		<br>
+		<p>При сплавлении Nb2О5 с различными оксидами получают ниобаты: Ti2Nb10О29, FeNb49О124. Ниобаты могут рассматриваться как соли гипотетических ниобиевых кислот. Они делятся на метаниобаты MNbO3, ортониобаты M3NbO4, пирониобаты M4Nb2O7 или полиниобаты M2O·nNb2O5 (M — однозарядный катион, n = 2-12). Известны ниобаты двух- и трехзарядных катионов.</p>
+		<br>
+		<p>Ниобаты реагируют с HF, расплавами гидрофторидов щелочных металлов (KHF2) и аммония. Некоторые ниобаты с высоким отношением M2O/Nb2O5 гидролизуются:</p>
+		<br>
+		<p>6Na3NbO4 + 5H2O = Na8Nb6O19 + 10NaOH.</p>
+		<br>
+		<p>Ниобий образует NbO2, NbO, ряд оксидов, промежуточных между </p>
+		<br>
+		<p>NbO2,42 и NbO2,50 и близких по структуре к β-форме Nb2О5.</p>
+		<br>
+		<p>С галогенами ниобий образует пентагалогениды NbHal5, тетрагалогениды NbHal4 и фазы NbHal2,67 — NbHal3+x, в которых имеются группировки Nb3 или Nb2. Пентагалогениды ниобия легко гидролизуются водой.</p>
+		<br>
+		<p>В присутствии паров воды и кислорода NbCl5 и NbBr5 образуют оксигалогениды NbOCl3 и NbOBr3 — рыхлые ватообразные вещества.</p>
+		<br>
+		<p>При взаимодействии ниобия и графита образуются карбиды Nb2C и NbC, твердые жаропрочные соединения. В системе Nb — N существуют несколько фаз переменного состава и нитриды Nb2N и NbN. Сходным образом ведет себя ниобий в системах с фосфором и мышьяком. При взаимодействии ниобия с серой получены сульфиды: NbS, NbS2 и NbS3. Синтезированы двойные фториды Nb и калия (натрия) — K2[NbF7].</p>
+		<br>
+		<p>Из водных растворов выделить электрохимически ниобий пока не удалось. Возможно электрохимическое получение сплавов, содержащих ниобий. Электролизом безводных солевых расплавов может быть выделен металлический ниобий.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text42'>
+		<p>Простое вещество молибден — переходный металл светло-серого цвета. Главное применение находит в металлургии.</p>
+		<br>
+		<p>Промышленное получение молибдена начинается с обогащения руд флотационным методом. Полученный концентрат обжигают до образования оксида МоО3:</p>
+		<br>
+		<p>2MoS2 + 7O2 → 2MoO3 + 4SO2</p>
+		<br>
+		<p>который подвергают дополнительной очистке. Далее МоО3 восстанавливают водородом:</p>
+		<br>
+		<p>MoO3 + 3H → Mo + 3H2O</p>
+		<br>
+		<p>Полученные заготовки обрабатывают давлением (ковка, прокатка, протяжка).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text43'>
+		<p>Простое вещество технеций — радиоактивный переходный металл серебристо-серого цвета. Самый лёгкий элемент, не имеющий стабильных изотопов. Первый из синтезированных химических элементов.</p>
+		<br>
+		<p>Широко используется в ядерной медицине для исследований мозга, сердца, щитовидной железы, лёгких, печени, желчного пузыря, почек, костей скелета, крови, а также для диагностики опухолей.</p>
+		<br>
+		<p>Пертехнетаты (соли технециевой кислоты HTcO4) обладают антикоррозионными свойствами, так как ион TcO4<sup>-</sup> , в отличие от ионов MnO4<sup>-</sup> и ReO4<sup>-</sup>, является самым эффективным ингибитором коррозии для железа и стали.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text44'>
+		<p> Простое вещество рутений — переходный металл серебристого цвета. Относится к платиновым металлам.</p>
+		<br>
+		<p>Рутений — весьма инертный металл.</p>
+		<br>
+		<p>Рутений не растворяется в кислотах и царской водке (смеси HCl и HNO3). Вместе с тем рутений реагирует с хлором выше 400 °C (образуется RuCl3) и со смесью щелочи и нитрата при сплавлении (образуются рутенаты, например, Na2RuO4).</p>
+		<br>
+		<p>Рутений способен давать соединения, соответствующие разной степени окисления:</p>
+		<br>
+		<p>8 RuO4; RuO4 · PCl3</p>
+		<br>
+		<p>7 M[RuO4]</p>
+		<br>
+		<p>6 M2[RuO4]; M2[RuF8]; RuF6</p>
+		<br>
+		<p>5 M[RuF6]; RuF5</p>
+		<br>
+		<p>4 RuCl4; RuO2; M2[RuCl6]</p>
+		<br>
+		<p>3 RuCl3; М3[RuCl6]</p>
+		<br>
+		<p>2 M2[RuCl4]; M4[Ru(CN)6]</p>
+		<br>
+		<p>1 Ru(CO)nBr</p>
+		<br>
+		<p>0 Ru(CO)n</p>
+		<br>
+		<p>Соединения рутения представлены также широким спектром нитрозосоединений — содержащих группировку RuNO. Данные комплексные соединения, в особенности, нитрозонитроамины (например, [RuNO(NO2)2(NH3)2OH]) и нитрозонитрокомплексы (особенно комплексный анион [RuNO(NO2)4OH]2−) (желто-оранжевый) отличаются высокой устойчивостью и кинетической инертностью.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text45'>
+		<p>Простое вещество родий — твёрдый переходный металл серебристо-белого цвета. Благородный металл платиновой группы.</p>
+		<br>
+		<p>Родий характеризуется высокой химической устойчивостью. С неметаллами он взаимодействует только при температуре красного каления. Мелко измельчённый родий медленно окисляется только при температуре выше 600 °C:</p>
+		<br>
+		<p>4Rh +3O2 → 2Rh2O3</p>
+		<br>
+		<p>При нагревании родий медленно взаимодействует с концентрированной серной кислотой, раствором гипохлорита натрия и бромоводорода. При спекании реагирует с расплавами гидросульфата калия KHSO4, пероксида натрия Na2O2 и пероксида бария BaO2:</p>
+		<br>
+		<p>2Rh + 6KHSO4 → 2K3[Rh(SO4)3] + 3H2</p>
+		<br>
+		<p>2Rh + 3BaO2  → Rh2O3 + 3BaO</p>
+		<br>
+		<p>В присутствии хлоридов щелочных металлов, когда есть возможность образовывать комплексы [RhX6]3−, родий взаимодействует с хлором, например:</p>
+		<br>
+		<p>2Rh + 6NaCl + Cl2 → 2Na3[RhCl6]</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text46'>
+		<p> Простое вещество палладий — пластичный переходный металл серебристо-белого цвета. Благородный металл платиновой группы.</p>
+		<br>
+		<p>Палладий не реагирует с водой, разбавленными кислотами, щелочами, раствором аммиака. Реагирует с концентрированными соляной и азотной кислотами, «царской водкой», галогенами, серой. Окисляется при сплавлении с гидросульфатом калия KHSO4:</p>
+		<br>
+		<p>Pd + 2HCl + Cl2 → H2[PdCl4]</p>
+		<br>
+		<p>Pd + 2HCl + 2Cl2 → H2[PdCl6]</p>
+		<br>
+		<p>Pd + 4HNO3 → Pd(NO3)2 + 2NO2 ↑ + 2H2O</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text47'>
+		<br>
+		<p>Простое вещество серебро — ковкий, пластичный благородный металл серебристо-белого цвета. Кристаллическая решётка — гранецентрированная кубическая. Температура плавления — 962 °C, плотность — 10,5 г/см³.</p>
+		<br>
+		<p>Растворяется оно и в хлорном железе, что применяется для травления:</p>
+		<br>
+		<p>Ag + FeCl3 = AgCl + FeCl2</p>
+		<br>
+		<p>Серебро также легко растворяется в ртути, образуя амальгаму (жидкий сплав ртути и серебра).</p>
+		<br>
+		<p>Серебро не окисляется кислородом даже при высоких температурах, однако в виде тонких плёнок может быть окислено кислородной плазмой или озоном при облучении ультрафиолетом. Во влажном воздухе в присутствии даже малейших следов двухвалентной серы (сероводород, тиосульфаты, резина) образуется налёт малорастворимого сульфида серебра, обуславливающего потемнение серебряных изделий:</p>
+		<br>
+		<p>4Ag + 2H2S + O2 = 2Ag2S + 2H2O</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text48'>
+		<p> Простое вещество кадмий при нормальных условиях — мягкий ковкий тягучий переходный металл серебристо-белого цвета. Устойчив в сухом воздухе, во влажном на его поверхности образуется плёнка оксида, препятствующая дальнейшему окислению металла.</p>
+		<br>
+		<p>Кадмий расположен в одной группе периодической системы с цинком и ртутью, занимая промежуточное место между ними, поэтому некоторые химические свойства этих элементов сходны. Так, сульфиды и оксиды этих элементов практически нерастворимы в воде. С углеродом кадмий не взаимодействует и карбидов не образует.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text49'>
+		<p> Простое вещество индий — ковкий, легкоплавкий, очень мягкий металл серебристо-белого цвета. Сходен по химическим свойствам с алюминием и галлием, по внешнему виду с цинком.</p>
+		<br>
+		<p>Устойчив и не тускнеет в сухом воздухе при комнатной температуре, но выше 800 °C горит фиолетово-синим пламенем с образованием оксида.</p>
+		<br>
+		<p>Растворяется в серной и соляной кислотах, быстрее — в азотной и хлорной, с плавиковой кислотой медленно реагирует при нагревании, органические кислоты (муравьиная, уксусная, щавелевая, лимонная) постепенно растворяют индий.</p>
+		<br>
+		<p>С растворами щелочей, даже кипящими, заметно не реагирует.</p>
+		<br>
+		<p>Реагирует с хлором и бромом.</p>
+		<br>
+		<p>При нагревании реагирует с иодом, серой (выше 620 °C), селеном, теллуром, диоксидом серы (выше 600 °C), парами фосфора.</p>
+		<br>
+		<p>Степень окисления от +1 до +3, наиболее устойчивы 3-валентные соединения.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text50'>
+		<p>При нормальных условиях простое вещество олово — пластичный, ковкий и легкоплавкий блестящий металл серебристо-белого цвета. Олово образует три аллотропические модификации: ниже 13,2 °C устойчиво α-олово (серое олово) с кубической решёткой типа алмаза, выше 13,2 °C устойчиво β-олово (белое олово) с тетрагональной кристаллической решеткой[2]. γ-Олово — белое, в интервале температур 161°C—232 °C (температура плавления), металлическое, хрупкое.</p>
+		<br>
+		<p>При комнатной температуре олово, подобно соседу по группе германию, устойчиво к воздействию воздуха или воды. Такая инертность объясняется образованием поверхностной пленки оксидов. Заметное окисление олова на воздухе начинается при температурах выше 150 °C:</p>
+		<br>
+		<p>Sn + O2 → SnO2</p>
+		<br>
+		<p>При нагревании олово реагирует с большинством неметаллов. При этом образуются соединения в степени окисления +4, которая более характерна для олова, чем +2. Например:</p>
+		<br>
+		<p>Sn + 2Cl2 → SnCl4</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text51'>
+		<p> Простое вещество сурьма  — полуметалл серебристо-белого цвета с синеватым оттенком, грубозернистого строения. Известны четыре металлических аллотропных модификаций сурьмы, существующих при различных давлениях, и три аморфные модификации (взрывчатая, чёрная и жёлтая сурьма).</p>
+		<br>
+		<p>Со многими металлами образует интерметаллические соединения — антимониды. Основные валентные состояния в соединениях: III и V.
+		</p>
+		<br>
+		<p>Окисляющие концентрированные кислоты активно взаимодействуют с сурьмой.</p>
+		<br>
+		<p>серная кислота превращает сурьму в сульфат сурьмы(III) с выделением сернистого газа:</p>
+		<br>
+		<p>2Sb + 6H2So4 → Sb2(So4)3 + 3SO2 ↑ + 6H2O</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text52'>
+		<p>Теллур - относится к семейству металлоидов.</p>
+		<br>
+		<p>Основной источник — шламы электролитического рафинирования меди и свинца. Шламы подвергают обжигу, теллур остается в огарке, который промывают соляной кислотой. Из полученного солянокислого раствора теллур выделяют, пропуская через него сернистый газ SO2.
+		</p>
+		<br>
+		<p>Для разделения селена и теллура добавляют серную кислоту. При этом выпадает диоксид теллура ТеО2, а H2SeO3 остается в растворе.</p>
+		<br>
+		<p>Из оксида ТеО2 теллур восстанавливают углем.</p>
+		<br>
+		<p>Для очистки теллура от серы и селена используют его способность под действием восстановителя (Al, Zn) в щелочной среде переходить в растворимый дителлурид динатрия Na2Te2:</p>
+		<br>
+		<p>6Te + 2Al + 8NaOH → 3Na2Te2 + 2Na[Al(OH)4]</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text53'>
+		<p>Простое вещество иод при нормальных условиях — кристаллы чёрно-серого цвета с фиолетовым металлическим блеском, легко образует фиолетовые пары, обладающие резким запахом. Молекула вещества двухатомна (формула I2).</p>
+		<br>
+		<p>С металлами иод при легком нагревании энергично взаимодействует, образуя иодиды:</p>
+		<br>
+		<p>Hg + I2 → Hgl2</p>
+		<br>
+		<p>С водородом иод реагирует только при нагревании и не полностью, образуя иодоводород:</p>
+		<br>
+		<p>H2 + I2 → 2Hl</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text54'>
+		<p> Простое вещество ксенон — благородный одноатомный газ без цвета, вкуса и запаха.</p>
+		<br>
+		<p>Первое соединение ксенона было получено Нилом Барлеттом реакцией ксенона с гексафторидом платины в 1962 г. В течение двух лет после этого события было получено уже несколько десятков соединений, в том числе фториды, которые являются исходными веществами для синтеза всех остальных производных ксенона.</p>
+		<br>
+		<p>В настоящее время описаны фториды ксенона и их различные комплексы, оксиды, оксифториды ксенона, малоустойчивые ковалентные производные кислот, соединения со связями Xe-N, ксенонорганические соединения. Относительно недавно был получен комплекс на основе золота, в котором ксенон является лигандом. Существование ранее описанных относительно стабильных хлоридов ксенона не подтвердилось (позже были описаны эксимерные хлориды с ксеноном).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text55'>
+		<p> Простое вещество цезий — мягкий щелочной металл серебристо-жёлтого цвета и самый сильный восстановитель. Своё название цезий получил за наличие двух ярких синих линий в эмиссионном спектре (от лат. caesius — небесно-голубой).</p>
+		<br>
+		<p>Цезий является наиболее химически активным металлом. Является сильнейшим восстановителем. На воздухе цезий мгновенно окисляется с воспламенением, образуя надпероксид CsO2. При ограниченном доступе кислорода окисляется до оксида Cs2O. Взаимодействие с водой происходит со взрывом, продуктом взаимодействия являются гидроксид CsOH и водород H2. Цезий вступает в реакцию со льдом (даже при −120 °C), простыми спиртами, галогеноорганическими соединениями, галогенидами тяжёлых металлов, кислотами, сухим льдом (взаимодействие протекает с сильным взрывом). Реагирует с бензолом. Активность цезия обусловлена не только высоким отрицательным электрохимическим потенциалом, но и невысокой температурой плавления и кипения (быстро развивается очень большая контактная поверхность, что увеличивает скорость реакции).</p>
+		<br>
+		<p>Многие образуемые цезием соли — нитраты, хлориды, бромиды, фториды, иодиды, хроматы, манганаты, азиды, цианиды, карбонаты и т. д. — чрезвычайно легко растворимы в воде и ряде органических растворителей; наименее растворимы перхлораты (что важно для технологии получения и очистки цезия). Несмотря на то, что цезий является весьма активным металлом, он, в отличие от лития, не вступает в реакцию с азотом при обычных условиях и, в отличие от бария, кальция, магния и ряда других металлов, не способен образовать с азотом соединений даже при сильнейшем нагревании.</p>
+		<br>
+		<p>Гидроксид цезия — сильнейшее основание с высочайшей электропроводностью в водном растворе; так, например, при работе с ним необходимо учитывать, что концентрированный раствор CsOH разрушает стекло даже при обычной температуре, а расплав разрушает железо, кобальт, никель, а также платину, корунд и диоксид циркония, и даже постепенно разрушает серебро и золото (в присутствии кислорода — очень быстро). Единственным устойчивым в расплаве гидроксида цезия металлом является родий и некоторые его сплавы.</p>
+		<br>
+		<p>Цезий весьма активен и агрессивен по отношению к контейнерным материалам и требует хранения, например, в сосудах из специального стекла в атмосфере аргона или водорода (обычные марки лабораторного стекла цезий разрушает).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text56'>
+		<p> Простое вещество барий — мягкий, ковкий щёлочноземельный металл серебристо-белого цвета. Обладает высокой химической активностью.</p>
+		<br>
+		<p>Барий — щёлочноземельный металл. На воздухе барий быстро окисляется, образуя смесь оксида бария BaO и нитрида бария Ba3N2, а при незначительном нагревании воспламеняется. Энергично реагирует с водой, образуя гидроксид бария Ba(ОН)2:</p>
+		<br>
+		<p>Ba + 2H2O → Ba(OH)2 + H2↑</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text57'>
+		<p> Простое вещество лантан — блестящий металл серебристо-белого цвета, относится к редкоземельным элементам.</p>
+		<br>
+		<p>По своим химическим свойствам лантан больше всего похож на 14 следующих за ним элементов, поэтому их называют лантаноидами. Металлический лантан обладает высокой химической активностью.</p>
+		<br>
+		<p>Во влажном воздухе быстро превращается в основный карбонат лантана:</p>
+		<br>
+		<p>4La + 3O2 → 2La2O3</p>
+		<br>
+		<p>La2O3 + 2CO2 + H2O → 2LaCO3(OH)</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text58'>
+		<p>Церий - серебристый металл.</p>
+		<br>
+		<p>Редкоземельный металл, неустойчив на воздухе, постепенно окисляется, превращаясь в белый оксид и карбонат церия. При нагревании до +160…+180 °C на воздухе загорается; порошок церия является пирофорным.</p>
+		<br>
+		<p>Церий реагирует с кислотами, при кипячении окисляется водой, устойчив к действию щелочей. Энергично взаимодействует с галогенами, халькогенами, азотом и углеродом.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text59'>
+		<p>Празеоди́м — химический элемент из группы лантаноидов, серебристый металл.</p>
+		<br>
+		<p>Празеодим получают в смеси с другими редкоземельными элементами. При экстракционном и хроматографическом разделении и дробной кристаллизации празеодим концентрируется вместе с лёгкими лантаноидами и отделяется вместе с неодимом. Далее празеодим отделяют от неодима и переводят в чистый металл металлотермически или электролизом при 850oC.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text60'>
+		<p>Неодим - редкоземельный металл серебристо-белого цвета с золотистым оттенком. Относится к группе лантаноидов. Легко окисляется на воздухе. Открыт в 1885 году австрийским химиком Карлом Ауэром фон Вельсбахом. Используется как компонент сплавов с алюминием и магнием для самолёто- и ракетостроения.</p>
+		<br>
+		<p>Неодим был открыт в 1885 году австрийским химиком Карлом Ауэром фон Вельсбахом. Он разделил дидим — смесь двух редкоземельных металлов, трудно разделяемую из-за чрезвычайной близости их химических свойств и ранее считавшуюся индивидуальным химическим элементом, — на неодим и празеодим. Получить неодим в чистом виде, практически свободном от примесей празеодима, удалось лишь в 1925 году.</p>
+		<br>
+		<p>Неодим при разделении редкоземельных элементов концентрируется вместе с легкими лантаноидами и выделяется вместе с празеодимом; смесь соединений Pr(III) и Nd(III) называют дидимом. Металлический неодим получают из безводных галогенидов электролизом их расплава или кальциетермическим восстановлением. Электролиз расплава NdF3 или NdCl3 (с добавками галогенидов Li, К, Са, Ва) ведут при 1000 °C и катодной плотности тока 4,7 А/см²; материал анода и катода — графит.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text61'>
+		<p>Проме́тий — химический элемент, относящийся к группе лантаноидов. В природе практически не встречается, так как все его изотопы радиоактивны. Впервые был получен искусственно в 1945 году. Самый долгоживущий изотоп — прометий-145 имеет период полураспада 18 лет.</p>
+		<br>
+		<p>Прометий как короткоживущий радиоактивный элемент находится в природе в исчезающе малых количествах (по оценкам, его содержание в земной коре составляет несколько сот грамм) и не мог быть открыт аналитическим способом, несмотря на усилия многих исследователей.
+		</p>
+		<br>
+		<p>История открытия прометия наглядно демонстрирует те чрезвычайные трудности, которые пришлось преодолеть нескольким поколениям исследователей при изучении и открытии редкоземельных элементов. После открытия в 1907 году иттербия и лютеция считалось, что серия редкоземельных элементов полностью завершена. Однако некоторые видные исследователи редких земель, в частности, Б. Браунер, полагали, что в серии редких земель между неодимом и самарием должен существовать ещё один элемент, так как разница в атомной массе этих двух элементов была аномально высока. После того, как Г. Мозли установил связь заряда ядра атома с местом в Периодической системе, стало очевидным отсутствие в группе редкоземельных элементов элемента 61, и в 1920-х годах начались его интенсивные поиски.</p>
+		<br>
+		<p>В 1924—1926 годах были заявления об открытии элемента 61 флоренций в Италии (из бразильского минерала монацита) и иллиний в Иллинойском университете в Урбана-Шампейн в США, впоследствии оказавшиеся ошибочными.</p>
+		<br>
+		<p>В 1945 г. американские химики Д. Маринский, Л. Гленденин и Ч. Кориэлл выделили прометий из продуктов деления урана с помощью ионообменных смол.</p>
+		<br>
+		<p>В 1947 г., благодаря исследованиям химических свойств прометия, было доказано существование нового элемента.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text62'>
+		<p>Сама́рий — химический элемент, металл из группы лантаноидов.</p>
+		<br>
+		<p>Элемент был выделен из минерала самарскита ((Y,Ce,U,Fe)3(Nb,Ta,Ti)5O16). Этот минерал в 1847 году был назван в честь русского горного инженера, полковника В. Е. Самарского-Быховца (по предложению немецкого химика Генриха Розе, которому Самарский предоставил для исследования образцы этого минерала). Новый, ранее неизвестный элемент в самарските был обнаружен спектроскопически французскими химиками Лафонтеном в 1878 году и Лекоком де Буабодраном в 1879 году. В 1880 году открытие было подтверждено швейцарским химиком Ж. де Мариньяком. Чистый металлический самарий был впервые химически выделен только в начале XX века.</p>
+		<br>
+		<p>Природный самарий состоит из четырёх стабильных изотопов 144Sm (изотопная распространённость 3,07 %), 150Sm (7,38 %), 152Sm (26,75 %), 154Sm (22,75 %) и трёх слаборадиоактивных изотопов 147Sm (14,99 %, период полураспада — 106 миллиардов лет), 148Sm (11,24 %; 7·1015 лет), 149Sm (13,82 %; > 2·1015 лет, в некоторых источниках указывается как стабильный)[4]. Также существуют искусственно синтезированные изотопы самария, самые долгоживущие из которых — 146Sm (период полураспада — 103 миллиона лет) и 151Sm (90 лет).</p>
+		<br>
+		<p>Резонансный захват теплового нейтрона ядром 149Sm с образованием 150Sm перестаёт быть возможным уже при небольшом изменении постоянной тонкой структуры α. Измерение относительного содержания 149Sm/150Sm в минералах природного ядерного реактора в Окло позволило установить, что в пределах экспериментальной погрешности значение постоянной тонкой структуры было в течение последних 2 млрд лет тем же, что и в наше время.</p>
+		<br>
+		<p>Металлический самарий получают методами металлотермии и электролитически, в зависимости от структуры производства и экономических показателей. Мировое производство самария оценивается в несколько сотен тонн, бо́льшая его часть выделяется ионообменными методами из монацитового песка.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text63'>
+		<p>Евро́пий — химический элемент с атомным номером 63 и атомной массой 151,964 а. е. м., относящийся к группе лантаноидов. Простое вещество европий — серебристо-белый металл, легко окисляющийся на воздухе.</p>
+		<br>
+		<p>На воздухе быстро окисляется, на поверхности металла всегда есть оксидная пленка. Хранят в банках или ампулах под слоем жидкого парафина или в керосине. Очень активен, может вытеснять из растворов солей почти все металлы. В соединениях, как и большинство РЗЭ, проявляет преимущественно степень окисления +3, при определённых условиях (например, электрохимическим восстановлением, восстановлением амальгамой цинка и др.) можно получить степень окисления +2. Также при изменении окислительно-восстановительных условий возможно получение степени окисления +2 и +3, что соответствует оксиду с химической формулой Eu3O4.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text64'>
+		<p>Гадоли́ний — химический элемент III группы периодической системы Менделеева, атомный номер — 64, атомная масса — 157,25. Относится к лантаноидам.</p>
+		<br>
+		<p>О гадолинии как о материале современной технологии рассказывать можно довольно долго, ибо этот элемент постоянно открывает все новые и новые области своего применения, и в немалой степени это обусловлено не только особыми ядерно-физическими свойствами, но и технологичностью. Основными областями применения гадолиния являются электроника и ядерная энергетика.</p>
+		<br>
+		<p>Ряд сплавов гадолиния и особенно сплав с кобальтом и железом позволяет создавать носители информации с колоссальной плотностью записи. Это обусловлено тем, что в этих сплавах образуются особые структуры — ЦМД — цилиндрические магнитные домены, причём размеры доменов менее 1 мкм, что позволяет создавать носители памяти для современной компьютерной техники с плотностью записи 1—9 миллиардов бит, что равно примерно 0,1—1 ГБ на 1 квадратный сантиметр площади носителя.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text65'>
+		<p>Те́рбий — химический элемент, относящийся к группе лантаноидов.
+		</p>
+		<br>
+		<p>В 1843 году шведский химик К. Г. Мосандер обнаружил примеси в концентрате Y2O3 и выделил из него три фракции: иттриевую, розовую terbia (которая содержала современный элемент эрбий) и бесцветную erbia (содержала элемент тербий, нерастворимый оксид тербия имеет коричневый оттенок). Из-за бесцветности erbia существование этого соединения долгое время подвергалось сомнению, также были перепутаны названия фракций. Тербий в исходном концентрате составлял около 1 %, однако этого было достаточно, чтобы придать ему желтоватый оттенок. Чистый тербий начале XX века первым получил французский химик Жорж Урбэн, использовавший технологию ионного обмена.</p>
+		<br>
+		<p>Выделяют тербий из смеси редкоземельных элементов методами ионной хроматографии или экстракции.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text66'>
+		<p>Диспрозий — химический элемент с атомным номером 66; редкоземельный металл с блеском серебра. Не встречается в природе в чистом виде, но входит в состав некоторых минералов, например, ксенотима.</p>
+		<br>
+		<p>Диспрозий получают восстановлением DyCl3 или DyF3 кальцием, натрием или литием.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text67'>
+		<p>Гольмий — химический элемент, относящийся к группе лантаноидов.</p>
+		<br>
+		<p>В 1879 году швейцарский химик и физик Жак-Луи Соре методом спектрального анализа обнаружил в «эрбиевой земле» новый элемент.</p>
+		<br>
+		<p>Получают восстановлением фторида гольмия HoF3 кальцием.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text68'>
+		<p>Эрбий (химический символ — Er; лат. Erbium) — химический элемент с атомным номером 68, относится к лантаноидам.</p>
+		<br>
+		<p>Впервые эрбий был выделен в 1843 году шведским химиком К. Г. Мосандером, из минерала, найденного около селения Иттербю.</p>
+		<br>
+		<p>Наряду ещё с тремя химическими элементами (тербий, иттербий, иттрий) получил название в честь села Иттербю, находящегося на острове Ресарё, входящем в Стокгольмский архипелаг.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text69'>
+		<p>Ту́лий (лат. Thulium) — химический элемент тринадцатой группы[3] шестого периода периодической системы химических элементов. Обозначается символом Tm, атомный номер — 69, относится к группе лантаноидов. Простое вещество тулий представляет собой легко обрабатываемый металл серебристо-белого цвета.</p>
+		<br>
+		<p>Металлический тулий получают металлотермическим восстановлением трифторида тулия при помощи металлического кальция:</p>
+		<br>
+		<p>2TmF3 + 3Ca  → 2Tm + 3CaF2</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text70'>
+		<p>Итте́рбий (лат. Ytterbium) — элемент побочной подгруппы третьей группы шестого периода периодической системы химических элементов Д. И. Менделеева, лантаноид, атомный номер — 70. Обозначается символом Yb. Относится к редкоземельным элементам (иттриевая подгруппа).</p>
+		<br>
+		<p>Простое вещество иттербий — металл светло-серого цвета. Существует в двух кристаллических модификациях: α-Yb с кубической решёткой типа меди и β-Yb с кубической объёмноцентрированной решёткой типа α-Fe, температура перехода α↔β 792 °C.</p>
+		<br>
+		<p>Наряду ещё с тремя химическими элементами (тербий, эрбий, иттрий) получил название в честь села Иттербю, находящегося на острове Ресарё, входящем в Стокгольмский архипелаг.</p>
+		<br>
+		<p>Основные методы получения иттербия — это восстановление оксида иттербия (III) в вакууме углеродом или лантаном, а также электролизом расплава хлорида YbCl3.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text71'>
+		<p>Лютеций (химический символ — Lu; лат. Lutetium) — химический элемент, относящийся к группе лантаноидов.</p>
+		<br>
+		<p>Элемент в виде оксида в 1907 году независимо друг от друга открыли французский химик Жорж Урбэн, австрийский минералог Карл Ауэр фон Вельсбах и американский химик Чарльз Джеймс. Все они обнаружили лютеций в виде примеси к оксиду иттербия, который, в свою очередь, был открыт в 1878 г. как примесь к оксиду эрбия, выделенному в 1843 г. из оксида иттрия, обнаруженного в 1797 г. в минерале гадолините. Все эти редкоземельные элементы имеют очень близкие химические свойства. Приоритет открытия принадлежит Ж. Урбэну.</p>
+		<br>
+		<p>Для получения лютеция производится его выделение из минералов вместе с другими тяжёлыми редкоземельными элементами. Отделение лютеция от других лантаноидов ведут методами экстракции, ионного обмена или дробной кристаллизацией, а металлический лютеций получается при восстановлении кальцием из фторида LuF3.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text72'>
+		<p>Га́фний — химический элемент 4-й группы длиннопериодной формы периодической системы Д. И. Менделеева (по короткой форме периодической системы — побочной подгруппы IV группы), шестого периода, с атомным номером 72. Обозначается символом Hf (лат. Hafnium). Простое вещество — тяжёлый тугоплавкий серебристо-белый металл.</p>
+		<br>
+		<p>Гафний имеет две модификации. При комнатной температуре гафний обладает гексагональной плотноупакованной кристаллической решёткой. При температуре, равной 2016 К, гафний претерпевает аллотропическое превращение — гексагональная решётка переходит в объёмноцентрированную кубическую решётку.</p>
+		<br>
+		<p>Гафний, как и тантал, — достаточно инертный материал из-за образования тонкой пассивной плёнки оксидов на поверхности. В целом химическая стойкость гафния гораздо больше, чем у его аналога — циркония.</p>
+		<br>
+		<p>Лучшим растворителем гафния является фтороводородная кислота (HF) или смесь фтороводородной и азотной кислот, а также царская водка.</p>
+		<br>
+		<p>При высоких температурах (свыше 1000 К) гафний окисляется на воздухе, а в кислороде сгорает. Реагирует с галогенами. По стойкости к кислотам подобен стеклу. Так же, как и цирконий, обладает гидрофобными свойствами (не смачивается водой).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text73'>
+		<p>Танта́л — химический элемент с атомным номером 73 в Периодической системе химических элементов Д. И. Менделеева, обозначается символом Ta (лат. Tantalum). При стандартных условиях представляет собой блестящий серебристо-белый металл (со слабым свинцовым оттенком вследствие образования плотной оксидной плёнки).</p>
+		<br>
+		<p>Тантал открыт в 1802 году шведским химиком А. Г. Экебергом в двух минералах, найденных в Финляндии и Швеции. Однако в чистом виде выделить его не удалось. Из-за трудностей получения этот элемент был назван по имени героя древнегреческой мифологии Тантала.</p>
+		<br>
+		<p>В последующем тантал и «колумбий» (ниобий) считали тождественными. Лишь в 1844 году немецкий химик Генрих Розе доказал, что минерал колумбит-танталит содержит два различных элемента — ниобий и тантал.</p>
+		<br>
+		<p>Пластичный металлический тантал впервые получен немецким учёным В. Болтоном в 1903 году.</p>
+		<br>
+		<p>Первый промышленный штабик тантала был получен в 1922 году, при этом он не превышал по величине спичечную головку. Тогда элемент начал применяться в выпрямителях тока и радиолампах. Активное производство тантала было развёрнуто в самом конце Второй Мировой войны.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text74'>
+		<p>Вольфра́м — химический элемент с атомным номером 74 в Периодической системе химических элементов Д. И. Менделеева, обозначается символом W (лат. Wolframium). При нормальных условиях представляет собой твёрдый блестящий серебристо-серый переходный металл.</p>
+		<br>
+		<p>Вольфрам — самый тугоплавкий из металлов. Более высокую температуру плавления имеет только неметаллический элемент — углерод. При стандартных условиях химически стоек.</p>
+		<br>
+		<p>Проявляет валентность от 2 до 6. Наиболее устойчив 6-валентный вольфрам. 3- и 2-валентные соединения вольфрама неустойчивы и практического значения не имеют.</p>
+		<br>
+		<p>Вольфрам имеет высокую коррозионную стойкость: при комнатной температуре не изменяется на воздухе; при температуре красного каления медленно окисляется в оксид вольфрама (VI). Вольфрам в ряду напряжений стоит сразу после водорода, и в соляной, разбавленной серной и плавиковой кислотах почти нерастворим. В азотной кислоте и царской водке окисляется с поверхности. Растворяется в перекиси водорода.</p>
+		<br>
+		<p>Поначалу данные реакции идут медленно, однако при достижении 400 °C (500 °C для реакции с участием кислорода) вольфрам начинает саморазогреваться, и реакция протекает достаточно бурно, с образованием большого количества тепла.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text75'>
+		<p>Ре́ний (лат. Rhenium) — химический элемент с атомным номером 75 в Периодической системе химических элементов Д. И. Менделеева, обозначается символом Re. При стандартных условиях представляет собой плотный серебристо-белый переходный металл.</p>
+		<br>
+		<p>Компактный рений устойчив на воздухе при обычных температурах. При температурах выше 300 °C наблюдается окисление металла, интенсивно окисление идёт при температурах выше 600 °C. Рений более устойчив к окислению, чем вольфрам, не реагирует непосредственно с азотом и водородом; порошок рения лишь адсорбирует водород. При нагревании рений взаимодействует с фтором, хлором и бромом. Рений почти не растворим в соляной и плавиковой кислотах и лишь слабо реагирует с серной кислотой даже при нагревании, но легко растворяется в азотной кислоте. Со ртутью рений образует амальгаму.</p>
+		<br>
+		<p>Рений взаимодействует с водными растворами пероксида водорода с образованием рениевой кислоты. Рений — единственный из тугоплавких металлов не образует карбидов.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text76'>
+		<p>О́смий (лат. Osmium) — химический элемент с атомным номером 76 в Периодической системе химических элементов Д. И. Менделеева, обозначается символом Os. При стандартных условиях представляет собой блестящий серебристо-белый с голубоватым отливом металл. Переходный металл, относится к платиновым металлам. Наряду с иридием обладает наибольшей плотностью среди всех простых веществ. Согласно теоретическим расчётам, его плотность даже выше, чем у иридия.</p>
+		<br>
+		<p>Название осмия происходит от др.-греч. ὀσμή «запах», так как химические реакции растворения щелочного сплава осмиридия (нерастворимого остатка платины в царской водке) в воде или кислоте сопровождаются выделением неприятного, стойкого запаха тетраоксида осмия OsO4, раздражающего горло, похожего на запах хлора или гнилой редьки.</p>
+		<br>
+		<p>Осмий — один из немногих металлов, образующих полиядерные (или кластерные) соединения. Полиядерный карбонил осмия Os3(CO)12 используется для моделирования и исследования химических реакций углеводородов на металлических центрах. Карбонильные группы в Os3(CO)12 могут замещаться на другие лиганды, в том числе и содержащие кластерные ядра других переходных металлов.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text77'>
+		<p>Ири́дий (лат. Iridium, обозначается знаком Ir) — химический элемент с атомным номером 77 в периодической системе химических элементов Д. И. Менделеева. Иридий — очень твёрдый, тугоплавкий, серебристо-белый переходный металл платиновой группы, обладающий высокой плотностью и сравнимый по этому параметру только с осмием (плотности Os и Ir практически равны с учётом погрешности теоретических расчётов). Имеет высокую коррозионную стойкость даже при температуре 2000 °C. В земных породах встречается крайне редко, поэтому высокая концентрация иридия в образцах породы является индикатором космического (метеоритного) происхождения последних.</p>
+		<br>
+		<p>Иридий был открыт в 1803 году английским химиком С. Теннантом одновременно с осмием, которые в качестве примесей присутствовали в природной платине, доставленной из Южной Америки. Теннант был первым среди нескольких учёных, кому удалось получить в достаточном количестве нерастворимый остаток после воздействия на платину царской водки и определить в нём ранее неизвестные металлы.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text78'>
+		<p>Пла́тина (исп. Platina) — химический элемент 10-й группы (по устаревшей классификации — побочной подгруппы восьмой группы), 6-го периода периодической системы химических элементов Д. И. Менделеева, с атомным номером 78; блестящий благородный металл серебристо-белого цвета.</p>
+		<br>
+		<p>Самородную платину добывают на приисках (см. подробнее в статье Благородные металлы), менее богаты рассыпные месторождения платины, которые разведываются, в основном, способом шлихового опробования.</p>
+		<br>
+		<p>Производство платины в виде порошка началось в 1805 году английским ученым У. Х. Волластоном из южноамериканской руды.</p>
+		<br>
+		<p>Сегодня платину получают из концентрата платиновых металлов. Концентрат растворяют в царской водке, после чего добавляют этанол и сахарный сироп для удаления избытка HNO3. При этом иридий и палладий восстанавливаются до Ir3+ и Pd2+. Последующим добавлением хлорида аммония выделяют гексахлороплатинат(IV) аммония (NH4)2PtCl6. Высушенный осадок прокаливают при 800—1000 °C:</p>
+		<br>
+		<p>Получаемую таким образом губчатую платину подвергают дальнейшей очистке повторным растворением в царской водке, осаждением (NH4)2PtCl6 и прокаливанием остатка. Затем очищенную губчатую платину переплавляют в слитки. При восстановлении растворов солей платины химическим или электрохимическим способом получают мелкодисперсную платину — платиновую чернь.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text79'>
+		<p>Зо́лото — элемент 11 группы (по устаревшей классификации — побочной подгруппы первой группы), шестого периода периодической системы химических элементов Д. И. Менделеева, с атомным номером 79. Обозначается символом Au (лат. Aurum). Простое вещество золото — благородный металл жёлтого цвета.</p>
+		<br>
+		<p>Золото — один из самых инертных металлов, стоящее в ряду напряжений правее всех других металлов. При нормальных условиях оно не взаимодействует с большинством кислот и не образует оксидов, поэтому его относят к благородным металлам, в отличие от обычных металлов, разрушающихся под действием кислот и щелочей. В XIV веке была открыта способность царской водки растворять золото, что опровергло мнение о его химической инертности.</p>
+		<br>
+		<p>Из чистых кислот золото растворяется только в концентрированной селеновой кислоте при 200 °C:</p>
+		<br>
+		<p>2Au + 6H2SeO4 → Au2(SeO4)3 + 3H2SeO3 + 3H2O</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text80'>
+		<p>Ртуть (Hg, от лат. Hydrargyrum) — элемент шестого периода периодической системы химических элементов Д. И. Менделеева с атомным номером 80, относящийся к подгруппе цинка (побочной подгруппе II группы). Простое вещество ртуть — переходный металл, при комнатной температуре представляющий собой тяжёлую серебристо-белую жидкость, пары которой чрезвычайно ядовиты. Ртуть — один из двух химических элементов (и единственный металл), простые вещества которых при нормальных условиях находятся в жидком агрегатном состоянии (второй такой элемент — бром).</p>
+		<br>
+		<p>Ртуть получают обжигом киновари (сульфида ртути(II)) или металлотермическим методом</p>
+		<br>
+		<p>HgS + O2 → Hg + SO2 ↑</p>
+		<br>
+		<p>HgS + Fe → FeS  ↓ + Hg</p>
+		<br>
+		<p>Пары ртути конденсируют и собирают. Этот способ применяли ещё алхимики древности.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text81'>
+		<p>Та́ллий — элемент 13-й группы периодической таблицы химических элементов (по устаревшей классификации — элемент главной подгруппы III группы), шестого периода, атомный номер 81. Обозначается символом Tl (лат. Thallium). Относится к группе тяжёлых металлов. Простое вещество таллий — мягкий металл серебристо-белого цвета с голубоватым оттенком.</p>
+		<br>
+		<p>Технически чистый таллий очищают от других элементов, содержащихся в колошниковой пыли (Ni, Zn, Cd, In, Ge, Pb, As, Se, Te), растворением в тёплой разбавленной кислоте с последующим осаждением нерастворимого сульфата свинца и добавлением HCl для осаждения хлорида таллия (TlCl). Дальнейшая очистка достигается электролизом сульфата таллия в разбавленной серной кислоте с использованием проволоки из платины с последующим плавлением выделившегося таллия в атмосфере водорода при 350—400 °C.</p>
+		<br>
+		<p>Таллий — блестящий серебристый металл с голубоватым оттенком. На воздухе быстро тускнеет, покрываясь чёрной плёнкой оксида таллия Tl2O.</p>
+		<br>
+		<p>Таллий диамагнитен. При температуре 2,39 K он переходит в сверхпроводящее состояние.</p>
+		<br>
+		<p>Спектр таллия в видимом диапазоне: 525,046 нм (зелёный).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text82'>
+		<p>Свине́ц (лат. Plumbum; обозначается символом Pb) — элемент 14-й группы (по устаревшей классификации — главной подгруппы IV группы), шестого периода периодической системы химических элементов Д. И. Менделеева, с атомным номером 82 и, таким образом, содержит магическое число протонов. Простое вещество свинец  — ковкий, сравнительно легкоплавкий металл серебристо-белого цвета с синеватым отливом. Известен с глубокой древности.</p>
+		<br>
+		<p>Для получения свинца в основном используют руды, содержащие галенит. Сначала методом флотации получают концентрат, содержащий 40—70 процентов свинца. Затем возможно несколько способов переработки концентрата в веркблей (черновой свинец): прежде широко распространённый метод шахтной восстановительной плавки, разработанные в СССР метод кислородно-взвешенной циклонной электротермической плавки свинцово-цинковых продуктов (КИВЦЭТ-ЦС), метод плавки Ванюкова (плавка в жидкой ванне):37-38. Для плавки в шахтной (ватержакетной) печи предварительно производят агломерационный обжиг концентрата, а затем его загружают в шахтную печь, где происходит восстановление свинца из оксида.</p>
+		<br>
+		<p>Веркблей, содержащий более 90 процентов свинца, подвергается дальнейшему очищению. Сначала для удаления меди применяют зейгерование и последующую обработку серой:42. Затем щелочным рафинированием удаляют мышьяк и сурьму. Далее выделяют серебро и золото с помощью цинковой пены и отгоняют цинк:45. Обработкой кальцием и магнием удаляют висмут. В результате содержание примесей падает до менее чем 0,2 %.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text83'>
+		<p>Ви́смут — химический элемент 15-й группы (по устаревшей классификации — главной подгруппы пятой группы) шестого периода периодической системы химических элементов Д. И. Менделеева; имеет атомный номер 83. Обозначается символом Bi (лат. Bismuthum). Простое вещество представляет собой при нормальных условиях блестящий серебристый с розоватым оттенком металл.</p>
+		<br>
+		<p>Висмут имеет большое значение для производства так называемых «автоматных сталей», особенно нержавеющих, и очень облегчает их обработку резанием на станках-автоматах (токарных, фрезерных и др.) при концентрации висмута всего 0,003 %, в то же время не увеличивая склонность к коррозии. Висмут используют в сплавах на основе алюминия (примерно 0,01 %), эта добавка улучшает пластические свойства металла, резко упрощает его обработку.</p>
+		<br>
+		<p>В производстве полимеров трёхокись висмута служит катализатором, и её применяют, в частности, при получении акриловых полимеров. При крекинге нефти некоторое применение находит оксид-хлорид висмута.</p>
+	</div>
+
+	<div class='text84'>
+		<p>Поло́ний — радиоактивный химический элемент 16-й группы (по устаревшей классификации — главной подгруппы VI группы), 6-го периода в периодической системе Д. И. Менделеева, с атомным номером 84, обозначается символом Po (лат. Polonium). Относится к группе халькогенов. При нормальных условиях представляет собой мягкий радиоактивный металл серебристо-белого цвета.</p>
+		<br>
+		<p>Полоний — мягкий серебристо-белый радиоактивный металл.</p>
+		<br>
+		<p>Металлический полоний быстро окисляется на воздухе. Известны диоксид полония (РоО2)x и монооксид полония РоО. С галогенами образует тетрагалогениды. При действии кислот переходит в раствор с образованием катионов Ро2+ розового цвета:</p>
+		<br>
+		<p>Po + 2HCl → PoCl2 + H2↑</p>
+		<br>
+		<p></p>
+		<br>
+		<p></p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text85'>
+		<p>Аста́т (от др.-греч. ἄστατος — «неустойчивый») — химический элемент с атомным номером 85. Принадлежит к 17-й группе периодической таблицы химических элементов (по устаревшей короткой форме периодической системы принадлежит к главной подгруппе VII группы, или к группе VIIA), находится в шестом периоде таблицы. В природе отсутствует, массовое число наиболее стабильного из известных изотопов равно 210(его атомная масса равна 209,98715 а. е. м.). Обозначается символом At (от лат. Astatium). Радиоактивен. Простое вещество астат при нормальных условиях — нестабильные кристаллы тёмно-синего цвета. Молекула астата, по всей видимости, двухатомна (формула At2). Недавние квантовомеханические расчёты из первых принципов предсказывают, что в конденсированном состоянии астат состоит не из молекул диастата, а образует металлический кристалл, в отличие от всех более лёгких галогенов, образующих при нормальном давлении молекулярные кристаллы из молекул димеров Hal2.</p>
+		<br>
+		<p>В лабораторных условиях астат из-за сильной радиоактивности не удаётся получить в макроскопических количествах, достаточных для глубокого изучения его свойств.</p>
+		<br>
+		<p>Астат получают только искусственно. В основном изотопы астата получают облучением металлических висмута или тория α-частицами высокой энергии с последующим отделением астата соосаждением, экстракцией, хроматографией или дистилляцией.</p>
+		<br>
+		<p>На современных ускорителях можно было бы получить («наработать») несколько десятков нанограмм элемента, однако с такими образцами невозможно было бы работать ввиду огромной его радиоактивности — 2000 Ки/мг, и при молярных концентрациях элемента происходило бы вскипание исследуемых растворов и интенсивный радиолиз воды.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text86'>
+		<br>
+		<p>Радо́н — элемент 18-й группы периодической системы химических элементов Д. И. Менделеева (по старой классификации — главной подгруппы 8-й группы), 6-го периода, с атомным номером 86. Обозначается символом Rn (лат. Radon). Простое вещество радон при нормальных условиях — бесцветный инертный газ; радиоактивен, стабильных изотопов не имеет, может представлять опасность для здоровья и жизни. При комнатной температуре является одним из самых тяжёлых газов. Наиболее стабильный изотоп (222Rn) имеет период полураспада 3,8 суток.</p>
+		<br>
+		<p>Для получения радона через водный раствор любой соли радия-226 продувают воздух, который уносит с собой радон-222, образующийся при радиоактивном распаде радия-226. Далее воздух тщательно фильтруют для отделения микрокапель раствора, содержащего соль радия, которые могут быть захвачены током воздуха. Для получения собственно радона из смеси газов удаляют химически активные вещества (кислород, водород, водяные пары и т. д.), остаток конденсируют жидким азотом, затем из конденсата отгоняют азот и инертные газы (аргон, неон и т. д.).</p>
+		<br>
+		<p>В одном грамме радия-226 возникает за сутки около 1 мм3 радона-222.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text87'>
+		<p>Фра́нций — элемент главной подгруппы первой группы седьмого периода периодический системы химических элементов Д. И. Менделеева, с атомным номером 87. Обозначается символом Fr (лат. Francium). Простое вещество франций — радиоактивный щелочной металл, обладающий крайне высокой химической активностью.</p>
+		<br>
+		<p>Франций похож по свойствам на цезий. Всегда сокристаллизуется с его соединениями. Практически все соединения франция растворимы в воде. Релятивистские эффекты 6p-оболочки делают связь франция с кислородом в супероксидах, например, состава FrO2, более ковалентной, по сравнению с супероксидами других щелочных металлов.</p>
+		<br>
+		<p>Так как в распоряжении исследователей имеются лишь мельчайшие образцы, содержащие не более 10−7 г франция, то сведения о его физических свойствах могут быть определены только путём расчета, основываясь на данных для стабильных щелочных металлов. Согласно таким расчетам, плотность франция при комнатной температуре составляет 1,87 г/см³, температура плавления 27 °C, температура кипения 677 °C, удельная теплота плавления 9,385 кДж/кг.</p>
+		<br>
+		<p>Франций имеет самую низкую электроотрицательность из всех элементов, известных в настоящее время. Соответственно, франций является и самым химически активным щелочным металлом.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text88'>
+		<p>Ра́дий — элемент главной подгруппы второй группы, седьмого периода периодической системы химических элементов Д. И. Менделеева, с атомным номером 88. Обозначается символом Ra (лат. Radium). Простое вещество радий (CAS-номер: 7440-14-4) — блестящий щёлочноземельный металл серебристо-белого цвета, быстро тускнеющий на воздухе. Обладает высокой химической активностью. Радиоактивен; наиболее устойчив нуклид 226Ra (период полураспада около 1600 лет).</p>
+		<br>
+		<p>Получить чистый радий в начале ХХ в. стоило огромного труда. Мария Кюри трудилась 12 лет, чтобы получить крупинку чистого радия. Чтобы получить всего 1 г чистого радия, нужно было несколько вагонов урановой руды, 100 вагонов угля, 100 цистерн воды и 5 вагонов разных химических веществ. Поэтому на начало ХХ в. в мире не было более дорогого металла. За 1 г радия нужно было заплатить больше 200 кг золота.</p>
+		<br>
+		<p>Обычно радий добывается из урановых руд. В рудах, достаточно старых для установления векового радиоактивного равновесия в ряду урана-238, на тонну урана приходится 333 миллиграмма радия-226.</p>
+		<br>
+		<p>Из анализа документов, сохранившихся в архиве правопреемника этого завода (ОАО Ухтинский электрокерамический завод «Прогресс»), было подсчитано, что до закрытия на «Водном промысле» было выпущено примерно 271 г радия. В 1954 г. мировой запас добытого радия оценивался в 2,5 кг. Таким образом, к началу 50-х гг. примерно каждый десятый грамм радия был получен на «Водном промысле».</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text89'>
+		<p>Акти́ний — химический элемент с атомным номером 89, обозначается в периодической системе элементов символом Ac (лат. Actinium). Не имеет стабильных изотопов. При нормальных условиях представляет собой тяжёлый серебристо-белый металл. Относится к семейству актиноидов.</p>
+		<br>
+		<p>Актиний — металл серебристо-белого цвета, тяжелый, мягкий, по внешнему виду напоминает лантан. Вследствие радиоактивности в темноте светится характерным голубым цветом. Во влажном воздухе покрывается оксидной пленкой. Сильный восстановитель, реагирует с водой:</p>
+		<br>
+		<p>2Ac + 6H2O = 2Ac(OH)3 ↓ +3H2 ↑</p>
+		<br>
+		<p>Разбавленными кислотами:</p>
+		<br>
+		<p>2Ac + 6HCl = 2AcCL3 + 3H2 ↑</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text90'>
+		<p>То́рий — элемент III группы таблицы Менделеева, принадлежащий к актиноидам; тяжёлый слаборадиоактивный металл.</p>
+		<br>
+		<p>Торий относится к семейству актинидов. Тем не менее специфическая конфигурация электронных оболочек делает его близким Ti, Zr, Hf по некоторым свойствам.</p>
+		<br>
+		<p>Торий плохо растворяется в основных кислотах. Он растворим в концентрированных растворах НСl (6-12 моль/л) и HNO3 (8-16 моль/л) в присутствии иона фтора. Легко растворим в царской водке. Не реагирует с едкими щелочами.</p>
+		<br>
+		<p>При нагреве взаимодействует с водородом, галогенами, серой, азотом, кремнием, алюминием и рядом других элементов. Например, в атмосфере водорода при 400—600°С образует гидрид ThH2.</p>
+		<br>
+		<p>Торий — серебристо-белый блестящий, мягкий, ковкий металл. Металл пирофорен, потому порошок тория рекомендуют хранить в керосине. На воздухе чистый металл медленно тускнеет и темнеет, при нагревании воспламеняется и горит ярко белым светом с образованием диоксида. Относительно медленно корродирует в холодной воде, в горячей воде скорость коррозии тория и сплавов на его основе очень высока.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text91'>
+		<br>
+		<p>Протакти́ний — элемент III группы таблицы Менделеева, принадлежащий к актиноидам; радиоактивный металл.</p>
+		<br>
+		<p>Ввиду малого содержания в земной коре (содержание от массы Земли составляет 0,1 миллиардной доли процента) и крайней токсичности элемент имеет весьма узкое применение — добавка к ядерному топливу. На тонну урана содержание протактиния составляет 0,34 г.</p>
+		<br>
+		<p>Протактиний и его соединения чрезвычайно радиоактивны и радиотоксичны. При одинаковой концентрации содержащийся в воздухе протактиний-231 в 250 миллионов раз токсичнее синильной кислоты.</p>
+		<br>
+		<p>Максимальное безопасное количество протактиния при попадании в организм человека составляет 0,03 мккюри, что соответствует 0,5 мкг.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text92'>
+		<p>Ура́н (устаревший вариант ура́ний) — химический элемент с атомным номером 92 в периодической системе, атомная масса — 238,029; обозначается символом U (лат. Uranium), относится к семейству актиноидов. Уран — слаборадиоактивный элемент, он не имеет стабильных изотопов. Самыми распространенными изотопами урана являются уран-238 (имеет 146 нейтронов, в природном уране составляет 99,3 %) и уран-235 (143 нейтрона, природная распространённость 0,7 %).</p>
+		<br>
+		<p>Самая первая стадия уранового производства — концентрирование. Породу дробят и смешивают с водой. Тяжёлые компоненты взвеси осаждаются быстрее. Если порода содержит первичные минералы урана, то они осаждаются быстро: это тяжёлые минералы. Вторичные минералы урана легче, в этом случае раньше оседает тяжёлая пустая порода. (Впрочем, далеко не всегда она действительно пустая; в ней могут быть многие полезные элементы, в том числе и уран).</p>
+		<br>
+		<p>Следующая стадия — выщелачивание концентратов, перевод урана в раствор. Применяют кислотное и щелочное выщелачивание. Первое — дешевле, поскольку для извлечения урана используют серную кислоту. Но если в исходном сырье, как, например, в урановой смолке, уран находится в четырёхвалентном состоянии, то этот способ неприменим: четырёхвалентный уран в серной кислоте практически не растворяется. В этом случае нужно либо прибегнуть к щелочному выщелачиванию, либо предварительно окислять уран до шестивалентного состояния.</p>
+		<br>
+		<p>Не применяют кислотное выщелачивание и в тех случаях, если урановый концентрат содержит доломит или магнезит, реагирующие с серной кислотой. В этих случаях пользуются едким натром (гидроксидом натрия).</p>
+		<br>
+		<p>Проблему выщелачивания урана из руд решает кислородная продувка. В нагретую до 150 °C смесь урановой руды с сульфидными минералами подают поток кислорода. При этом из сернистых минералов образуется серная кислота, которая и вымывает уран.</p>
+		<br>
+		<p>На следующем этапе из полученного раствора нужно избирательно выделить уран. Современные методы — экстракция и ионный обмен — позволяют решить эту проблему.</p>
+		<br>
+		<p>Раствор содержит не только уран, но и другие катионы. Некоторые из них в определённых условиях ведут себя так же, как уран: экстрагируются теми же органическими растворителями, оседают на тех же ионообменных смолах, выпадают в осадок при тех же условиях. Поэтому для селективного выделения урана приходится использовать многие окислительно-восстановительные реакции, чтобы на каждой стадии избавляться от того или иного нежелательного попутчика. На современных ионообменных смолах уран выделяется весьма селективно.</p>
+		<br>
+		<p>Методы ионного обмена и экстракции хороши ещё и тем, что позволяют достаточно полно извлекать уран из бедных растворов (содержание урана — десятые доли грамма на литр).</p>
+		<br>
+		<p>После этих операций уран переводят в твёрдое состояние — в один из оксидов или в тетрафторид UF4. Но этот уран ещё надо очистить от примесей с большим сечением захвата тепловых нейтронов — бора, кадмия, гафния. Их содержание в конечном продукте не должно превышать стотысячных и миллионных долей процента. Для удаления этих примесей технически чистое соединение урана растворяют в азотной кислоте. При этом образуется уранилнитрат UO2(NO3)2, который при экстракции трибутил-фосфатом и некоторыми другими веществами дополнительно очищается до нужных кондиций. Затем это вещество кристаллизуют (или осаждают пероксид UO4·2H2O) и начинают осторожно прокаливать. В результате этой операции образуется трёхокись урана UO3, которую восстанавливают водородом до UO2.</p>
+		<br>
+		<p>На диоксид урана UO2 при температуре от 430 до 600 °C воздействуют газообразным фтористым водородом для получения тетрафторида UF4. Из этого соединения восстанавливают металлический уран с помощью кальция или магния.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text93'>
+		<p>Нептуний — химический элемент с атомным номером 93 в периодической системе; обозначается символом Np (лат. Neptunium), относится к семейству актиноидов. Это первый трансурановый элемент, на Земле он встречается лишь в следовых количествах, и был получен искусственно из урана посредством ядерных реакций.</p>
+		<br>
+		<p>Нептуний получают восстановлением фторида нептуния парами бария при 1600 К:</p>
+		<br>
+		<p>NpF4 + 2Ba → Np + 2BaF2 </p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text94'>
+		<p>Плуто́ний (обозначается символом Pu; атомное число 94) — тяжёлый хрупкий радиоактивный металл серебристо-белого цвета[10][11]. В периодической таблице располагается в семействе актиноидов.</p>
+		<br>
+		<p>Для элемента характерны существенно отличающиеся от остальных элементов структурные и физико-химические свойства. Плутоний имеет семь аллотропных модификаций при определённых температурах и диапазонах давления: α, β, γ, δ, δ', ε и ζ. Может принимать степени окисления от +2 до +7, основными считаются +4, +5, +6. Плотность варьируется от 19,8 (α-Pu) до 15,9 г/см³ (δ-Pu).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text95'>
+		<p>Амери́ций — химический элемент с атомным номером 95[4]. Принадлежит к 3-й группе периодической таблицы химических элементов (по устаревшей короткой форме периодической системы принадлежит к побочной подгруппе III группы, или к группе IIIB), находится в седьмом периоде таблицы. Относится к семейству актиноидов. В природе отсутствует, массовое число наиболее стабильного из известных изотопов равно 243(его атомная масса равна 243,06138(2) а. е. м.). Обозначается символом Am (от лат. Americium). Четвёртый синтезированный трансплутониевый элемент.</p>
+		<br>
+		<p>Америций — металл серебристо-белого цвета, тягучий и ковкий. Светится в темноте за счёт собственного α-излучения. Больше всего он похож на металлы редкоземельного семейства. Имеет две аллотропные формы. В низкотемпературной форме (плотность 13,67 г/см3) обладает двойной плотно упакованной гексагональной структурой, которая при 1074 °C преобразуется в гранецентрированную кубическую. Температура плавления — 1175 °C. Температура кипения — 2607°С.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text96'>
+		<p>Кюрий (лат. Curium (Cm)) — 96-й элемент таблицы Менделеева, синтезированный трансурановый элемент.</p>
+		<br>
+		<p>Определенные изотопы кюрия производят в атомных реакторах. Путём последовательного захвата нейтронов ядрами элементов-мишени происходит накопление атомов кюрия. После накопления кюрия в достаточных количествах его выделяют методами химической переработки, концентрируют и вырабатывают оксид кюрия.</p>
+		<br>
+		<p>Кюрий — металл крайне дорогой. В настоящий момент используется только в самых важных областях ядерных технологий. Тем не менее, в США и России существуют так называемые кюриевые программы, основной задачей которых являются:</p>
+		<br>
+		<p>Максимальное увеличение количества кюрия в облученном топливе.</p>
+		<br>
+		<p>Максимальное сокращение сроков наработки кюрия.</p>
+		<br>
+		<p>Разработка рациональных технологий облучения топлива и разработка топливных композиций.</p>
+		<br>
+		<p>Снижение цен на кюрий.</p>
+		<br>
+		<p>Это связано с тем, что спрос на кюрий в основных его областях использования многократно превышает предложение. Получение достаточных количеств кюрия способно решить проблему производства компактных космических реакторов, самолетов с ядерными двигателями и др.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text97'>
+		<p>Бе́рклий (Bk, лат. Berkelium) — искусственно полученный радиоактивный трансурановый химический элемент группы актиноидов с атомным номером 97. Берклий не имеет стабильных изотопов, наиболее долгоживущий нуклид 247Bk имеет период полураспада 1380 лет.</p>
+		<br>
+		<p>Берклий является химическим аналогом тербия, получившего название от небольшого селения Иттербю в Швеции, рядом с которым был обнаружен минерал, содержащий среди прочих редкоземельных металлов и тербий. Поэтому было решено назвать 97-й элемент по названию города Беркли, в котором он был впервые получен.</p>
+		<br>
+		<p>Установлено, что берклий очень реакционноспособен. В своих многочисленных соединениях он имеет степени окисления + 3 (преимущественно) и + 4. Существование четырехвалентного берклия позволяет отделять этот элемент от других актиноидов и лантаноидов (продуктов деления), которые либо не имеют такой валентной формы, либо труднее в неё переводятся.</p>
+		<br>
+		<p>Взаимодействует с кислородом (оксид и диоксид), галогенами и серой. Известны двойные соли и металлоорганические соединения берклия. Образует комплексные соединения с минеральными и органическими кислотами. Наиболее устойчивы соединения берклия в растворе при степени окисления <sup>3+</sup>. При рН, близких к щелочной среде, Bk3+ образует нерастворимый основной гидроксид. Оксиды, фториды, фосфаты и карбонаты берклия нерастворимы в воде. В четырехвалентном состоянии берклий является сильным окислителем.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text98'>
+		<p>Калифорний — радиоактивный химический элемент седьмого периода таблицы Менделеева, актиноид.</p>
+		<br>
+		<p>Назван в честь Калифорнийского университета в Беркли, где и был получен. Как писали авторы, этим названием они хотели указать, что открыть новый элемент им было так же трудно, как век назад пионерам Америки достичь Калифорнии.</p>
+		<br>
+		<p>Калифорний производят в двух местах: Димитровграде в России, Окрижской национальной лаборатории в США.</p>
+		<br>
+		<p>Для производства одного грамма калифорния плутоний или кюрий подвергают длительному нейтронному облучению в ядерном реакторе, от 8 месяцев до 1,5 лет. Затем из получившихся продуктов облучения химическим путём выделяют калифорний.</p>
+		<br>
+		<p>Металлический калифорний получают путем восстановления фторида калифорния CfF3 литием:</p>
+		<br>
+		<p>cfF3 + 3Li→ Cf + 3LiF</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text99'>
+		<p>Эйнштейний — трансурановый химический элемент с атомным номером 99, радиоактивный, серебристый металл.</p>
+		<br>
+		<p>Эйнштейний является радиоактивным металлом. Принадлежит к семейству элементов актиноидов.</p>
+		<br>
+		<p>В соединениях эйнштейний проявляет степени окисления +2 и +3. Примером может служить его иодид с химической формулой EsI3. В обычном водном растворе Эйнштейний существует в наиболее устойчивой форме в виде ионов Es3+ (даёт зелёную окраску).</p>
+		<br>
+		<p>Эйнштейний — металл с кубической гранецентрированной решёткой, параметр решётки a = 0,575 нм, температура плавления — 860 °C. Характеризующийся относительно высокой летучестью, может быть получен путём восстановления EsF3 литием. Синтезированы и изучены многие твёрдые соединения Эйнштейния, такие, как Es2O3, EsCl3, EsOCl, EsBr2, EsBr3, EsI2 и EsI3.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text100'>
+		<p>Фе́рмий (лат. Fermium) — радиоактивный трансурановый химический элемент с порядковым номером 100, относящийся к группе актиноидов.</p>
+		<br>
+		<p>Фермий получают в ходе облучения на циклотроне мишеней из тория, урана или плутония ионами неона, кислорода или углерода. Другим способом получения фермия является облучение в ядерном реакторе нейтронами смеси изотопов плутония, кюрия или калифорния. В наибольших количествах, около 109 атомов в год, получают изотоп <<sup>257</sup>Fm.</p>
+		<br>
+		<p>Мишени из атомов Fm используются в ядерной физике для получения ядер более тяжёлых элементов.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text101'>
+		<p>Менделевий — трансфермиевый химический элемент с атомным номером 101 в периодической системе, обозначается символом Md.</p>
+		<br>
+		<p>Бомбардировка в циклотроне атомов эйнштейния ионами гелия (альфа-частицами).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text102'>
+		<p>Нобе́лий (No, лат. Nobelium) — искусственно полученный трансфермиевый химический элемент группы актиноидов с атомным номером 102. Имеет несколько нестабильных изотопов, самый долгоживущий из которых <sup>259</sup>No имеет период полураспада 58 минут.</p>
+		<br>
+		<p>Малое время жизни изотопов нобелия и ничтожно малое количество получаемых атомов (всего порядка сотни штук) не позволяют надёжно измерить большинство его физических и химических свойств. Иногда приводится информация где его температура плавления 827 °C, но её всё же нельзя считать достоверно установленной. В 2010 году была точно определена масса некоторых изотопов нобелия путём измерения частоты их вращения в магнитном поле[2][3]. Известно[4], что нобелий может иметь две степени окисления +2 и +3, и по химическим свойствам близок к своему аналогу из группы лантаноидов, иттербию.</p>
+		<br>
+		<p>Химиками Дубны методом фронтальной газовой хроматографии было установлено, что нобелий образует нелетучий хлорид, а американские химики обнаружили, что в водных растворах устойчива степень окисления +2.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text103'>
+		<p>Лоуре́нсий (Lr, англ. Lawrencium) — искусственно полученный химический элемент группы актиноидов с атомным номером 103. Атомная масса  (по наиболее долгоживущему из известных изотопов, <sup>266</sup> Lr).</p>
+		<br>
+		<p>Элемент 103 был получен в СССР на ускорителе в Объединённом институте ядерных исследований (наукоград Дубна) в 1961—1965 г. группой Г. Н. Флёрова и независимо в Национальной лаборатории им. Лоуренса в Беркли (США, 14 февраля 1961 г.). Советское достижение в СССР было признано как научное открытие и занесено в Государственный реестр открытий СССР под № 132 с приоритетом от 20 апреля 1965 г. в следующей формулировке: </p>
+		<br>
+		<p>«Экспериментально обнаружено неизвестное ранее явление образования элемента с атомным номером 103, впервые полученный изотоп которого синтезирован при облучении америция-243 ионами кислорода-18. Имеет массовое число 256, период полураспада 35 с и сложный спектр энергий альфа-частиц в интервале 8,3—8,6 мегаэлектрон-вольт».</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text104'>
+		<p>Резерфо́рдий (Rf), лат. Rutherfordium, до 1997 года в СССР и России был известен как курчато́вий (Ku) — 104-й элемент в периодической системе. Резерфордий — высокорадиоактивный искусственно синтезированный элемент, период полураспада двух наиболее стабильных из известных изотопов составляет около 10 и 13 часов . Этот элемент не может где-либо использоваться и про него мало что известно, поскольку он никогда не был получен в макроскопических количествах. Резерфордий — первый трансактиноидный элемент, его предсказанные химические свойства близки к гафнию.</p>
+		<br>
+		<p>На начало 2016 года известно 16 изотопов резерфордия (а также 4 ядерных изомера) с массовыми числами от 253 до 270 и периодом полураспада от долей микросекунд до 13 часов (<sup>265</sup> Rf).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text105'>
+		<p>Дубний (Db), до 1997 года в СССР и России известен как нильсборий (Ns) — 105-й элемент таблицы Менделеева.</p>
+		<br>
+		<p>Советские исследователи предложили назвать новый элемент нильсборием (Ns), в честь Нильса Бора[, американцы — ганием (Ha), в честь Отто Гана, одного из авторов открытия спонтанного деления урана. Комиссия ИЮПАК в 1994 году предложила название жолиотий (Jl), в честь Жолио-Кюри; до этого элемент официально назывался латинским числительным — уннилпентиумом (Unp), то есть просто 105-м. Символы Ns, На, Jl можно было видеть в таблицах элементов, изданных в разные годы. Согласно окончательному решению ИЮПАК в 1997 году этот элемент получил название дубний — в честь российского центра по исследованиям в области ядерной физики, наукограда Дубны.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text106'>
+		<p>Сибо́ргий (Seaborgium, Sg) — элемент побочной подгруппы шестой группы седьмого периода периодической системы элементов с атомным номером 106; короткоживущий радиоактивный элемент.</p>
+		<br>
+		<p>Известны следующие соединения сиборгия: SgO2Cl2, SgO2F2,SgO3, SgO2OH2, а также комплексные ионы [SgO2F3]- и [Sg(OH)5(H2O)]+.</p>
+		<br>
+		<p>Изучен карбонильный комплекс сиборгия Sg(CO)6.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text107'>
+		<p>Бо́рий (лат. Bohrium, обозначается символом Bh) — нестабильный радиоактивный химический элемент с атомным номером 107. Известны изотопы с массовыми числами от 261 до 272. Наиболее стабильный изотоп из полученных — борий-267 с периодом полураспада 17 с.</p>
+		<br>
+		<p>В сентябре 1992 года между учёными Дармштадта и Дубны была достигнута договорённость о том, что элемент 107 следует назвать «нильсборий» в честь датского физика Нильса Бора, хотя первоначально советские учёные планировали название «нильсборий» для элемента 105 (ныне дубний). В 1993 году IUPAC признал приоритет немецкой группы в идентификации 107-го элемента, а в 1994 году в своей рекомендации предложил название «борий», так как названия химических элементов никогда не состояли из имени и фамилии учёного. Это предложение было окончательно утверждено в 1997 году после консультации c датскими химиками.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text108'>
+		<p>Ха́ссий (лат. Hassium, обозначается символом Hs; исторические названия эка-осмий, уннилоктий) — 108-й химический элемент.</p>
+		<br>
+		<p>Первоначально, при т. н. «обнаружении элемента в природе», его назвали сергений (sergenium, Sg) (на то время эти символы не были заняты сиборгием) по местности обнаружения — в районе античного города Серика на Великом Шёлковом Пути. В связи с неподтверждённостью открытия и географической привязанностью это название более не предлагалось и вскоре исчезло из научного и информационного пространства.</p>
+		<br>
+		<p>После удачного искусственного синтеза элемент 108 предлагалось назвать оттоганий (ottohahnium, Oh) в честь Отто Гана — одного из учёных, открывших процесс деления ядер. В 1994 году IUPAC по устоявшейся традиции (только по фамилии) порекомендовала для элемента название ганий (hahnium, Hn).</p>
+		<br>
+		<p>Но в 1997 году она изменила свою рекомендацию и утвердила название хассий в честь немецкой земли Гессен (Hassia — латинское название средневекового княжества Гессен, центром которого был Дармштадт).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text109'>
+		<p>Мейтне́рий (лат. Meitnerium, обозначается символом Mt, ранее был известен как унниленний Une или эка-иридий) — элемент VIII группы побочной подгруппы 7-го периода периодической системы элементов с атомным номером 109. Синтезирован искусственно.</p>
+		<br>
+		<p>Мейтнерий был раньше известен как унниленний (Unnilennium), имея символ Une. Название Мейтнерий (Мt) было предложено в честь австрийского физика Лизы Мейтнер. Название было официально принято ИЮПАК в 1997 году.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text110'>
+		<p>Дармштадтий (лат. Darmstadtium, обозначение Ds; ранее Унуннилий, лат. Ununnillium, обозначение Uun) — искусственно синтезированный химический элемент VIII группы периодической системы, атомный номер 110. Для изотопов с массовыми числами 267—273 период полураспада не превышает нескольких миллисекунд. Но для самого тяжелого из известных изотопов (с массовым числом 271) период полураспада составляет около 10 секунд.</p>
+		<br>
+		<p>Учёные ОИЯИ из российского наукограда Дубна предлагали назвать этот элемент беккерелием (Bl) в честь открывателя радиоактивности Анри Беккереля (позже это же название стало предлагаться для 113-го элемента, который сейчас называется нихонием).</p>
+		<br>
+		<p>Рабочая группа Международного совета по теоретической и прикладной химии (IUPAC) в 2001 году подтвердила открытие нового химического элемента и признала приоритет GSI в этом открытии. В августе 2003 года IUPAC на своей 42-й Генеральной ассамблее в Оттаве официально ввёл в периодическую систему новый химический элемент под номером 110 под названием дармштадтий.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text111'>
+		<p>Рентге́ний (лат. Roentgenium, обозначение Rg; ранее унунуний, лат. Unununium, обозначение Uuu) — искусственно синтезированный химический элемент побочной подгруппы первой группы, седьмого периода периодической системы химических элементов Д. И. Менделеева, с атомным номером 111. Простое вещество рентгений  — переходный металл. Наиболее долгоживущий (период полураспада 26 секунд) известный изотоп имеет массовое число 281 и атомную массу 281,166(6) а. е. м.</p>
+		<br>
+		<p>Предполагается, что рентгений — переходный металл, аналог золота, и структура его электронной оболочки передаётся формулой [Rn]5f<sup>14</sup>6d<sup>10</sup>7s<sup>1</sup>. Рентгений относится к группе благородных металлов, и предполагается, что он является химически малоактивным металлом.</p>
+		<br>
+		<p>Так как активность благородных металлов снижается с ростом порядкового номера, то предполагается, что рентгений ещё менее активен, чем золото, и таким образом, является самым химически инертным металлом. Наиболее вероятная степень окисления рентгения +3, подобно золоту (к примеру, в трифториде RgF3).</p>
+		<br>
+		<p>Цвет рентгения неизвестен, однако расчёты показывают, что для рентгения, как и для серебра, устойчивым будет основное состояние, и не будет наблюдаться перескока электронов. Поэтому металл будет иметь такой же цвет, как серебро, если его получить в макроскопическом количестве.</p>
+		<br>
+		<p>Плотность рентгения может быть чрезвычайно высокой — он может быть существенно тяжелее, чем осмий.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text112'>
+		<p>Коперни́ций (лат. Copernicium, Cn; в качестве русского названия используется также копéрникий; ранее использовались названия уну́нбий, лат. Ununbium, Uub и эка-ртуть) — 112-й химический элемент. Ядро наиболее стабильного из его известных изотопов, 285Cn, состоит из 112 протонов, 173 нейтронов и имеет период полураспада около 34 секунд, атомная масса этого нуклида равна 285,177(4) а. е. м. Относится к той же химической группе, что и цинк, кадмий и ртуть.</p>
+		<br>
+		<p>Впервые о возможном синтезе 112-го элемента заявил А. Маринов в 1971 году. Группа под руководством Маринова облучала вольфрам протонами с энергией 24 ГэВ. Предполагалось, что атомы вольфрама, столкнувшись с высокоэнергетичным протоном, приобретает достаточную энергию для слияния с другим атомом вольфрама. В результате они обнаружили цепочки α-распадов, предположительно исходящие от 112-го элемента. Однако последующие исследования показали, что подобная интерпретация результатов была ошибочной.</p>
+		<br>
+		<p>Коперниций впервые синтезирован 9 февраля 1996 года в Институте тяжёлых ионов (нем. Gesellschaft für Schwerionenforschung, GSI) в Дармштадте, Германия С. Хоффманном (S. Hofmann), В. Ниновым (V. Ninov), Ф. П. Хессбергером (F. P. Hessberger), П. Армбрустером (P. Armbruster), Х. Фолгером (H. Folger), Г. Мюнценбергом (G. Münzenberg) и другими. Два ядра 277Cn были получены путём реакций ускоренных атомных ядер цинка-70 на мишени из свинца-208 в ускорителе тяжёлых ионов.</p>
+		<br>
+		<p>Более тяжёлые изотопы коперниция были получены позднее (в 2000 и 2004 гг.) в Объединённом институте ядерных исследований (Дубна, Россия) в качестве продуктов распада изотопов флеровия.</p>
+		<br>
+		<p>Открытие 112-го элемента было признано в мае 2009 года Международным союзом теоретической и прикладной химии, после этого был начат процесс утверждения его названия.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+==
+	</div>
+
+	<div class='text113'>
+		<br>
+		<p>Нихо́ний (лат. Nihonium, Nh), ранее фигурировал под временными названиями уну́нтрий (лат. Ununtrium, Uut) или эка-таллий — химический элемент 13-й группы (по устаревшей классификации — главной подгруппы III группы), 7 периода периодической системы. Атомный номер — 113. Атомная масса наиболее устойчивого из известных изотопов, 286Nh, с периодом полураспада 20 сек. , составляет 286,182 а. е. м. Радиоактивен.</p>
+		<br>
+		<p>Первоначально для 113-го элемента использовалось систематическое название унунтрий (лат. Ununtrium), составленное из корней латинских числительных, соответствующих порядковому номеру: Ununtrium — дословно «одно-одно-третий», или сто тринадцатый).</p>
+		<br>
+		<p>Синтезировавшие элемент учёные из российского наукограда Дубна предлагали назвать его беккерелием (Becquerelium, Bq) в честь открывателя радиоактивности Анри Беккереля (ранее этим же названием предлагалось назвать 110-й элемент, который стал дармштадтием). Учёные из Японии предложили назвать элемент японием (Japonium, Jp), нисинанием (Nishinanium, Nh) — в честь физика Ёсио Нисина), или рикением (Rikenium, Rk) — в честь института RIKEN.</p>
+		<br>
+		<p>8 июня 2016 года ИЮПАК рекомендовал дать элементу название «нихоний» (Nihonium, Nh) в честь одного из двух японских вариантов самоназвания страны — Нихон, что переводится как «страна восходящего солнца». Название «нихоний» было представлено научной общественности для 5-месячного обсуждения с 8 июня по 8 ноября 2016 года, после чего должно быть формально утверждено на ближайшем конгрессе ИЮПАК, который состоится в июле 2017 года.</p>
+		<br>
+		<p>28 ноября 2016 года ИЮПАК утвердил для 113-го элемента название «нихоний».</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text114'>
+		<p>Флеро́вий (лат. Flerovium, Fl), ранее был известен как унунква́дий (лат. Ununquadium, Uuq), использовалось также неофициальное название эка-свинец — 114-й химический элемент 14-й группы (по устаревшей классификации — главной подгруппы IV группы), 7-го периода периодической системы, атомный номер 114, из известных изотопов наиболее устойчив 289Fl с атомной массой 289,190(4) а. е. м. Элемент сильно радиоактивен.</p>
+		<br>
+		<p>Название флеровий было предложено учёными ОИЯИ и впервые официально озвучено вице-директором Объединённого института ядерных исследований Михаилом Иткисом, который также был одним из соавторов открытия. Однако американские партнёры ОИЯИ из Ливерморской национальной лаборатории предложили назвать 114-й или 116-й элемент в честь Леонардо да Винчи, Галилео Галилея или в честь Ливерморской национальной лаборатории. После согласовательных процедур между российскими и американскими учёными 1 декабря 2011 года в комиссию по номенклатуре химических соединений ИЮПАК было направлено предложение назвать 114-й элемент флеровием. Название утверждено 30 мая 2012 года.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text115'>
+		<p>Моско́вий (лат. Moscovium, Mc), ранее был известен под временными названиями унунпе́нтий (лат. Ununpentium, Uup) или э́ка-ви́смут — химический элемент пятнадцатой группы (по устаревшей классификации — главной подгруппы пятой группы), седьмого периода периодической системы химических элементов, атомный номер — 115, наиболее стабильным является нуклид 289Mc (период полураспада оценивается в 156 мс), атомная масса этого нуклида равна 289,194 а. е. м. Искусственно синтезированный радиоактивный элемент, в природе не встречается.</p>
+		<br>
+		<p>8 июня 2016 года ИЮПАК рекомендовал дать элементу название «московий» (Moscovium, Mc) в честь Московской области, где находится Объединённый институт ядерных исследований (Дубна). Название «московий» было представлено научной общественности для 5-месячного обсуждения с 8 июня по 8 ноября 2016 года. 28 ноября 2016 года ИЮПАК утвердил для 115-го элемента название «московий».</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text116'>
+		<p>Ливермо́рий (лат. Livermorium, Lv), ранее был известен под вре́менными названиями унунге́ксий (лат. Ununhexium, Uuh) и э̀ка-поло́ний — 116-й химический элемент, относится к 16-й группе (по устаревшей классификации — к главной подгруппе VI группы) и 7-му периоду периодической системы, атомный номер — 116, массовое число наиболее устойчивого изотопа — 293 (атомная масса этого изотопа равна 293,204(5) а. е. м.). Искусственно синтезированный радиоактивный элемент, в природе не встречается.</p>
+		<br>
+		<p>Ливерморий является представителем группы халькогенов, где он следует после полония. Однако химические свойства ливермория будут существенно отличаться от свойств полония, поэтому разделить эти элементы не составит труда.</p>
+		<br>
+		<p>Предполагается, что основной и наиболее устойчивой степенью окисления для ливермория будет +2. Ливерморий будет образовывать оксид ливермория с кислородом (LvO), галогениды LvHal2.</p>
+		<br>
+		<p>Со фтором или в более жёстких условиях ливерморий также сможет проявлять степень окисления +4 (LvF4). Такую степень окисления ливерморий может проявлять как в катионах, так и образовывать, подобно полонию, ливерморовую кислоту или её соли — ливермориты (или ливермораты), например, K2LvO3 — ливерморит калия.</p>
+		<br>
+		<p>Ливермориты, а также другие соединения ливермория со степенью окисления +4 будут проявлять сильные окислительные свойства, подобные перманганатам. В отличие от более лёгких элементов, предполагается, что степень окисления +6 для ливермория будет, вероятно, невозможна из-за крайне высокой необходимой энергии на распаривание 7s2 электронной оболочки, поэтому высшая степень окисления ливермория будет равна +4.</p>
+		<br>
+		<p>С сильными восстановителями (щелочные металлы или щелочноземельные металлы) возможна также степень окисления −2 (например, соединение CaLv будет называться ливерморидом кальция). Однако ливермориды будут очень неустойчивыми, и проявлять сильные восстановительные свойства, поскольку образование аниона Lv<sup>-2</sup> и включение двух дополнительных электронов невыгодно основной оболочке 7p-электронов, а предполагаемая химия ливермория делает намного выгоднее образование катионов, чем анионов.</p>
+		<br>
+		<p>С водородом предполагается образование гидрида H2Lv, который будет называться ливермороводородом. Для ливермороводорода ожидаются весьма интересные свойства, например, предполагается возможность «сверхгибридизации» — невовлечённые 7s2 электронные облака ливермория смогут образовать дополнительную взаимную связь между собой, и такая связь будет несколько напоминать водородную связь, поэтому свойства ливермороводорода могут отличаться от свойств халькогеноводородов более лёгких аналогов. Ливермороводород, несмотря на то, что ливерморий будет однозначно металлом, не будет повторять свойств гидридов металлов в полной мере и будет сохранять в значительной степени ковалентный характер.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text117'>
+		<p>Теннесси́н[4][5] (англ. Tennessine), ранее фигурировал под временными названиями унунсе́птий (лат. Ununseptium, Uus) или э́ка-аста́т — химический элемент семнадцатой группы (по устаревшей классификации — главной подгруппы седьмой группы), седьмого периода периодической системы химических элементов, обозначаемый символом Ts и обладающий зарядовым числом 117. Период полураспада более устойчивого из двух известных изотопов, 294Ts, составляет около 78 миллисекунд. Атомная масса этого изотопа равна 294,210 а. е. м. Формально относится к галогенам, однако его химические свойства ещё не изучены и могут отличаться от свойств, характерных для этой группы элементов. Унунсептий был открыт последним из элементов седьмого периода таблицы Менделеева.</p>
+		<br>
+		<p>Теннессин (унунсептий, эка-астат) был впервые получен ОИЯИ в Дубне (Россия) в 2009 году. Для синтеза 117-го элемента мишень из изотопа 97-го элемента, берклия-249, полученного в Окриджской национальной лаборатории (США), обстреливали ионами кальция-48 на ускорителе У-400 Лаборатории ядерных реакций ОИЯИ. </p>
+		<br>
+		<p>5 апреля 2010 года научная статья, описывающая обнаружение нового химического элемента с атомным номером 117, была принята для публикации в журнал Physical Review Letters.</p>
+		<br>
+		<p>В июне 2012 года эксперимент был повторён. Было зафиксировано пять ядер <sup>293</sup>Uus.</p>
+		<br>
+		<p>В 2014 году существование 117-го элемента подтвердила международная группа физиков-ядерщиков, работающая в Центре по изучению тяжёлых ионов им. Гельмгольца (Дармштадт, Германия).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text118'>
+		<p>Оганесо́н(лат. Oganesson, Og), ранее был известен под временными названиями унуно́ктий (лат. Ununoctium, Uuo) или э́ка-радо́н — химический элемент восемнадцатой группы (по устаревшей классификации — главной подгруппы восьмой группы), седьмого периода периодической системы химических элементов, атомный номер — 118. Наиболее стабильным (и единственным известным на 2016 год) является нуклид 294Og, чей период полураспада оценивается в 1 мс, а атомная масса равна 294,214 а. е. м. Искусственно синтезированный радиоактивный элемент, в природе не встречается. Синтез ядер оганесона был впервые осуществлён в 2002 и 2005 годах в Объединённом институте ядерных исследований (Дубна) в сотрудничестве с Ливерморской национальной лабораторией. Результаты этих экспериментов были опубликованы в 2006 году. 28 ноября 2016 года временное систематическое название «унуноктий» и временное обозначение Uuo после формального подтверждения открытия элемента были заменены на постоянное название Оганесон и обозначение Og (в честь академика Юрия Цолаковича Оганесяна), предложенные первооткрывателями и утверждённые ИЮПАК.</p>
+		<br>
+		<p>Номинально элемент относится к инертным газам, однако его физические и, возможно, химические свойства, вероятно, могут сильно отличаться от остальных представителей группы. Оганесон завершает седьмой период таблицы Менделеева, хотя на момент его открытия ещё оставалась незаполненной предыдущая, 117-я клетка таблицы (теннессин).</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text119'>
+		<p>Унуне́нний (лат. Ununennium, Uue) или эка-фра́нций — неоткрытый химический элемент в периодической таблице, с временным обозначением Uue и атомным номером 119, с прогнозированной атомной массой 316 а. е. м.</p>
+		<br>
+		<p>Предполагается, что унуненний будет являться химически активным щелочным металлом, следующим после франция в группе, и будет повторять большинство свойств более лёгких аналогов, однако ожидается, что унуненний будет проявлять некоторые специфические химические свойства, которые присущи только ему и не присущи более лёгким аналогам. Некоторую сложность придаёт слабая изученность свойств химии франция, поскольку все его изотопы имеют малый период полураспада. Следовательно, наиболее тяжёлым хорошо изученным щелочным металлом является цезий.</p>
+		<br>
+		<p>Однако унуненний по химическим свойствам будет предположительно больше похож на рубидий или калий, чем на цезий или франций, игнорируя тенденцию к увеличению химической активности элемента по мере роста порядкового номера. Связано это с тем, что основной валентный электрон унуненния будет дополнительно стабилизирован релятивистским эффектом электронной оболочки 7p-подуровня, что приведёт к тому, что энергия ионизации унуненния будет выше, чем у франция (у самого франция за счёт аналогичного эффекта 6p-подуровня энергия ионизации также немного выше, чем у цезия).</p>
+		<br>
+		<p>Значительное увеличение энергии ионизации сделает унуненний менее химически активным, чем цезий или франций.</p>
+		<br>
+		<p>Расчётный атомный радиус у унуненния предполагается также существенно меньшим, чем у цезия или франция, и его значения находятся между калием и рубидием (240 пм для унуненния, 227 пм для калия и 248 пм для рубидия). Энергия ионизации унуненния будет почти равна энергии ионизации калия. Вместе с тем, радиус однозарядного иона унуненния будет всё же выше, чем у рубидия, за счёт дополнительных электронных оболочек.</p>
+		<br>
+		<p>Кроме типичной степени окисления для щелочных металлов +1, предполагается, что унуненний может стать первым щелочным металлом, для которого будет возможна степень окисления +3, что также связано с релятивистскими возможностями 7p-электронов, у которых предполагается низкая энергия ионизации.</p>
+		<br>
+		<p>Несмотря на ионный характер взаимодействия унуненния, к примеру, с химически активными неметаллами, в целом соединения унуненния будут иметь более ковалентный характер, чем соединения цезия. Такой эффект, в частности, в меньшей степени отмечался у франция.</p>
+		<br>
+		<p>Унуненний, вероятно, будет крайне легкоплавким либо вовсе жидким при комнатной температуре (при получении его в макроскопических количествах), демонстрируя тенденцию к снижению температуры плавления щелочного металла с ростом порядкового номера. Температура плавления унуненния оценивается от 0 до 30 °C. Унуненний будет обладать плотностью около 3 г/см<sup>3</sup>. Несмотря на то, что плотность франция меньше плотности цезия, унуненний будет продолжать тенденцию роста плотности с порядковым номером.</p>
+		<br>
+		<p>Ожидается, что гидроксид UueOH является сильной щёлочью, но более слабой, чем CsOH, поскольку ковалентный характер связи будет дополнительно затруднять её диссоциацию в растворах и расплавах, и по силе она будет скорее соответствовать KOH.</p>
+		<br>
+		<p>Довольно интересным является то, что в отличие от предыдущих периодов, где гидроксиды щелочных металлов имели более основный характер и лучше растворялись в воде, чем щёлочноземельных металлов, UueOH будет, вероятно, более слабым основанием, чем Ubn(OH)2 — гидроксид следующего за ним элемента, унбинилия. Связано это с тем, что 2 гидроксильных иона по умолчанию сильнее одного, а большие ионы сверхтяжёлых элементов сделают лёгкость отщепления аниона настолько высокой, что стабилизирующее действие 7p-подуровня не сможет сдерживать 2 аниона.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	<div class='text120'>
+		<p>Унбини́лий (лат. Unbinilium, Ubn) или эка-радий — временное, систематическое название гипотетического химического элемента в Периодической таблице Д. И. Менделеева с временным обозначением Ubn и атомным номером 120.</p>
+		<br>
+		<p>Физические свойства унбинилия при нормальных условиях будут похожи на свойства радия. Плотность унбинилия будет немного выше, чем радия и примерно будет равна 7 г/см<sup>3</sup> (плотность радия равна 5,5 г/см<sup>3</sup>).</p>
+		<br>
+		<p>Температура плавления щелочноземельных металлов, в отличие от щелочных металлов, не подчиняется какой-либо закономерности, однако всё же предполагается, что унбинилий будет более легкоплавким, чем более лёгкие аналоги и иметь температуру плавления порядка 680 °C (это приблизительно на 300 °C ниже температуры плавления радия).</p>
+		<br>
+		<p>Предполагается, что унбинилий будет типичным щелочноземельным металлом, однако его химическая активность будет намного выше, чем у более лёгких элементов — радия или бария. Реакционноспособность унбилиния будет также очень высокой. На воздухе очень быстро (возможно, даже со взрывом, как цезий) будет окисляться до оксида UbnO и, вероятно, также и нитрида Ubn3N2, с водой давать Ubn(OH)2 — очень сильную, коррозионную щёлочь, которая будет самой сильной щелочью среди щелочноземельных металлов, и превосходить многие щёлочи даже щелочных металлов.</p>
+		<br>
+		<p>Довольно интересным является то, что в отличие от предыдущих периодов, где гидроксиды щелочных металлов имели более основный характер и лучше растворялись в воде, чем щелочноземельных металлов, UueOH будет, вероятно, более слабым основанием, чем Ubn(OH)2 — следующего за ним элемента. Связано это с тем, что 2 гидроксильных иона по умолчанию сильнее одного, а большие ионы сверхтяжёлых элементов сделают лёгкость отщепления аниона настолько высокой, что стабилизирующее действие 7p-подуровня не сможет сдерживать 2 аниона.</p>
+		<br>
+		<p>С галогенами, как и остальные щёлочноземельные металлы, будет образовывать UbnHal2.</p>
+		<br>
+		<p>Однако, несмотря на свойства типичного щёлочноземельного металла, ионный и атомный радиус унбинилия будет ниже, чем у радия и бария, и примерно соответствовать радиусу кальция или стронция. Унбинилий может быть первым щёлочноземельным металлом, который имеет степень окисления +4 (что противоречит номеру группы), что связано с ожидаемой очень низкой энергией ионизации 7p<sup>3/2</sup>  электронов, что делает возможным образование химической связи с их участием. Также унбинилий может иметь и степень окисления +1.</p>
+		<br>
+	<a class="Avtor" href="https://ru.wikipedia.org/wiki/%D0%97%D0%B0%D0%B3%D0%BB%D0%B0%D0%B2%D0%BD%D0%B0%D1%8F_%D1%81%D1%82%D1%80%D0%B0%D0%BD%D0%B8%D1%86%D0%B0">Информация взята c сайта ru.wikipedia.org</a>
+	</div>
+
+	
+
+
+</div><!--Блок предпоказа END-->
+
+</div>
+</section>
+<footer> 
+
+</footer>	
+</body>
+</html>
+

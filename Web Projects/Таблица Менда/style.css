@@ -1,0 +1,98 @@
+﻿.Avtor{
+    text-align: center;
+    color: white;
+}
+.background{
+    background-attachment: fixed;
+    background-image:url(img/5.png);
+    background-size: 100% 100%;
+}
+.textbox{
+    overflow: auto;
+    
+    height: 130px;
+    background-image:url(img/tb2.png);
+    padding: 10px 0px 10px 10px;
+    background-size: 100% 100%;
+    font-family: 'Bad Script', cursive;
+    color: white;
+    font-size: 19px;
+    line-height: 24px;
+}
+.textbox2{
+    
+    margin: 25px 0px 0px 0px;
+    
+    
+    background-image:url(img/tb.png);
+    padding: 10px 10px 10px 10px;
+    background-size: 100% 100%;
+}
+.textbox div{
+    display: none;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: #33FFCC;
+}
+.yellow{
+    background-color: #FFCC33;
+}
+.green{
+    background-color: #66FF33;
+}
+.e1{
+    font-size: 10px;
+    float: left;
+}
+.e2{
+    text-align: right;
+    font-size: 20px;
+    max-height: 19px;
+    font-weight: bold;
+    line-height: 20px;
+}
+.e3{
+    text-align: right;
+    font-size: 12px;
+    max-height: 11px;
+}
+.e4{
+    text-align: center;
+    font-size: 10px;
+    max-height: 10px;
+}
+#tbn ul{
+    list-style: none;
+}
+#tbn td{
+    width: 5.5%;
+    padding: 2px;
+}
+#tbn {
+    width: 100%;
+    font-family: 'Jura', sans-serif;
+
+}
+@media (max-width: 1024px) {
+    
+}
+
+@media (max-width: 800px) {
+    
+}
+
+@media (max-width: 640px) {
+    .e3{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+}
+@media (max-width: 320px) {
+    
+}
