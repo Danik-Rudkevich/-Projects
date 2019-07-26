@@ -1,0 +1,8 @@
+F:\Проги\Программы c#\Sleep\Sleep\bin\Debug\Sleep.exe
+F:\Проги\Программы c#\Sleep\Sleep\bin\Debug\Sleep.pdb
+F:\Проги\Программы c#\Sleep\Sleep\obj\Debug\Sleep.csprojResolveAssemblyReference.cache
+F:\Проги\Программы c#\Sleep\Sleep\obj\Debug\Sleep.Form1.resources
+F:\Проги\Программы c#\Sleep\Sleep\obj\Debug\Sleep.Properties.Resources.resources
+F:\Проги\Программы c#\Sleep\Sleep\obj\Debug\Sleep.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\Sleep\Sleep\obj\Debug\Sleep.exe
+F:\Проги\Программы c#\Sleep\Sleep\obj\Debug\Sleep.pdb

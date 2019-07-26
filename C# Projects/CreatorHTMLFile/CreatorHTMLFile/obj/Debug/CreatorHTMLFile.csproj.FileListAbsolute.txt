@@ -1,0 +1,9 @@
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\bin\Debug\CreatorHTMLFile.exe.config
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\bin\Debug\CreatorHTMLFile.exe
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\bin\Debug\CreatorHTMLFile.pdb
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\obj\Debug\CreatorHTMLFile.csprojResolveAssemblyReference.cache
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\obj\Debug\CreatorHTMLFile.Form1.resources
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\obj\Debug\CreatorHTMLFile.Properties.Resources.resources
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\obj\Debug\CreatorHTMLFile.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\obj\Debug\CreatorHTMLFile.exe
+F:\Проги\Программы c#\CreatorHTMLFile\CreatorHTMLFile\obj\Debug\CreatorHTMLFile.pdb

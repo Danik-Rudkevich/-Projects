@@ -1,0 +1,37 @@
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.program.resources
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Я Это\Desktop\Программы c#\WindowsFormsApplication2\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.program.resources
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+C:\Users\Я Это\Desktop\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojResolveAssemblyReference.cache
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.program.resources
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+F:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csprojAssemblyReference.cache
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.program.resources
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.Properties.Resources.resources
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.GenerateResource.cache
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.exe
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\obj\Debug\WindowsFormsApplication2.pdb
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe.config
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.exe
+E:\Проги\Программы c#\GeekBrains уроки утилиты\WindowsFormsApplication2\bin\Debug\WindowsFormsApplication2.pdb

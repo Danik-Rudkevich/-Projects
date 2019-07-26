@@ -1,0 +1,10 @@
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\bin\Debug\GeneratorSQL.exe.config
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\bin\Debug\GeneratorSQL.exe
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\bin\Debug\GeneratorSQL.pdb
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.csprojAssemblyReference.cache
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.Form1.resources
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.Properties.Resources.resources
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.csproj.GenerateResource.cache
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.exe
+E:\Проги\Программы c++\GeneratorSQL\GeneratorSQL\obj\Debug\GeneratorSQL.pdb

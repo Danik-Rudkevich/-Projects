@@ -1,0 +1,10 @@
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\bin\Debug\AlbanskiyVirus.exe.config
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\bin\Debug\AlbanskiyVirus.exe
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\bin\Debug\AlbanskiyVirus.pdb
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.csprojAssemblyReference.cache
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.Form1.resources
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.Properties.Resources.resources
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.csproj.GenerateResource.cache
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.exe
+E:\Проги\Программы c#\AlbanskiyVirus\AlbanskiyVirus\obj\Debug\AlbanskiyVirus.pdb

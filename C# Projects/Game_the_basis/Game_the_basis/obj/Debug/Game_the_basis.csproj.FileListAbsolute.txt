@@ -1,0 +1,51 @@
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.exe.config
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.exe
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.pdb
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csprojResolveAssemblyReference.cache
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Properties.Resources.resources
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csproj.GenerateResource.Cache
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.exe
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.pdb
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.frmGlavn.resources
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.frmpreglavn.resources
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.intro.resources
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game.resources
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_1.resources
+C:\Users\Я Это\Desktop\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Who.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.exe.config
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.exe
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.pdb
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.exe
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.pdb
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csprojResolveAssemblyReference.cache
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.frmGlavn.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.frmpreglavn.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_2.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Who.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_1.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.intro.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Properties.Resources.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_2.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game3.resources
+F:\Проги\Программы c#\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_3.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.exe.config
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.exe
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\bin\Debug\Game_the_basis.pdb
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csprojAssemblyReference.cache
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.frmGlavn.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.frmpreglavn.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game3.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_2.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_3.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Who.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_1.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.intro.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Properties.Resources.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.Game_play_2.resources
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csproj.GenerateResource.cache
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.exe
+E:\Проги\Программы c++\Конкурс_Игра\Game_the_basis\Game_the_basis\obj\Debug\Game_the_basis.pdb

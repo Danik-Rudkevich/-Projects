@@ -1,0 +1,9 @@
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\bin\Debug\Заполнятор_3000.exe.config
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\bin\Debug\Заполнятор_3000.exe
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\bin\Debug\Заполнятор_3000.pdb
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\obj\Debug\Заполнятор_3000.csprojResolveAssemblyReference.cache
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\obj\Debug\Заполнятор_3000.Form1.resources
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\obj\Debug\Заполнятор_3000.Properties.Resources.resources
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\obj\Debug\Заполнятор_3000.csproj.GenerateResource.Cache
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\obj\Debug\Заполнятор_3000.exe
+C:\Users\Я Это\Desktop\Программы c#\Рисовашки\Заполнятор_3000\Заполнятор_3000\obj\Debug\Заполнятор_3000.pdb

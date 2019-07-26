@@ -1,0 +1,10 @@
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\bin\Debug\ImitatorKeyboard.exe.config
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\bin\Debug\ImitatorKeyboard.exe
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\bin\Debug\ImitatorKeyboard.pdb
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.csprojAssemblyReference.cache
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.Form1.resources
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.Properties.Resources.resources
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.csproj.GenerateResource.cache
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.exe
+E:\Проги\Программы c#\ImitatorKeyboard\ImitatorKeyboard\obj\Debug\ImitatorKeyboard.pdb

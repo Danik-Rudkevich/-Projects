@@ -1,0 +1,23 @@
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.exe.config
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.exe
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.pdb
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.xml
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.vbprojResolveAssemblyReference.cache
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение_компа.Form1.resources
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение_компа.Resources.resources
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.vbproj.GenerateResource.Cache
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.exe
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.xml
+F:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.pdb
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.exe.config
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.exe
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.pdb
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\bin\Debug\Мнение компа.xml
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.vbprojAssemblyReference.cache
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение_компа.Form1.resources
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение_компа.Resources.resources
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.vbproj.GenerateResource.cache
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.vbproj.CoreCompileInputs.cache
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.exe
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.xml
+E:\Проги\Boin Tv\Мнение компа\Мнение компа\obj\Debug\Мнение компа.pdb

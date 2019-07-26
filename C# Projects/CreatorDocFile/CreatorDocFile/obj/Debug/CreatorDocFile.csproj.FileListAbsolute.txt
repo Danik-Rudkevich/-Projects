@@ -1,0 +1,9 @@
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\bin\Debug\CreatorDocFile.exe.config
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\bin\Debug\CreatorDocFile.exe
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\bin\Debug\CreatorDocFile.pdb
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\obj\Debug\CreatorDocFile.csprojResolveAssemblyReference.cache
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\obj\Debug\CreatorDocFile.Form1.resources
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\obj\Debug\CreatorDocFile.Properties.Resources.resources
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\obj\Debug\CreatorDocFile.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\obj\Debug\CreatorDocFile.exe
+F:\Проги\Программы c#\CreatorDocFile\CreatorDocFile\obj\Debug\CreatorDocFile.pdb

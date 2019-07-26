@@ -1,0 +1,32 @@
+F:\Проги\Программы c#\LoginAtor\LoginAtor\bin\Debug\LoginAtor.exe
+F:\Проги\Программы c#\LoginAtor\LoginAtor\bin\Debug\LoginAtor.pdb
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.csprojResolveAssemblyReference.cache
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Glavn.resources
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Properties.Resources.resources
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.csproj.GenerateResource.Cache
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.exe
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.pdb
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Password.resources
+F:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Form3.resources
+E:\Проги\Программы c#\LoginAtor\LoginAtor\bin\Debug\LoginAtor.exe
+E:\Проги\Программы c#\LoginAtor\LoginAtor\bin\Debug\LoginAtor.pdb
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.csprojAssemblyReference.cache
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Glavn.resources
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Password.resources
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Form3.resources
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.Properties.Resources.resources
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.csproj.GenerateResource.cache
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.exe
+E:\Проги\Программы c#\LoginAtor\LoginAtor\obj\Debug\LoginAtor.pdb
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\bin\Debug\LoginAtor.exe
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\bin\Debug\LoginAtor.pdb
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.csprojAssemblyReference.cache
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.Glavn.resources
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.Password.resources
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.Form3.resources
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.Properties.Resources.resources
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.csproj.GenerateResource.cache
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.exe
+E:\Проги\Программы c#\LoginAtor 2\LoginAtor\obj\Debug\LoginAtor.pdb
