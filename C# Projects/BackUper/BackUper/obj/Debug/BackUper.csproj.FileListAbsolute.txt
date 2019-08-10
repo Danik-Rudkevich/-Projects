@@ -1,0 +1,11 @@
+E:\Проги\Программы c#\BackUper\BackUper\bin\Debug\BackUper.exe.config
+E:\Проги\Программы c#\BackUper\BackUper\bin\Debug\BackUper.exe
+E:\Проги\Программы c#\BackUper\BackUper\bin\Debug\BackUper.pdb
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.csprojAssemblyReference.cache
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.Glavn.resources
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.Properties.Resources.resources
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.csproj.GenerateResource.cache
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.exe
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.pdb
+E:\Проги\Программы c#\BackUper\BackUper\obj\Debug\BackUper.BackUp_Info.resources
