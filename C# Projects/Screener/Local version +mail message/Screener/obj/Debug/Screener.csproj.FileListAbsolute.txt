@@ -1,0 +1,10 @@
+E:\Проги\Программы c#\Screener\Screener\bin\Debug\Screener.exe.config
+E:\Проги\Программы c#\Screener\Screener\bin\Debug\Screener.exe
+E:\Проги\Программы c#\Screener\Screener\bin\Debug\Screener.pdb
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.csprojAssemblyReference.cache
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.Form1.resources
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.Properties.Resources.resources
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.csproj.GenerateResource.cache
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.csproj.CoreCompileInputs.cache
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.exe
+E:\Проги\Программы c#\Screener\Screener\obj\Debug\Screener.pdb
