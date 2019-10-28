@@ -1,0 +1,57 @@
+#Game
+{
+  margin: 25vh auto;
+	width: 340px;
+}
+
+
+#Game form input {
+	height: 50px;
+	outline:none;
+}
+
+#Game form input:focus {
+	color:#fff;
+}
+
+#Game p {
+	font-size: 36px;
+}
+
+
+#Game button{
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: blueviolet;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+  width: 330px;
+  height: 50px;
+  border: none;
+}
+
+#Game button:hover{
+	background-color: #d44179;
+}
+
+#first:hover
+{
+  background-color: #d44179;
+  color: #eee;
+}
+
+#second:hover
+{
+  background-color: #d44179;
+  color: #eee;
+}
+
+#thread:hover
+{
+  background-color: #d44179;
+  color: #eee;
+}
